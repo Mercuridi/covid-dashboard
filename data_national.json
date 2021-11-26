@@ -1,0 +1,4671 @@
+[
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-26",
+"cumDailyNsoDeathsByDeathDate": null,
+"hospitalCases": 5992
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-25",
+"cumDailyNsoDeathsByDeathDate": null,
+"hospitalCases": 6068
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-24",
+"cumDailyNsoDeathsByDeathDate": null,
+"hospitalCases": 6062
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-23",
+"cumDailyNsoDeathsByDeathDate": null,
+"hospitalCases": 6257
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-22",
+"cumDailyNsoDeathsByDeathDate": null,
+"hospitalCases": 6424
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-21",
+"cumDailyNsoDeathsByDeathDate": null,
+"hospitalCases": 6322
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-20",
+"cumDailyNsoDeathsByDeathDate": null,
+"hospitalCases": 6191
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-19",
+"cumDailyNsoDeathsByDeathDate": null,
+"hospitalCases": 6310
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-18",
+"cumDailyNsoDeathsByDeathDate": null,
+"hospitalCases": 6336
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-17",
+"cumDailyNsoDeathsByDeathDate": null,
+"hospitalCases": 6412
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-16",
+"cumDailyNsoDeathsByDeathDate": null,
+"hospitalCases": 6623
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-15",
+"cumDailyNsoDeathsByDeathDate": null,
+"hospitalCases": 6864
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-14",
+"cumDailyNsoDeathsByDeathDate": null,
+"hospitalCases": 6707
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-13",
+"cumDailyNsoDeathsByDeathDate": null,
+"hospitalCases": 6639
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-12",
+"cumDailyNsoDeathsByDeathDate": 144996,
+"hospitalCases": 6777
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-11",
+"cumDailyNsoDeathsByDeathDate": 144941,
+"hospitalCases": 6861
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-10",
+"cumDailyNsoDeathsByDeathDate": 144860,
+"hospitalCases": 6961
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-09",
+"cumDailyNsoDeathsByDeathDate": 144756,
+"hospitalCases": 7053
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-08",
+"cumDailyNsoDeathsByDeathDate": 144650,
+"hospitalCases": 7075
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-07",
+"cumDailyNsoDeathsByDeathDate": 144544,
+"hospitalCases": 6910
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-06",
+"cumDailyNsoDeathsByDeathDate": 144437,
+"hospitalCases": 6874
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-05",
+"cumDailyNsoDeathsByDeathDate": 144314,
+"hospitalCases": 7072
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-04",
+"cumDailyNsoDeathsByDeathDate": 144201,
+"hospitalCases": 7201
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-03",
+"cumDailyNsoDeathsByDeathDate": 144078,
+"hospitalCases": 7291
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-02",
+"cumDailyNsoDeathsByDeathDate": 143954,
+"hospitalCases": 7510
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-01",
+"cumDailyNsoDeathsByDeathDate": 143831,
+"hospitalCases": 7535
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-31",
+"cumDailyNsoDeathsByDeathDate": 143696,
+"hospitalCases": 7311
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-30",
+"cumDailyNsoDeathsByDeathDate": 143557,
+"hospitalCases": 7155
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-29",
+"cumDailyNsoDeathsByDeathDate": 143441,
+"hospitalCases": 7113
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-28",
+"cumDailyNsoDeathsByDeathDate": 143317,
+"hospitalCases": 7019
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-27",
+"cumDailyNsoDeathsByDeathDate": 143168,
+"hospitalCases": 6951
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-26",
+"cumDailyNsoDeathsByDeathDate": 143037,
+"hospitalCases": 6883
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-25",
+"cumDailyNsoDeathsByDeathDate": 142912,
+"hospitalCases": 6801
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-24",
+"cumDailyNsoDeathsByDeathDate": 142793,
+"hospitalCases": 6515
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-23",
+"cumDailyNsoDeathsByDeathDate": 142677,
+"hospitalCases": 6386
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-22",
+"cumDailyNsoDeathsByDeathDate": 142554,
+"hospitalCases": 6405
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-21",
+"cumDailyNsoDeathsByDeathDate": 142445,
+"hospitalCases": 6366
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-20",
+"cumDailyNsoDeathsByDeathDate": 142334,
+"hospitalCases": 6299
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-19",
+"cumDailyNsoDeathsByDeathDate": 142224,
+"hospitalCases": 6099
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-18",
+"cumDailyNsoDeathsByDeathDate": 142119,
+"hospitalCases": 5938
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-17",
+"cumDailyNsoDeathsByDeathDate": 142025,
+"hospitalCases": 5623
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-16",
+"cumDailyNsoDeathsByDeathDate": 141924,
+"hospitalCases": 5385
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-15",
+"cumDailyNsoDeathsByDeathDate": 141821,
+"hospitalCases": 5363
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-14",
+"cumDailyNsoDeathsByDeathDate": 141718,
+"hospitalCases": 5289
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-13",
+"cumDailyNsoDeathsByDeathDate": 141608,
+"hospitalCases": 5246
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-12",
+"cumDailyNsoDeathsByDeathDate": 141514,
+"hospitalCases": 5213
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-11",
+"cumDailyNsoDeathsByDeathDate": 141422,
+"hospitalCases": 5206
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-10",
+"cumDailyNsoDeathsByDeathDate": 141327,
+"hospitalCases": 5077
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-09",
+"cumDailyNsoDeathsByDeathDate": 141248,
+"hospitalCases": 4921
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-08",
+"cumDailyNsoDeathsByDeathDate": 141157,
+"hospitalCases": 4975
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-07",
+"cumDailyNsoDeathsByDeathDate": 141065,
+"hospitalCases": 4962
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-06",
+"cumDailyNsoDeathsByDeathDate": 140970,
+"hospitalCases": 5009
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-05",
+"cumDailyNsoDeathsByDeathDate": 140895,
+"hospitalCases": 5006
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-04",
+"cumDailyNsoDeathsByDeathDate": 140806,
+"hospitalCases": 4909
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-03",
+"cumDailyNsoDeathsByDeathDate": 140727,
+"hospitalCases": 4778
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-02",
+"cumDailyNsoDeathsByDeathDate": 140651,
+"hospitalCases": 4652
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-10-01",
+"cumDailyNsoDeathsByDeathDate": 140581,
+"hospitalCases": 4799
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-30",
+"cumDailyNsoDeathsByDeathDate": 140481,
+"hospitalCases": 4916
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-29",
+"cumDailyNsoDeathsByDeathDate": 140389,
+"hospitalCases": 5017
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-28",
+"cumDailyNsoDeathsByDeathDate": 140300,
+"hospitalCases": 5126
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-27",
+"cumDailyNsoDeathsByDeathDate": 140218,
+"hospitalCases": 5121
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-26",
+"cumDailyNsoDeathsByDeathDate": 140139,
+"hospitalCases": 4949
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-25",
+"cumDailyNsoDeathsByDeathDate": 140065,
+"hospitalCases": 5100
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-24",
+"cumDailyNsoDeathsByDeathDate": 139977,
+"hospitalCases": 5036
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-23",
+"cumDailyNsoDeathsByDeathDate": 139881,
+"hospitalCases": 5214
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-22",
+"cumDailyNsoDeathsByDeathDate": 139775,
+"hospitalCases": 5406
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-21",
+"cumDailyNsoDeathsByDeathDate": 139664,
+"hospitalCases": 5543
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-20",
+"cumDailyNsoDeathsByDeathDate": 139569,
+"hospitalCases": 5727
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-19",
+"cumDailyNsoDeathsByDeathDate": 139456,
+"hospitalCases": 5695
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-18",
+"cumDailyNsoDeathsByDeathDate": 139359,
+"hospitalCases": 5688
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-17",
+"cumDailyNsoDeathsByDeathDate": 139258,
+"hospitalCases": 5910
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-16",
+"cumDailyNsoDeathsByDeathDate": 139131,
+"hospitalCases": 6081
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-15",
+"cumDailyNsoDeathsByDeathDate": 139017,
+"hospitalCases": 6306
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-14",
+"cumDailyNsoDeathsByDeathDate": 138899,
+"hospitalCases": 6344
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-13",
+"cumDailyNsoDeathsByDeathDate": 138779,
+"hospitalCases": 6424
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-12",
+"cumDailyNsoDeathsByDeathDate": 138705,
+"hospitalCases": 6253
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-11",
+"cumDailyNsoDeathsByDeathDate": 138603,
+"hospitalCases": 6206
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-10",
+"cumDailyNsoDeathsByDeathDate": 138496,
+"hospitalCases": 6400
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-09",
+"cumDailyNsoDeathsByDeathDate": 138387,
+"hospitalCases": 6254
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-08",
+"cumDailyNsoDeathsByDeathDate": 138252,
+"hospitalCases": 6302
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-07",
+"cumDailyNsoDeathsByDeathDate": 138139,
+"hospitalCases": 6244
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-06",
+"cumDailyNsoDeathsByDeathDate": 138015,
+"hospitalCases": 6375
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-05",
+"cumDailyNsoDeathsByDeathDate": 137890,
+"hospitalCases": 6167
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-04",
+"cumDailyNsoDeathsByDeathDate": 137774,
+"hospitalCases": 6043
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-03",
+"cumDailyNsoDeathsByDeathDate": 137660,
+"hospitalCases": 6195
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-02",
+"cumDailyNsoDeathsByDeathDate": 137538,
+"hospitalCases": 6186
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-09-01",
+"cumDailyNsoDeathsByDeathDate": 137436,
+"hospitalCases": 6236
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-31",
+"cumDailyNsoDeathsByDeathDate": 137337,
+"hospitalCases": 6293
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-30",
+"cumDailyNsoDeathsByDeathDate": 137241,
+"hospitalCases": 6002
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-29",
+"cumDailyNsoDeathsByDeathDate": 137149,
+"hospitalCases": 5855
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-28",
+"cumDailyNsoDeathsByDeathDate": 137037,
+"hospitalCases": 5756
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-27",
+"cumDailyNsoDeathsByDeathDate": 136934,
+"hospitalCases": 5889
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-26",
+"cumDailyNsoDeathsByDeathDate": 136822,
+"hospitalCases": 5893
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-25",
+"cumDailyNsoDeathsByDeathDate": 136717,
+"hospitalCases": 5922
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-24",
+"cumDailyNsoDeathsByDeathDate": 136633,
+"hospitalCases": 5911
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-23",
+"cumDailyNsoDeathsByDeathDate": 136531,
+"hospitalCases": 6000
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-22",
+"cumDailyNsoDeathsByDeathDate": 136435,
+"hospitalCases": 5749
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-21",
+"cumDailyNsoDeathsByDeathDate": 136328,
+"hospitalCases": 5575
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-20",
+"cumDailyNsoDeathsByDeathDate": 136236,
+"hospitalCases": 5576
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-19",
+"cumDailyNsoDeathsByDeathDate": 136130,
+"hospitalCases": 5554
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-18",
+"cumDailyNsoDeathsByDeathDate": 136033,
+"hospitalCases": 5514
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-17",
+"cumDailyNsoDeathsByDeathDate": 135946,
+"hospitalCases": 5437
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-16",
+"cumDailyNsoDeathsByDeathDate": 135861,
+"hospitalCases": 5429
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-15",
+"cumDailyNsoDeathsByDeathDate": 135786,
+"hospitalCases": 5115
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-14",
+"cumDailyNsoDeathsByDeathDate": 135711,
+"hospitalCases": 4973
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-13",
+"cumDailyNsoDeathsByDeathDate": 135627,
+"hospitalCases": 5076
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-12",
+"cumDailyNsoDeathsByDeathDate": 135548,
+"hospitalCases": 5029
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-11",
+"cumDailyNsoDeathsByDeathDate": 135460,
+"hospitalCases": 5073
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-10",
+"cumDailyNsoDeathsByDeathDate": 135385,
+"hospitalCases": 5096
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-09",
+"cumDailyNsoDeathsByDeathDate": 135314,
+"hospitalCases": 5098
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-08",
+"cumDailyNsoDeathsByDeathDate": 135240,
+"hospitalCases": 4939
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-07",
+"cumDailyNsoDeathsByDeathDate": 135175,
+"hospitalCases": 4817
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-06",
+"cumDailyNsoDeathsByDeathDate": 135086,
+"hospitalCases": 4879
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-05",
+"cumDailyNsoDeathsByDeathDate": 135003,
+"hospitalCases": 4894
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-04",
+"cumDailyNsoDeathsByDeathDate": 134916,
+"hospitalCases": 4944
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-03",
+"cumDailyNsoDeathsByDeathDate": 134838,
+"hospitalCases": 5116
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-02",
+"cumDailyNsoDeathsByDeathDate": 134768,
+"hospitalCases": 5309
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-08-01",
+"cumDailyNsoDeathsByDeathDate": 134693,
+"hospitalCases": 5090
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-31",
+"cumDailyNsoDeathsByDeathDate": 134620,
+"hospitalCases": 5057
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-30",
+"cumDailyNsoDeathsByDeathDate": 134548,
+"hospitalCases": 5111
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-29",
+"cumDailyNsoDeathsByDeathDate": 134462,
+"hospitalCases": 5056
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-28",
+"cumDailyNsoDeathsByDeathDate": 134392,
+"hospitalCases": 5182
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-27",
+"cumDailyNsoDeathsByDeathDate": 134323,
+"hospitalCases": 5163
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-26",
+"cumDailyNsoDeathsByDeathDate": 134264,
+"hospitalCases": 5055
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-25",
+"cumDailyNsoDeathsByDeathDate": 134196,
+"hospitalCases": 4725
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-24",
+"cumDailyNsoDeathsByDeathDate": 134136,
+"hospitalCases": 4476
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-23",
+"cumDailyNsoDeathsByDeathDate": 134078,
+"hospitalCases": 4401
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-22",
+"cumDailyNsoDeathsByDeathDate": 134013,
+"hospitalCases": 4230
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-21",
+"cumDailyNsoDeathsByDeathDate": 133940,
+"hospitalCases": 4063
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-20",
+"cumDailyNsoDeathsByDeathDate": 133892,
+"hospitalCases": 3894
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-19",
+"cumDailyNsoDeathsByDeathDate": 133840,
+"hospitalCases": 3813
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-18",
+"cumDailyNsoDeathsByDeathDate": 133766,
+"hospitalCases": 3546
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-17",
+"cumDailyNsoDeathsByDeathDate": 133708,
+"hospitalCases": 3442
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-16",
+"cumDailyNsoDeathsByDeathDate": 133659,
+"hospitalCases": 3367
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-15",
+"cumDailyNsoDeathsByDeathDate": 133616,
+"hospitalCases": 3241
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-14",
+"cumDailyNsoDeathsByDeathDate": 133573,
+"hospitalCases": 3110
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-13",
+"cumDailyNsoDeathsByDeathDate": 133537,
+"hospitalCases": 2970
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-12",
+"cumDailyNsoDeathsByDeathDate": 133498,
+"hospitalCases": 2798
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-11",
+"cumDailyNsoDeathsByDeathDate": 133466,
+"hospitalCases": 2564
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-10",
+"cumDailyNsoDeathsByDeathDate": 133439,
+"hospitalCases": 2429
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-09",
+"cumDailyNsoDeathsByDeathDate": 133405,
+"hospitalCases": 2352
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-08",
+"cumDailyNsoDeathsByDeathDate": 133366,
+"hospitalCases": 2209
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-07",
+"cumDailyNsoDeathsByDeathDate": 133337,
+"hospitalCases": 2144
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-06",
+"cumDailyNsoDeathsByDeathDate": 133309,
+"hospitalCases": 1998
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-05",
+"cumDailyNsoDeathsByDeathDate": 133287,
+"hospitalCases": 1888
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-04",
+"cumDailyNsoDeathsByDeathDate": 133267,
+"hospitalCases": 1744
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-03",
+"cumDailyNsoDeathsByDeathDate": 133244,
+"hospitalCases": 1636
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-02",
+"cumDailyNsoDeathsByDeathDate": 133217,
+"hospitalCases": 1611
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-07-01",
+"cumDailyNsoDeathsByDeathDate": 133191,
+"hospitalCases": 1560
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-30",
+"cumDailyNsoDeathsByDeathDate": 133166,
+"hospitalCases": 1500
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-29",
+"cumDailyNsoDeathsByDeathDate": 133143,
+"hospitalCases": 1445
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-28",
+"cumDailyNsoDeathsByDeathDate": 133122,
+"hospitalCases": 1465
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-27",
+"cumDailyNsoDeathsByDeathDate": 133109,
+"hospitalCases": 1331
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-26",
+"cumDailyNsoDeathsByDeathDate": 133089,
+"hospitalCases": 1276
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-25",
+"cumDailyNsoDeathsByDeathDate": 133079,
+"hospitalCases": 1284
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-24",
+"cumDailyNsoDeathsByDeathDate": 133059,
+"hospitalCases": 1274
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-23",
+"cumDailyNsoDeathsByDeathDate": 133037,
+"hospitalCases": 1255
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-22",
+"cumDailyNsoDeathsByDeathDate": 133031,
+"hospitalCases": 1301
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-21",
+"cumDailyNsoDeathsByDeathDate": 133019,
+"hospitalCases": 1290
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-20",
+"cumDailyNsoDeathsByDeathDate": 133008,
+"hospitalCases": 1168
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-19",
+"cumDailyNsoDeathsByDeathDate": 132989,
+"hospitalCases": 1143
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-18",
+"cumDailyNsoDeathsByDeathDate": 132972,
+"hospitalCases": 1170
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-17",
+"cumDailyNsoDeathsByDeathDate": 132958,
+"hospitalCases": 1122
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-16",
+"cumDailyNsoDeathsByDeathDate": 132951,
+"hospitalCases": 1057
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-15",
+"cumDailyNsoDeathsByDeathDate": 132939,
+"hospitalCases": 1030
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-14",
+"cumDailyNsoDeathsByDeathDate": 132924,
+"hospitalCases": 993
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-13",
+"cumDailyNsoDeathsByDeathDate": 132913,
+"hospitalCases": 947
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-12",
+"cumDailyNsoDeathsByDeathDate": 132904,
+"hospitalCases": 915
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-11",
+"cumDailyNsoDeathsByDeathDate": 132894,
+"hospitalCases": 884
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-10",
+"cumDailyNsoDeathsByDeathDate": 132883,
+"hospitalCases": 906
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-09",
+"cumDailyNsoDeathsByDeathDate": 132867,
+"hospitalCases": 876
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-08",
+"cumDailyNsoDeathsByDeathDate": 132853,
+"hospitalCases": 879
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-07",
+"cumDailyNsoDeathsByDeathDate": 132840,
+"hospitalCases": 860
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-06",
+"cumDailyNsoDeathsByDeathDate": 132835,
+"hospitalCases": 807
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-05",
+"cumDailyNsoDeathsByDeathDate": 132823,
+"hospitalCases": 782
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-04",
+"cumDailyNsoDeathsByDeathDate": 132819,
+"hospitalCases": 805
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-03",
+"cumDailyNsoDeathsByDeathDate": 132806,
+"hospitalCases": 779
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-02",
+"cumDailyNsoDeathsByDeathDate": 132792,
+"hospitalCases": 801
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-06-01",
+"cumDailyNsoDeathsByDeathDate": 132782,
+"hospitalCases": 776
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-31",
+"cumDailyNsoDeathsByDeathDate": 132773,
+"hospitalCases": 773
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-30",
+"cumDailyNsoDeathsByDeathDate": 132763,
+"hospitalCases": 755
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-29",
+"cumDailyNsoDeathsByDeathDate": 132756,
+"hospitalCases": 748
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-28",
+"cumDailyNsoDeathsByDeathDate": 132747,
+"hospitalCases": 743
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-27",
+"cumDailyNsoDeathsByDeathDate": 132736,
+"hospitalCases": 742
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-26",
+"cumDailyNsoDeathsByDeathDate": 132728,
+"hospitalCases": 745
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-25",
+"cumDailyNsoDeathsByDeathDate": 132716,
+"hospitalCases": 765
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-24",
+"cumDailyNsoDeathsByDeathDate": 132709,
+"hospitalCases": 797
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-23",
+"cumDailyNsoDeathsByDeathDate": 132696,
+"hospitalCases": 756
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-22",
+"cumDailyNsoDeathsByDeathDate": 132682,
+"hospitalCases": 730
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-21",
+"cumDailyNsoDeathsByDeathDate": 132679,
+"hospitalCases": 766
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-20",
+"cumDailyNsoDeathsByDeathDate": 132663,
+"hospitalCases": 749
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-19",
+"cumDailyNsoDeathsByDeathDate": 132657,
+"hospitalCases": 757
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-18",
+"cumDailyNsoDeathsByDeathDate": 132654,
+"hospitalCases": 749
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-17",
+"cumDailyNsoDeathsByDeathDate": 132645,
+"hospitalCases": 798
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-16",
+"cumDailyNsoDeathsByDeathDate": 132634,
+"hospitalCases": 801
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-15",
+"cumDailyNsoDeathsByDeathDate": 132624,
+"hospitalCases": 810
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-14",
+"cumDailyNsoDeathsByDeathDate": 132611,
+"hospitalCases": 818
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-13",
+"cumDailyNsoDeathsByDeathDate": 132602,
+"hospitalCases": 845
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-12",
+"cumDailyNsoDeathsByDeathDate": 132592,
+"hospitalCases": 907
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-11",
+"cumDailyNsoDeathsByDeathDate": 132579,
+"hospitalCases": 921
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-10",
+"cumDailyNsoDeathsByDeathDate": 132560,
+"hospitalCases": 944
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-09",
+"cumDailyNsoDeathsByDeathDate": 132553,
+"hospitalCases": 933
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-08",
+"cumDailyNsoDeathsByDeathDate": 132542,
+"hospitalCases": 948
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-07",
+"cumDailyNsoDeathsByDeathDate": 132525,
+"hospitalCases": 973
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-06",
+"cumDailyNsoDeathsByDeathDate": 132510,
+"hospitalCases": 976
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-05",
+"cumDailyNsoDeathsByDeathDate": 132496,
+"hospitalCases": 1032
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-04",
+"cumDailyNsoDeathsByDeathDate": 132476,
+"hospitalCases": 1093
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-03",
+"cumDailyNsoDeathsByDeathDate": 132462,
+"hospitalCases": 1096
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-02",
+"cumDailyNsoDeathsByDeathDate": 132445,
+"hospitalCases": 1082
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-05-01",
+"cumDailyNsoDeathsByDeathDate": 132430,
+"hospitalCases": 1071
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-30",
+"cumDailyNsoDeathsByDeathDate": 132417,
+"hospitalCases": 1161
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-29",
+"cumDailyNsoDeathsByDeathDate": 132401,
+"hospitalCases": 1235
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-28",
+"cumDailyNsoDeathsByDeathDate": 132386,
+"hospitalCases": 1278
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-27",
+"cumDailyNsoDeathsByDeathDate": 132367,
+"hospitalCases": 1310
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-26",
+"cumDailyNsoDeathsByDeathDate": 132344,
+"hospitalCases": 1393
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-25",
+"cumDailyNsoDeathsByDeathDate": 132325,
+"hospitalCases": 1377
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-24",
+"cumDailyNsoDeathsByDeathDate": 132304,
+"hospitalCases": 1401
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-23",
+"cumDailyNsoDeathsByDeathDate": 132285,
+"hospitalCases": 1478
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-22",
+"cumDailyNsoDeathsByDeathDate": 132262,
+"hospitalCases": 1523
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-21",
+"cumDailyNsoDeathsByDeathDate": 132234,
+"hospitalCases": 1609
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-20",
+"cumDailyNsoDeathsByDeathDate": 132209,
+"hospitalCases": 1649
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-19",
+"cumDailyNsoDeathsByDeathDate": 132179,
+"hospitalCases": 1732
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-18",
+"cumDailyNsoDeathsByDeathDate": 132162,
+"hospitalCases": 1691
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-17",
+"cumDailyNsoDeathsByDeathDate": 132135,
+"hospitalCases": 1735
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-16",
+"cumDailyNsoDeathsByDeathDate": 132101,
+"hospitalCases": 1844
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-15",
+"cumDailyNsoDeathsByDeathDate": 132073,
+"hospitalCases": 1885
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-14",
+"cumDailyNsoDeathsByDeathDate": 132037,
+"hospitalCases": 1972
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-13",
+"cumDailyNsoDeathsByDeathDate": 132012,
+"hospitalCases": 2057
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-12",
+"cumDailyNsoDeathsByDeathDate": 131975,
+"hospitalCases": 2108
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-11",
+"cumDailyNsoDeathsByDeathDate": 131940,
+"hospitalCases": 2096
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-10",
+"cumDailyNsoDeathsByDeathDate": 131908,
+"hospitalCases": 2190
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-09",
+"cumDailyNsoDeathsByDeathDate": 131872,
+"hospitalCases": 2321
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-08",
+"cumDailyNsoDeathsByDeathDate": 131840,
+"hospitalCases": 2382
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-07",
+"cumDailyNsoDeathsByDeathDate": 131789,
+"hospitalCases": 2486
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-06",
+"cumDailyNsoDeathsByDeathDate": 131752,
+"hospitalCases": 2588
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-05",
+"cumDailyNsoDeathsByDeathDate": 131715,
+"hospitalCases": 2680
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-04",
+"cumDailyNsoDeathsByDeathDate": 131680,
+"hospitalCases": 2672
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-03",
+"cumDailyNsoDeathsByDeathDate": 131630,
+"hospitalCases": 2677
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-02",
+"cumDailyNsoDeathsByDeathDate": 131598,
+"hospitalCases": 2784
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-04-01",
+"cumDailyNsoDeathsByDeathDate": 131560,
+"hospitalCases": 2928
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-31",
+"cumDailyNsoDeathsByDeathDate": 131506,
+"hospitalCases": 3084
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-30",
+"cumDailyNsoDeathsByDeathDate": 131442,
+"hospitalCases": 3283
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-29",
+"cumDailyNsoDeathsByDeathDate": 131394,
+"hospitalCases": 3466
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-28",
+"cumDailyNsoDeathsByDeathDate": 131339,
+"hospitalCases": 3438
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-27",
+"cumDailyNsoDeathsByDeathDate": 131297,
+"hospitalCases": 3676
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-26",
+"cumDailyNsoDeathsByDeathDate": 131242,
+"hospitalCases": 3712
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-25",
+"cumDailyNsoDeathsByDeathDate": 131181,
+"hospitalCases": 3763
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-24",
+"cumDailyNsoDeathsByDeathDate": 131114,
+"hospitalCases": 4005
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-23",
+"cumDailyNsoDeathsByDeathDate": 131056,
+"hospitalCases": 4245
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-22",
+"cumDailyNsoDeathsByDeathDate": 130974,
+"hospitalCases": 4501
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-21",
+"cumDailyNsoDeathsByDeathDate": 130888,
+"hospitalCases": 4492
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-20",
+"cumDailyNsoDeathsByDeathDate": 130782,
+"hospitalCases": 4589
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-19",
+"cumDailyNsoDeathsByDeathDate": 130695,
+"hospitalCases": 4841
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-18",
+"cumDailyNsoDeathsByDeathDate": 130615,
+"hospitalCases": 5083
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-17",
+"cumDailyNsoDeathsByDeathDate": 130530,
+"hospitalCases": 5397
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-16",
+"cumDailyNsoDeathsByDeathDate": 130426,
+"hospitalCases": 5664
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-15",
+"cumDailyNsoDeathsByDeathDate": 130332,
+"hospitalCases": 5976
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-14",
+"cumDailyNsoDeathsByDeathDate": 130213,
+"hospitalCases": 6039
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-13",
+"cumDailyNsoDeathsByDeathDate": 130101,
+"hospitalCases": 6072
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-12",
+"cumDailyNsoDeathsByDeathDate": 129979,
+"hospitalCases": 6391
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-11",
+"cumDailyNsoDeathsByDeathDate": 129863,
+"hospitalCases": 6687
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-10",
+"cumDailyNsoDeathsByDeathDate": 129711,
+"hospitalCases": 6975
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-09",
+"cumDailyNsoDeathsByDeathDate": 129577,
+"hospitalCases": 7451
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-08",
+"cumDailyNsoDeathsByDeathDate": 129417,
+"hospitalCases": 7847
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-07",
+"cumDailyNsoDeathsByDeathDate": 129252,
+"hospitalCases": 7812
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-06",
+"cumDailyNsoDeathsByDeathDate": 129080,
+"hospitalCases": 8021
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-05",
+"cumDailyNsoDeathsByDeathDate": 128902,
+"hospitalCases": 8594
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-04",
+"cumDailyNsoDeathsByDeathDate": 128699,
+"hospitalCases": 9092
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-03",
+"cumDailyNsoDeathsByDeathDate": 128496,
+"hospitalCases": 9594
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-02",
+"cumDailyNsoDeathsByDeathDate": 128311,
+"hospitalCases": 10121
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-03-01",
+"cumDailyNsoDeathsByDeathDate": 128101,
+"hospitalCases": 10765
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-28",
+"cumDailyNsoDeathsByDeathDate": 127852,
+"hospitalCases": 10663
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-27",
+"cumDailyNsoDeathsByDeathDate": 127597,
+"hospitalCases": 11090
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-26",
+"cumDailyNsoDeathsByDeathDate": 127334,
+"hospitalCases": 11781
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-25",
+"cumDailyNsoDeathsByDeathDate": 127075,
+"hospitalCases": 12449
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-24",
+"cumDailyNsoDeathsByDeathDate": 126772,
+"hospitalCases": 13007
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-23",
+"cumDailyNsoDeathsByDeathDate": 126458,
+"hospitalCases": 13511
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-22",
+"cumDailyNsoDeathsByDeathDate": 126126,
+"hospitalCases": 14137
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-21",
+"cumDailyNsoDeathsByDeathDate": 125804,
+"hospitalCases": 14142
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-20",
+"cumDailyNsoDeathsByDeathDate": 125449,
+"hospitalCases": 14316
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-19",
+"cumDailyNsoDeathsByDeathDate": 125064,
+"hospitalCases": 15018
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-18",
+"cumDailyNsoDeathsByDeathDate": 124677,
+"hospitalCases": 15633
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-17",
+"cumDailyNsoDeathsByDeathDate": 124223,
+"hospitalCases": 16458
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-16",
+"cumDailyNsoDeathsByDeathDate": 123787,
+"hospitalCases": 17093
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-15",
+"cumDailyNsoDeathsByDeathDate": 123289,
+"hospitalCases": 17730
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-14",
+"cumDailyNsoDeathsByDeathDate": 122742,
+"hospitalCases": 17787
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-13",
+"cumDailyNsoDeathsByDeathDate": 122225,
+"hospitalCases": 17694
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-12",
+"cumDailyNsoDeathsByDeathDate": 121717,
+"hospitalCases": 19009
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-11",
+"cumDailyNsoDeathsByDeathDate": 121173,
+"hospitalCases": 19983
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-10",
+"cumDailyNsoDeathsByDeathDate": 120586,
+"hospitalCases": 20926
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-09",
+"cumDailyNsoDeathsByDeathDate": 119959,
+"hospitalCases": 22067
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-08",
+"cumDailyNsoDeathsByDeathDate": 119332,
+"hospitalCases": 23020
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-07",
+"cumDailyNsoDeathsByDeathDate": 118633,
+"hospitalCases": 22991
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-06",
+"cumDailyNsoDeathsByDeathDate": 117970,
+"hospitalCases": 23042
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-05",
+"cumDailyNsoDeathsByDeathDate": 117287,
+"hospitalCases": 24402
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-04",
+"cumDailyNsoDeathsByDeathDate": 116518,
+"hospitalCases": 25334
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-03",
+"cumDailyNsoDeathsByDeathDate": 115783,
+"hospitalCases": 26374
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-02",
+"cumDailyNsoDeathsByDeathDate": 114918,
+"hospitalCases": 27397
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-02-01",
+"cumDailyNsoDeathsByDeathDate": 114067,
+"hospitalCases": 28539
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-31",
+"cumDailyNsoDeathsByDeathDate": 113176,
+"hospitalCases": 28112
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-30",
+"cumDailyNsoDeathsByDeathDate": 112280,
+"hospitalCases": 28571
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-29",
+"cumDailyNsoDeathsByDeathDate": 111358,
+"hospitalCases": 29359
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-28",
+"cumDailyNsoDeathsByDeathDate": 110355,
+"hospitalCases": 30333
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-27",
+"cumDailyNsoDeathsByDeathDate": 109247,
+"hospitalCases": 30846
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-26",
+"cumDailyNsoDeathsByDeathDate": 108143,
+"hospitalCases": 32337
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-25",
+"cumDailyNsoDeathsByDeathDate": 107100,
+"hospitalCases": 32938
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-24",
+"cumDailyNsoDeathsByDeathDate": 105953,
+"hospitalCases": 32907
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-23",
+"cumDailyNsoDeathsByDeathDate": 104872,
+"hospitalCases": 32614
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-22",
+"cumDailyNsoDeathsByDeathDate": 103727,
+"hospitalCases": 33412
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-21",
+"cumDailyNsoDeathsByDeathDate": 102541,
+"hospitalCases": 33235
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-20",
+"cumDailyNsoDeathsByDeathDate": 101340,
+"hospitalCases": 33886
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-19",
+"cumDailyNsoDeathsByDeathDate": 100107,
+"hospitalCases": 34015
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-18",
+"cumDailyNsoDeathsByDeathDate": 98784,
+"hospitalCases": 34336
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-17",
+"cumDailyNsoDeathsByDeathDate": 97545,
+"hospitalCases": 33352
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-16",
+"cumDailyNsoDeathsByDeathDate": 96320,
+"hospitalCases": 32923
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-15",
+"cumDailyNsoDeathsByDeathDate": 95082,
+"hospitalCases": 33362
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-14",
+"cumDailyNsoDeathsByDeathDate": 93924,
+"hospitalCases": 32925
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-13",
+"cumDailyNsoDeathsByDeathDate": 92760,
+"hospitalCases": 32689
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-12",
+"cumDailyNsoDeathsByDeathDate": 91603,
+"hospitalCases": 32202
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-11",
+"cumDailyNsoDeathsByDeathDate": 90433,
+"hospitalCases": 32070
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-10",
+"cumDailyNsoDeathsByDeathDate": 89363,
+"hospitalCases": 30758
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-09",
+"cumDailyNsoDeathsByDeathDate": 88336,
+"hospitalCases": 29462
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-08",
+"cumDailyNsoDeathsByDeathDate": 87363,
+"hospitalCases": 29346
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-07",
+"cumDailyNsoDeathsByDeathDate": 86441,
+"hospitalCases": 28246
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-06",
+"cumDailyNsoDeathsByDeathDate": 85526,
+"hospitalCases": 27727
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-05",
+"cumDailyNsoDeathsByDeathDate": 84644,
+"hospitalCases": 26467
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-04",
+"cumDailyNsoDeathsByDeathDate": 83792,
+"hospitalCases": 26626
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-03",
+"cumDailyNsoDeathsByDeathDate": 83003,
+"hospitalCases": 24957
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-02",
+"cumDailyNsoDeathsByDeathDate": 82319,
+"hospitalCases": 23557
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-01-01",
+"cumDailyNsoDeathsByDeathDate": 81595,
+"hospitalCases": 22534
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-31",
+"cumDailyNsoDeathsByDeathDate": 80904,
+"hospitalCases": 22728
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-30",
+"cumDailyNsoDeathsByDeathDate": 80203,
+"hospitalCases": 22713
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-29",
+"cumDailyNsoDeathsByDeathDate": 79548,
+"hospitalCases": 21787
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-28",
+"cumDailyNsoDeathsByDeathDate": 78934,
+"hospitalCases": 20426
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-27",
+"cumDailyNsoDeathsByDeathDate": 78319,
+"hospitalCases": 19277
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-26",
+"cumDailyNsoDeathsByDeathDate": 77707,
+"hospitalCases": 18350
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-25",
+"cumDailyNsoDeathsByDeathDate": 77114,
+"hospitalCases": 17701
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-24",
+"cumDailyNsoDeathsByDeathDate": 76556,
+"hospitalCases": 18227
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-23",
+"cumDailyNsoDeathsByDeathDate": 76053,
+"hospitalCases": 17834
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-22",
+"cumDailyNsoDeathsByDeathDate": 75534,
+"hospitalCases": 18063
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-21",
+"cumDailyNsoDeathsByDeathDate": 74995,
+"hospitalCases": 17709
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-20",
+"cumDailyNsoDeathsByDeathDate": 74489,
+"hospitalCases": 16633
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-19",
+"cumDailyNsoDeathsByDeathDate": 74034,
+"hospitalCases": 16183
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-18",
+"cumDailyNsoDeathsByDeathDate": 73577,
+"hospitalCases": 15866
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-17",
+"cumDailyNsoDeathsByDeathDate": 73099,
+"hospitalCases": 15741
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-16",
+"cumDailyNsoDeathsByDeathDate": 72636,
+"hospitalCases": 15465
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-15",
+"cumDailyNsoDeathsByDeathDate": 72250,
+"hospitalCases": 15031
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-14",
+"cumDailyNsoDeathsByDeathDate": 71842,
+"hospitalCases": 15053
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-13",
+"cumDailyNsoDeathsByDeathDate": 71420,
+"hospitalCases": 14460
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-12",
+"cumDailyNsoDeathsByDeathDate": 71010,
+"hospitalCases": 13927
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-11",
+"cumDailyNsoDeathsByDeathDate": 70599,
+"hospitalCases": 13901
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-10",
+"cumDailyNsoDeathsByDeathDate": 70175,
+"hospitalCases": 13796
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-09",
+"cumDailyNsoDeathsByDeathDate": 69768,
+"hospitalCases": 13467
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-08",
+"cumDailyNsoDeathsByDeathDate": 69387,
+"hospitalCases": 13629
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-07",
+"cumDailyNsoDeathsByDeathDate": 68989,
+"hospitalCases": 13616
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-06",
+"cumDailyNsoDeathsByDeathDate": 68610,
+"hospitalCases": 13189
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-05",
+"cumDailyNsoDeathsByDeathDate": 68247,
+"hospitalCases": 12968
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-04",
+"cumDailyNsoDeathsByDeathDate": 67902,
+"hospitalCases": 12987
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-03",
+"cumDailyNsoDeathsByDeathDate": 67482,
+"hospitalCases": 12896
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-02",
+"cumDailyNsoDeathsByDeathDate": 67072,
+"hospitalCases": 13212
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-12-01",
+"cumDailyNsoDeathsByDeathDate": 66724,
+"hospitalCases": 13507
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-30",
+"cumDailyNsoDeathsByDeathDate": 66365,
+"hospitalCases": 13756
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-29",
+"cumDailyNsoDeathsByDeathDate": 65980,
+"hospitalCases": 13521
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-28",
+"cumDailyNsoDeathsByDeathDate": 65557,
+"hospitalCases": 13208
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-27",
+"cumDailyNsoDeathsByDeathDate": 65168,
+"hospitalCases": 13754
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-26",
+"cumDailyNsoDeathsByDeathDate": 64781,
+"hospitalCases": 13908
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-25",
+"cumDailyNsoDeathsByDeathDate": 64401,
+"hospitalCases": 14240
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-24",
+"cumDailyNsoDeathsByDeathDate": 63965,
+"hospitalCases": 14506
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-23",
+"cumDailyNsoDeathsByDeathDate": 63542,
+"hospitalCases": 14712
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-22",
+"cumDailyNsoDeathsByDeathDate": 63113,
+"hospitalCases": 14354
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-21",
+"cumDailyNsoDeathsByDeathDate": 62693,
+"hospitalCases": 14118
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-20",
+"cumDailyNsoDeathsByDeathDate": 62280,
+"hospitalCases": 14236
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-19",
+"cumDailyNsoDeathsByDeathDate": 61873,
+"hospitalCases": 14479
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-18",
+"cumDailyNsoDeathsByDeathDate": 61466,
+"hospitalCases": 14490
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-17",
+"cumDailyNsoDeathsByDeathDate": 61022,
+"hospitalCases": 14411
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-16",
+"cumDailyNsoDeathsByDeathDate": 60644,
+"hospitalCases": 14313
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-15",
+"cumDailyNsoDeathsByDeathDate": 60282,
+"hospitalCases": 13886
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-14",
+"cumDailyNsoDeathsByDeathDate": 59907,
+"hospitalCases": 13399
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-13",
+"cumDailyNsoDeathsByDeathDate": 59540,
+"hospitalCases": 13328
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-12",
+"cumDailyNsoDeathsByDeathDate": 59188,
+"hospitalCases": 12967
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-11",
+"cumDailyNsoDeathsByDeathDate": 58831,
+"hospitalCases": 12730
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-10",
+"cumDailyNsoDeathsByDeathDate": 58514,
+"hospitalCases": 12033
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-09",
+"cumDailyNsoDeathsByDeathDate": 58185,
+"hospitalCases": 12259
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-08",
+"cumDailyNsoDeathsByDeathDate": 57781,
+"hospitalCases": 11680
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-07",
+"cumDailyNsoDeathsByDeathDate": 57434,
+"hospitalCases": 11514
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-06",
+"cumDailyNsoDeathsByDeathDate": 57086,
+"hospitalCases": 11181
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-05",
+"cumDailyNsoDeathsByDeathDate": 56747,
+"hospitalCases": 10994
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-04",
+"cumDailyNsoDeathsByDeathDate": 56447,
+"hospitalCases": 11037
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-03",
+"cumDailyNsoDeathsByDeathDate": 56164,
+"hospitalCases": 10971
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-02",
+"cumDailyNsoDeathsByDeathDate": 55860,
+"hospitalCases": 10397
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-11-01",
+"cumDailyNsoDeathsByDeathDate": 55581,
+"hospitalCases": 9623
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-31",
+"cumDailyNsoDeathsByDeathDate": 55298,
+"hospitalCases": 9782
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-30",
+"cumDailyNsoDeathsByDeathDate": 55021,
+"hospitalCases": 9295
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-29",
+"cumDailyNsoDeathsByDeathDate": 54737,
+"hospitalCases": 9127
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-28",
+"cumDailyNsoDeathsByDeathDate": 54484,
+"hospitalCases": 9070
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-27",
+"cumDailyNsoDeathsByDeathDate": 54256,
+"hospitalCases": 8595
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-26",
+"cumDailyNsoDeathsByDeathDate": 54030,
+"hospitalCases": 7856
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-25",
+"cumDailyNsoDeathsByDeathDate": 53812,
+"hospitalCases": 7612
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-24",
+"cumDailyNsoDeathsByDeathDate": 53605,
+"hospitalCases": 7176
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-23",
+"cumDailyNsoDeathsByDeathDate": 53431,
+"hospitalCases": 6842
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-22",
+"cumDailyNsoDeathsByDeathDate": 53248,
+"hospitalCases": 6345
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-21",
+"cumDailyNsoDeathsByDeathDate": 53062,
+"hospitalCases": 6271
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-20",
+"cumDailyNsoDeathsByDeathDate": 52866,
+"hospitalCases": 6072
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-19",
+"cumDailyNsoDeathsByDeathDate": 52689,
+"hospitalCases": 5644
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-18",
+"cumDailyNsoDeathsByDeathDate": 52534,
+"hospitalCases": 5202
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-17",
+"cumDailyNsoDeathsByDeathDate": 52410,
+"hospitalCases": 5029
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-16",
+"cumDailyNsoDeathsByDeathDate": 52242,
+"hospitalCases": 4854
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-15",
+"cumDailyNsoDeathsByDeathDate": 52117,
+"hospitalCases": 4569
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-14",
+"cumDailyNsoDeathsByDeathDate": 51993,
+"hospitalCases": 4313
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-13",
+"cumDailyNsoDeathsByDeathDate": 51889,
+"hospitalCases": 4105
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-12",
+"cumDailyNsoDeathsByDeathDate": 51795,
+"hospitalCases": 3827
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-11",
+"cumDailyNsoDeathsByDeathDate": 51701,
+"hospitalCases": 3604
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-10",
+"cumDailyNsoDeathsByDeathDate": 51595,
+"hospitalCases": 3369
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-09",
+"cumDailyNsoDeathsByDeathDate": 51508,
+"hospitalCases": 3238
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-08",
+"cumDailyNsoDeathsByDeathDate": 51426,
+"hospitalCases": 3179
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-07",
+"cumDailyNsoDeathsByDeathDate": 51346,
+"hospitalCases": 3066
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-06",
+"cumDailyNsoDeathsByDeathDate": 51258,
+"hospitalCases": 2903
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-05",
+"cumDailyNsoDeathsByDeathDate": 51189,
+"hospitalCases": 2705
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-04",
+"cumDailyNsoDeathsByDeathDate": 51135,
+"hospitalCases": 2435
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-03",
+"cumDailyNsoDeathsByDeathDate": 51080,
+"hospitalCases": 2290
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-02",
+"cumDailyNsoDeathsByDeathDate": 51024,
+"hospitalCases": 2180
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-10-01",
+"cumDailyNsoDeathsByDeathDate": 50955,
+"hospitalCases": 2069
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-30",
+"cumDailyNsoDeathsByDeathDate": 50899,
+"hospitalCases": 2036
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-29",
+"cumDailyNsoDeathsByDeathDate": 50846,
+"hospitalCases": 1954
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-28",
+"cumDailyNsoDeathsByDeathDate": 50804,
+"hospitalCases": 1955
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-27",
+"cumDailyNsoDeathsByDeathDate": 50757,
+"hospitalCases": 1793
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-26",
+"cumDailyNsoDeathsByDeathDate": 50708,
+"hospitalCases": 1689
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-25",
+"cumDailyNsoDeathsByDeathDate": 50665,
+"hospitalCases": 1686
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-24",
+"cumDailyNsoDeathsByDeathDate": 50630,
+"hospitalCases": 1546
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-23",
+"cumDailyNsoDeathsByDeathDate": 50597,
+"hospitalCases": 1439
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-22",
+"cumDailyNsoDeathsByDeathDate": 50545,
+"hospitalCases": 1378
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-21",
+"cumDailyNsoDeathsByDeathDate": 50513,
+"hospitalCases": 1299
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-20",
+"cumDailyNsoDeathsByDeathDate": 50487,
+"hospitalCases": 1174
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-19",
+"cumDailyNsoDeathsByDeathDate": 50453,
+"hospitalCases": 1081
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-18",
+"cumDailyNsoDeathsByDeathDate": 50431,
+"hospitalCases": 1020
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-17",
+"cumDailyNsoDeathsByDeathDate": 50406,
+"hospitalCases": 984
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-16",
+"cumDailyNsoDeathsByDeathDate": 50372,
+"hospitalCases": 929
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-15",
+"cumDailyNsoDeathsByDeathDate": 50347,
+"hospitalCases": 891
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-14",
+"cumDailyNsoDeathsByDeathDate": 50325,
+"hospitalCases": 812
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-13",
+"cumDailyNsoDeathsByDeathDate": 50308,
+"hospitalCases": 691
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-12",
+"cumDailyNsoDeathsByDeathDate": 50290,
+"hospitalCases": 663
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-11",
+"cumDailyNsoDeathsByDeathDate": 50269,
+"hospitalCases": 622
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-10",
+"cumDailyNsoDeathsByDeathDate": 50254,
+"hospitalCases": 572
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-09",
+"cumDailyNsoDeathsByDeathDate": 50239,
+"hospitalCases": 557
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-08",
+"cumDailyNsoDeathsByDeathDate": 50229,
+"hospitalCases": 535
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-07",
+"cumDailyNsoDeathsByDeathDate": 50214,
+"hospitalCases": 555
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-06",
+"cumDailyNsoDeathsByDeathDate": 50194,
+"hospitalCases": 483
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-05",
+"cumDailyNsoDeathsByDeathDate": 50181,
+"hospitalCases": 471
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-04",
+"cumDailyNsoDeathsByDeathDate": 50169,
+"hospitalCases": 474
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-03",
+"cumDailyNsoDeathsByDeathDate": 50155,
+"hospitalCases": 468
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-02",
+"cumDailyNsoDeathsByDeathDate": 50149,
+"hospitalCases": 451
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-09-01",
+"cumDailyNsoDeathsByDeathDate": 50136,
+"hospitalCases": 496
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-31",
+"cumDailyNsoDeathsByDeathDate": 50127,
+"hospitalCases": 495
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-30",
+"cumDailyNsoDeathsByDeathDate": 50111,
+"hospitalCases": 479
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-29",
+"cumDailyNsoDeathsByDeathDate": 50103,
+"hospitalCases": 478
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-28",
+"cumDailyNsoDeathsByDeathDate": 50095,
+"hospitalCases": 469
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-27",
+"cumDailyNsoDeathsByDeathDate": 50084,
+"hospitalCases": 492
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-26",
+"cumDailyNsoDeathsByDeathDate": 50073,
+"hospitalCases": 485
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-25",
+"cumDailyNsoDeathsByDeathDate": 50058,
+"hospitalCases": 500
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-24",
+"cumDailyNsoDeathsByDeathDate": 50039,
+"hospitalCases": 522
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-23",
+"cumDailyNsoDeathsByDeathDate": 50031,
+"hospitalCases": 522
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-22",
+"cumDailyNsoDeathsByDeathDate": 50015,
+"hospitalCases": 594
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-21",
+"cumDailyNsoDeathsByDeathDate": 50004,
+"hospitalCases": 528
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-20",
+"cumDailyNsoDeathsByDeathDate": 49995,
+"hospitalCases": 551
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-19",
+"cumDailyNsoDeathsByDeathDate": 49979,
+"hospitalCases": 571
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-18",
+"cumDailyNsoDeathsByDeathDate": 49969,
+"hospitalCases": 597
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-17",
+"cumDailyNsoDeathsByDeathDate": 49958,
+"hospitalCases": 626
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-16",
+"cumDailyNsoDeathsByDeathDate": 49939,
+"hospitalCases": 634
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-15",
+"cumDailyNsoDeathsByDeathDate": 49927,
+"hospitalCases": 630
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-14",
+"cumDailyNsoDeathsByDeathDate": 49906,
+"hospitalCases": 642
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-13",
+"cumDailyNsoDeathsByDeathDate": 49891,
+"hospitalCases": 652
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-12",
+"cumDailyNsoDeathsByDeathDate": 49873,
+"hospitalCases": 642
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-11",
+"cumDailyNsoDeathsByDeathDate": 49853,
+"hospitalCases": 672
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-10",
+"cumDailyNsoDeathsByDeathDate": 49833,
+"hospitalCases": 714
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-09",
+"cumDailyNsoDeathsByDeathDate": 49810,
+"hospitalCases": 611
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-08",
+"cumDailyNsoDeathsByDeathDate": 49792,
+"hospitalCases": 650
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-07",
+"cumDailyNsoDeathsByDeathDate": 49774,
+"hospitalCases": 711
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-06",
+"cumDailyNsoDeathsByDeathDate": 49755,
+"hospitalCases": 756
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-05",
+"cumDailyNsoDeathsByDeathDate": 49738,
+"hospitalCases": 805
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-04",
+"cumDailyNsoDeathsByDeathDate": 49731,
+"hospitalCases": 807
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-03",
+"cumDailyNsoDeathsByDeathDate": 49711,
+"hospitalCases": 842
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-02",
+"cumDailyNsoDeathsByDeathDate": 49692,
+"hospitalCases": 847
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-08-01",
+"cumDailyNsoDeathsByDeathDate": 49677,
+"hospitalCases": 879
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-31",
+"cumDailyNsoDeathsByDeathDate": 49661,
+"hospitalCases": 870
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-30",
+"cumDailyNsoDeathsByDeathDate": 49635,
+"hospitalCases": 898
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-29",
+"cumDailyNsoDeathsByDeathDate": 49621,
+"hospitalCases": 927
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-28",
+"cumDailyNsoDeathsByDeathDate": 49600,
+"hospitalCases": 944
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-27",
+"cumDailyNsoDeathsByDeathDate": 49580,
+"hospitalCases": 945
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-26",
+"cumDailyNsoDeathsByDeathDate": 49564,
+"hospitalCases": 965
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-25",
+"cumDailyNsoDeathsByDeathDate": 49536,
+"hospitalCases": 977
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-24",
+"cumDailyNsoDeathsByDeathDate": 49516,
+"hospitalCases": 1018
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-23",
+"cumDailyNsoDeathsByDeathDate": 49499,
+"hospitalCases": 1095
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-22",
+"cumDailyNsoDeathsByDeathDate": 49466,
+"hospitalCases": 1305
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-21",
+"cumDailyNsoDeathsByDeathDate": 49432,
+"hospitalCases": 1188
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-20",
+"cumDailyNsoDeathsByDeathDate": 49402,
+"hospitalCases": 1278
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-19",
+"cumDailyNsoDeathsByDeathDate": 49373,
+"hospitalCases": 1301
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-18",
+"cumDailyNsoDeathsByDeathDate": 49351,
+"hospitalCases": 1321
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-17",
+"cumDailyNsoDeathsByDeathDate": 49323,
+"hospitalCases": 1346
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-16",
+"cumDailyNsoDeathsByDeathDate": 49292,
+"hospitalCases": 1348
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-15",
+"cumDailyNsoDeathsByDeathDate": 49274,
+"hospitalCases": 1489
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-14",
+"cumDailyNsoDeathsByDeathDate": 49235,
+"hospitalCases": 1506
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-13",
+"cumDailyNsoDeathsByDeathDate": 49197,
+"hospitalCases": 1612
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-12",
+"cumDailyNsoDeathsByDeathDate": 49155,
+"hospitalCases": 1611
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-11",
+"cumDailyNsoDeathsByDeathDate": 49126,
+"hospitalCases": 1640
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-10",
+"cumDailyNsoDeathsByDeathDate": 49093,
+"hospitalCases": 1746
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-09",
+"cumDailyNsoDeathsByDeathDate": 49051,
+"hospitalCases": 1801
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-08",
+"cumDailyNsoDeathsByDeathDate": 48995,
+"hospitalCases": 1888
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-07",
+"cumDailyNsoDeathsByDeathDate": 48951,
+"hospitalCases": 2010
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-06",
+"cumDailyNsoDeathsByDeathDate": 48910,
+"hospitalCases": 2099
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-05",
+"cumDailyNsoDeathsByDeathDate": 48862,
+"hospitalCases": 2100
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-04",
+"cumDailyNsoDeathsByDeathDate": 48818,
+"hospitalCases": 2152
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-03",
+"cumDailyNsoDeathsByDeathDate": 48772,
+"hospitalCases": 2294
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-02",
+"cumDailyNsoDeathsByDeathDate": 48727,
+"hospitalCases": 2410
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-07-01",
+"cumDailyNsoDeathsByDeathDate": 48672,
+"hospitalCases": 2509
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-30",
+"cumDailyNsoDeathsByDeathDate": 48628,
+"hospitalCases": 2665
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-29",
+"cumDailyNsoDeathsByDeathDate": 48557,
+"hospitalCases": 3024
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-28",
+"cumDailyNsoDeathsByDeathDate": 48494,
+"hospitalCases": 2818
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-27",
+"cumDailyNsoDeathsByDeathDate": 48432,
+"hospitalCases": 2819
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-26",
+"cumDailyNsoDeathsByDeathDate": 48371,
+"hospitalCases": 2859
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-25",
+"cumDailyNsoDeathsByDeathDate": 48301,
+"hospitalCases": 3066
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-24",
+"cumDailyNsoDeathsByDeathDate": 48204,
+"hospitalCases": 3223
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-23",
+"cumDailyNsoDeathsByDeathDate": 48111,
+"hospitalCases": 3288
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-22",
+"cumDailyNsoDeathsByDeathDate": 48022,
+"hospitalCases": 3417
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-21",
+"cumDailyNsoDeathsByDeathDate": 47948,
+"hospitalCases": 3373
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-20",
+"cumDailyNsoDeathsByDeathDate": 47881,
+"hospitalCases": 3423
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-19",
+"cumDailyNsoDeathsByDeathDate": 47805,
+"hospitalCases": 3575
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-18",
+"cumDailyNsoDeathsByDeathDate": 47729,
+"hospitalCases": 3681
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-17",
+"cumDailyNsoDeathsByDeathDate": 47650,
+"hospitalCases": 3826
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-16",
+"cumDailyNsoDeathsByDeathDate": 47559,
+"hospitalCases": 3934
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-15",
+"cumDailyNsoDeathsByDeathDate": 47456,
+"hospitalCases": 3920
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-14",
+"cumDailyNsoDeathsByDeathDate": 47364,
+"hospitalCases": 3973
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-13",
+"cumDailyNsoDeathsByDeathDate": 47245,
+"hospitalCases": 4000
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-12",
+"cumDailyNsoDeathsByDeathDate": 47160,
+"hospitalCases": 4136
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-11",
+"cumDailyNsoDeathsByDeathDate": 47038,
+"hospitalCases": 4179
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-10",
+"cumDailyNsoDeathsByDeathDate": 46930,
+"hospitalCases": 4447
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-09",
+"cumDailyNsoDeathsByDeathDate": 46788,
+"hospitalCases": 4665
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-08",
+"cumDailyNsoDeathsByDeathDate": 46661,
+"hospitalCases": 4830
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-07",
+"cumDailyNsoDeathsByDeathDate": 46519,
+"hospitalCases": 4820
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-06",
+"cumDailyNsoDeathsByDeathDate": 46382,
+"hospitalCases": 5004
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-05",
+"cumDailyNsoDeathsByDeathDate": 46253,
+"hospitalCases": 5213
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-04",
+"cumDailyNsoDeathsByDeathDate": 46093,
+"hospitalCases": 5398
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-03",
+"cumDailyNsoDeathsByDeathDate": 45930,
+"hospitalCases": 5600
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-02",
+"cumDailyNsoDeathsByDeathDate": 45751,
+"hospitalCases": 5827
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-06-01",
+"cumDailyNsoDeathsByDeathDate": 45547,
+"hospitalCases": 5954
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-31",
+"cumDailyNsoDeathsByDeathDate": 45368,
+"hospitalCases": 5933
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-30",
+"cumDailyNsoDeathsByDeathDate": 45193,
+"hospitalCases": 5972
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-29",
+"cumDailyNsoDeathsByDeathDate": 45005,
+"hospitalCases": 6250
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-28",
+"cumDailyNsoDeathsByDeathDate": 44789,
+"hospitalCases": 6528
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-27",
+"cumDailyNsoDeathsByDeathDate": 44548,
+"hospitalCases": 6836
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-26",
+"cumDailyNsoDeathsByDeathDate": 44315,
+"hospitalCases": 7305
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-25",
+"cumDailyNsoDeathsByDeathDate": 44055,
+"hospitalCases": 7448
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-24",
+"cumDailyNsoDeathsByDeathDate": 43815,
+"hospitalCases": 7415
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-23",
+"cumDailyNsoDeathsByDeathDate": 43581,
+"hospitalCases": 7428
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-22",
+"cumDailyNsoDeathsByDeathDate": 43326,
+"hospitalCases": 7761
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-21",
+"cumDailyNsoDeathsByDeathDate": 43070,
+"hospitalCases": 7903
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-20",
+"cumDailyNsoDeathsByDeathDate": 42784,
+"hospitalCases": 8115
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-19",
+"cumDailyNsoDeathsByDeathDate": 42481,
+"hospitalCases": 8518
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-18",
+"cumDailyNsoDeathsByDeathDate": 42165,
+"hospitalCases": 8668
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-17",
+"cumDailyNsoDeathsByDeathDate": 41821,
+"hospitalCases": 8611
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-16",
+"cumDailyNsoDeathsByDeathDate": 41505,
+"hospitalCases": 8643
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-15",
+"cumDailyNsoDeathsByDeathDate": 41154,
+"hospitalCases": 9079
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-14",
+"cumDailyNsoDeathsByDeathDate": 40795,
+"hospitalCases": 9231
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-13",
+"cumDailyNsoDeathsByDeathDate": 40422,
+"hospitalCases": 9602
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-12",
+"cumDailyNsoDeathsByDeathDate": 40049,
+"hospitalCases": 9791
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-11",
+"cumDailyNsoDeathsByDeathDate": 39669,
+"hospitalCases": 10109
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-10",
+"cumDailyNsoDeathsByDeathDate": 39314,
+"hospitalCases": 9893
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-09",
+"cumDailyNsoDeathsByDeathDate": 38891,
+"hospitalCases": 10176
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-08",
+"cumDailyNsoDeathsByDeathDate": 38428,
+"hospitalCases": 10249
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-07",
+"cumDailyNsoDeathsByDeathDate": 37946,
+"hospitalCases": 10726
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-06",
+"cumDailyNsoDeathsByDeathDate": 37411,
+"hospitalCases": 11227
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-05",
+"cumDailyNsoDeathsByDeathDate": 36887,
+"hospitalCases": 11754
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-04",
+"cumDailyNsoDeathsByDeathDate": 36350,
+"hospitalCases": 12020
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-03",
+"cumDailyNsoDeathsByDeathDate": 35788,
+"hospitalCases": 12119
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-02",
+"cumDailyNsoDeathsByDeathDate": 35232,
+"hospitalCases": 12314
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-05-01",
+"cumDailyNsoDeathsByDeathDate": 34642,
+"hospitalCases": 12623
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-30",
+"cumDailyNsoDeathsByDeathDate": 33981,
+"hospitalCases": 12922
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-29",
+"cumDailyNsoDeathsByDeathDate": 33321,
+"hospitalCases": 13224
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-28",
+"cumDailyNsoDeathsByDeathDate": 32622,
+"hospitalCases": 13565
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-27",
+"cumDailyNsoDeathsByDeathDate": 31921,
+"hospitalCases": 14255
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-26",
+"cumDailyNsoDeathsByDeathDate": 31197,
+"hospitalCases": 14174
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-25",
+"cumDailyNsoDeathsByDeathDate": 30434,
+"hospitalCases": 14202
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-24",
+"cumDailyNsoDeathsByDeathDate": 29663,
+"hospitalCases": 14642
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-23",
+"cumDailyNsoDeathsByDeathDate": 28789,
+"hospitalCases": 15402
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-22",
+"cumDailyNsoDeathsByDeathDate": 27896,
+"hospitalCases": 16018
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-21",
+"cumDailyNsoDeathsByDeathDate": 26957,
+"hospitalCases": 16517
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-20",
+"cumDailyNsoDeathsByDeathDate": 26041,
+"hospitalCases": 16654
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-19",
+"cumDailyNsoDeathsByDeathDate": 25049,
+"hospitalCases": 16928
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-18",
+"cumDailyNsoDeathsByDeathDate": 24082,
+"hospitalCases": 16850
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-17",
+"cumDailyNsoDeathsByDeathDate": 23052,
+"hospitalCases": 16728
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-16",
+"cumDailyNsoDeathsByDeathDate": 21945,
+"hospitalCases": 17783
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-15",
+"cumDailyNsoDeathsByDeathDate": 20798,
+"hospitalCases": 17934
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-14",
+"cumDailyNsoDeathsByDeathDate": 19698,
+"hospitalCases": 18552
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-13",
+"cumDailyNsoDeathsByDeathDate": 18618,
+"hospitalCases": 18621
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-12",
+"cumDailyNsoDeathsByDeathDate": 17542,
+"hospitalCases": 18974
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-11",
+"cumDailyNsoDeathsByDeathDate": 16334,
+"hospitalCases": 18604
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-10",
+"cumDailyNsoDeathsByDeathDate": 15131,
+"hospitalCases": 18669
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-09",
+"cumDailyNsoDeathsByDeathDate": 13968,
+"hospitalCases": 18423
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-08",
+"cumDailyNsoDeathsByDeathDate": 12791,
+"hospitalCases": 18152
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-07",
+"cumDailyNsoDeathsByDeathDate": 11505,
+"hospitalCases": 17814
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-06",
+"cumDailyNsoDeathsByDeathDate": 10360,
+"hospitalCases": 17154
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-05",
+"cumDailyNsoDeathsByDeathDate": 9335,
+"hospitalCases": 16657
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-04",
+"cumDailyNsoDeathsByDeathDate": 8272,
+"hospitalCases": 15469
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-03",
+"cumDailyNsoDeathsByDeathDate": 7249,
+"hospitalCases": 13635
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-02",
+"cumDailyNsoDeathsByDeathDate": 6322,
+"hospitalCases": 12135
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-04-01",
+"cumDailyNsoDeathsByDeathDate": 5430,
+"hospitalCases": 12059
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-31",
+"cumDailyNsoDeathsByDeathDate": 4604,
+"hospitalCases": 11154
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-30",
+"cumDailyNsoDeathsByDeathDate": 3863,
+"hospitalCases": 9852
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-29",
+"cumDailyNsoDeathsByDeathDate": 3232,
+"hospitalCases": 8424
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-28",
+"cumDailyNsoDeathsByDeathDate": 2701,
+"hospitalCases": 7269
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-27",
+"cumDailyNsoDeathsByDeathDate": 2252,
+"hospitalCases": 6462
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-26",
+"cumDailyNsoDeathsByDeathDate": 1836,
+"hospitalCases": 5226
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-25",
+"cumDailyNsoDeathsByDeathDate": 1466,
+"hospitalCases": 4402
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-24",
+"cumDailyNsoDeathsByDeathDate": 1167,
+"hospitalCases": 3598
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-23",
+"cumDailyNsoDeathsByDeathDate": 930,
+"hospitalCases": 3183
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-22",
+"cumDailyNsoDeathsByDeathDate": 742,
+"hospitalCases": 2670
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-21",
+"cumDailyNsoDeathsByDeathDate": 570,
+"hospitalCases": 2152
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-20",
+"cumDailyNsoDeathsByDeathDate": 444,
+"hospitalCases": 1580
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-19",
+"cumDailyNsoDeathsByDeathDate": 335,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-18",
+"cumDailyNsoDeathsByDeathDate": 264,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-17",
+"cumDailyNsoDeathsByDeathDate": 198,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-16",
+"cumDailyNsoDeathsByDeathDate": 144,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-15",
+"cumDailyNsoDeathsByDeathDate": 100,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-14",
+"cumDailyNsoDeathsByDeathDate": 72,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-13",
+"cumDailyNsoDeathsByDeathDate": 53,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-12",
+"cumDailyNsoDeathsByDeathDate": 37,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-11",
+"cumDailyNsoDeathsByDeathDate": 26,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-10",
+"cumDailyNsoDeathsByDeathDate": 19,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-09",
+"cumDailyNsoDeathsByDeathDate": 16,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-08",
+"cumDailyNsoDeathsByDeathDate": 11,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-07",
+"cumDailyNsoDeathsByDeathDate": 9,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-06",
+"cumDailyNsoDeathsByDeathDate": 9,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-05",
+"cumDailyNsoDeathsByDeathDate": 7,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-04",
+"cumDailyNsoDeathsByDeathDate": 5,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-03",
+"cumDailyNsoDeathsByDeathDate": 4,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-02",
+"cumDailyNsoDeathsByDeathDate": 4,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-03-01",
+"cumDailyNsoDeathsByDeathDate": 3,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-29",
+"cumDailyNsoDeathsByDeathDate": 3,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-28",
+"cumDailyNsoDeathsByDeathDate": 3,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-27",
+"cumDailyNsoDeathsByDeathDate": 3,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-26",
+"cumDailyNsoDeathsByDeathDate": 3,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-25",
+"cumDailyNsoDeathsByDeathDate": 3,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-24",
+"cumDailyNsoDeathsByDeathDate": 3,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-23",
+"cumDailyNsoDeathsByDeathDate": 3,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-22",
+"cumDailyNsoDeathsByDeathDate": 3,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-21",
+"cumDailyNsoDeathsByDeathDate": 2,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-20",
+"cumDailyNsoDeathsByDeathDate": 2,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-19",
+"cumDailyNsoDeathsByDeathDate": 2,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-18",
+"cumDailyNsoDeathsByDeathDate": 2,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-17",
+"cumDailyNsoDeathsByDeathDate": 2,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-16",
+"cumDailyNsoDeathsByDeathDate": 2,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-15",
+"cumDailyNsoDeathsByDeathDate": 2,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-14",
+"cumDailyNsoDeathsByDeathDate": 2,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-13",
+"cumDailyNsoDeathsByDeathDate": 2,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-12",
+"cumDailyNsoDeathsByDeathDate": 2,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-11",
+"cumDailyNsoDeathsByDeathDate": 2,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-10",
+"cumDailyNsoDeathsByDeathDate": 2,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-09",
+"cumDailyNsoDeathsByDeathDate": 2,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-08",
+"cumDailyNsoDeathsByDeathDate": 2,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-07",
+"cumDailyNsoDeathsByDeathDate": 2,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-06",
+"cumDailyNsoDeathsByDeathDate": 2,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-05",
+"cumDailyNsoDeathsByDeathDate": 2,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-04",
+"cumDailyNsoDeathsByDeathDate": 2,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-03",
+"cumDailyNsoDeathsByDeathDate": 2,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-02",
+"cumDailyNsoDeathsByDeathDate": 2,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-02-01",
+"cumDailyNsoDeathsByDeathDate": 1,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-01-31",
+"cumDailyNsoDeathsByDeathDate": 1,
+"hospitalCases": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2020-01-30",
+"cumDailyNsoDeathsByDeathDate": 1,
+"hospitalCases": null
+}
+]

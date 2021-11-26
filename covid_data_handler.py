@@ -36,15 +36,19 @@ def construct_csv_dictionary(covid_csv_data):
     list_dict = []
     dictionary_keys = covid_csv_data[0]
     dictionary_keys = dictionary_keys.split(",")
+    # iterate over each line to construct list of dictionaries
     for line in covid_csv_data:
+        # skip first line which should contain keys
         if line != covid_csv_data[0]:
+            # split line data into list of strings
             current_line_data = line.split(",")
-            #current_line_data = current_line_data.split(",")
             keys_values = list(zip(dictionary_keys, current_line_data))
+            # create dictionaries
             current_line_dict = (dict(keys_values))
+            # add each dictionary to a list
             list_dict.append(current_line_dict)
     #print (list_dict)
-    return (list_dict)
+    return list_dict
 
 
 def process_covid_csv_data(covid_csv_data):
@@ -58,7 +62,7 @@ def process_covid_csv_data(covid_csv_data):
     last7days_cases_not_complete = True
     first_date_not_passed = True
     current_hospital_cases_not_assigned = True
-    
+
     # loop through each dictionary of the given data until the return statement is triggered
     for current_line in csv_dict:
 
@@ -82,7 +86,7 @@ def process_covid_csv_data(covid_csv_data):
             if first_date_not_passed:
                 # switch latch if the first number (incomplete data) has just been read
                 first_date_not_passed = False
-                
+
             else:
                 # find new total cases and increment days
                 last7days_cases = last7days_cases + int(current_line["newCasesBySpecimenDate"])
@@ -102,35 +106,53 @@ def process_covid_csv_data(covid_csv_data):
             return(total_deaths, current_hospital_cases, last7days_cases)
 
     # function should always complete the earlier check by the end of the given csv
-    # - if not, the for loop ends and this line will be printed
+    # if not, the for loop ends and this line will be printed
     print ("Error: not all functions in process_covid_csv_data completed")
 
 
 def covid_API_request (location = "Exeter", location_type = "ltla"):
-    # set variables for API query
-    england_only = ['areaType=nation','areaName=England']
+    # set variable for API queries
+    location_info_local =       [
+                        f'areaType={location_type}',
+                        f'areaName={location}'
+                            ]
+    location_info_national = [
+                    'areaType=nation',
+                    'areaName=England'
+                        ]
     # setup requested metrics from API
-    cases_and_deaths = {
-        "areaCode": "areaCode",
+    deaths_hospital = {
+        "areaType": "areaType",
+        "areaName": "areaName",
         "date": "date",
-        "cumDeathsByDeathDate" : "cumDeathsByDeathDate",
+        "cumDailyNsoDeathsByDeathDate" : "cumDailyNsoDeathsByDeathDate",
         "hospitalCases" : "hospitalCases",
+    }
+
+    new_cases = {
         "newCasesBySpecimenDate" : "newCasesBySpecimenDate",
     }
-    # query API using imported function at beginning of code
-    api = Cov19API(filters=england_only, structure=cases_and_deaths)
-    all_data = api.get_json()
-    # all_data is the entire API request; data is the useful parts of that
-    data = all_data["data"]
-    #print (type(data))
-    #print (data)
-    # prepare and send all_data to be cached in json
-    export_file = open('current_data.json', 'w', encoding="UTF-8")
-    json.dump(data, export_file, indent = "")
-    return (all_data)
+
+    # query API using imported Cov19API function at beginning of code
+    api1 = Cov19API (filters = location_info_national, structure = deaths_hospital)
+    api2 = Cov19API (filters = location_info_local, structure = new_cases)
+    query_1 = api1.get_json()
+    query_2 = api2.get_json()
+    # api1, api2 is the entire API request; data1, data2 is the useful parts of them
+    data1 = query_1["data"]
+    data2 = query_2["data"]
+    # prepare and send useful data to be cached in json - 2 files
+    export_file = open('data_national.json', 'w', encoding="UTF-8")
+    json.dump(data1, export_file, indent = "")
+    export_file = open('data_local.json', 'w', encoding="UTF-8")
+    json.dump(data2, export_file, indent = "")
+
+    # figure out how to combine the 2 json files
+    # None should be something like all_data
+    return None
 
 # run functions with given local copy of test data
-csv_data = parse_csv_data("nation_2021-10-28.csv")
-deaths, hospital_cases, last_week_cases = process_covid_csv_data(csv_data)
-covid_API_request (None, None)
-construct_csv_dictionary(parse_csv_data("nation_2021-10-28.csv"))
+csv_data = parse_csv_data ("nation_2021-10-28.csv")
+deaths, hospital_cases, last_week_cases = process_covid_csv_data (csv_data)
+covid_API_request ()
+construct_csv_dictionary (parse_csv_data("nation_2021-10-28.csv"))
