@@ -109,7 +109,14 @@ def process_covid_csv_data(covid_csv_data):
     # if not, the for loop ends and this line will be printed
     print ("Error: not all functions in process_covid_csv_data completed")
 
-
+def dictionary_combiner (local_data, national_data):
+    # combine the 2 dictionaries returned from the separate requests
+    # into a single "master dictionary"
+    for i in (range(len(local_data))):
+        national_data[i-1].update(local_data[i-1])
+    all_data = national_data
+    return all_data
+    
 def covid_API_request (location = "Exeter", location_type = "ltla"):
     # set variable for API queries
     location_info_local =       [
@@ -139,17 +146,26 @@ def covid_API_request (location = "Exeter", location_type = "ltla"):
     query_1 = api1.get_json()
     query_2 = api2.get_json()
     # api1, api2 is the entire API request; data1, data2 is the useful parts of them
-    data1 = query_1["data"]
-    data2 = query_2["data"]
+    data_national = query_1["data"]
+    data_local = query_2["data"]
+    #print (data1, data2)
     # prepare and send useful data to be cached in json - 2 files
+    """
+    # Commented out as 2 exports is unnecessary with the later method, 
+    # but keeping the code may be useful for debugging in the future
     export_file = open('data_national.json', 'w', encoding="UTF-8")
-    json.dump(data1, export_file, indent = "")
+    json.dump(data_national, export_file, indent = "")
     export_file = open('data_local.json', 'w', encoding="UTF-8")
-    json.dump(data2, export_file, indent = "")
+    json.dump(data_local, export_file, indent = "")
+    """
+    
+    data_all = dictionary_combiner(data_local, data_national)
 
-    # figure out how to combine the 2 json files
-    # None should be something like all_data
-    return None
+    # export master dictionary to json file
+    export_file = open('data_all.json', 'w', encoding="UTF-8")
+    json.dump(data_all, export_file, indent = "")
+    
+    return (data_all)
 
 # run functions with given local copy of test data
 csv_data = parse_csv_data ("nation_2021-10-28.csv")
