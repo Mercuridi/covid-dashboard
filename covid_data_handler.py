@@ -121,21 +121,22 @@ def covid_API_request (location = "Exeter", location_type = "ltla"):
                     'areaName=England'
                         ]
     # setup requested metrics from API
-    deaths_hospital = {
+    national_request = {
         "areaType": "areaType",
         "areaName": "areaName",
         "date": "date",
         "cumDailyNsoDeathsByDeathDate" : "cumDailyNsoDeathsByDeathDate",
         "hospitalCases" : "hospitalCases",
+        "newCasesBySpecimenDate" : "newCasesBySpecimenDate",
     }
 
-    new_cases = {
+    local_request = {
         "newCasesBySpecimenDate" : "newCasesBySpecimenDate",
     }
 
     # query API using imported Cov19API function at beginning of code
-    api1 = Cov19API (filters = location_info_national, structure = deaths_hospital)
-    api2 = Cov19API (filters = location_info_local, structure = new_cases)
+    api1 = Cov19API (filters = location_info_national, structure = national_request)
+    api2 = Cov19API (filters = location_info_local, structure = local_request)
     query_1 = api1.get_json()
     query_2 = api2.get_json()
     # api1, api2 is the entire API request; data1, data2 is the useful parts of them
@@ -143,14 +144,12 @@ def covid_API_request (location = "Exeter", location_type = "ltla"):
     data_local = query_2["data"]
     #print (data1, data2)
     # prepare and send useful data to be cached in json - 2 files
-    """
     # Commented out as 2 exports is unnecessary with the later method,
     # but keeping the code may be useful for debugging in the future
     export_file = open('data_national.json', 'w', encoding="UTF-8")
     json.dump(data_national, export_file, indent = "")
     export_file = open('data_local.json', 'w', encoding="UTF-8")
     json.dump(data_local, export_file, indent = "")
-    """
 
     data_all = dictionary_combiner(data_local, data_national)
 
@@ -160,9 +159,10 @@ def covid_API_request (location = "Exeter", location_type = "ltla"):
 
     return data_all
 
-def parse_json_data(json_filename = "data_all.json"):
+def parse_json_data(json_filename = "data_national.json"):
     with open(json_filename, "r", encoding ="UTF-8") as file:
         covid_json_data = json.load(file)
+    #print (covid_json_data)
     return covid_json_data
 
 def process_covid_json_data(covid_json_data):
@@ -171,35 +171,34 @@ def process_covid_json_data(covid_json_data):
     last7days_cases = 0
 
     # set up latches
-    total_deaths_not_assigned = True
-    last7days_cases_not_complete = True
-    first_date_not_passed = True
-    current_hospital_cases_not_assigned = True
+    total_deaths_assigned = False
+    last7days_cases_assigned = False
+    first_date_passed = False
+    current_hospital_cases_assigned = False
 
     # loop through each dictionary of the given data until the return statement is triggered
     for current_line in covid_json_data:
-
-        # process data by checking if data is valid to use
-        if current_line["cumDailyNsoDeathsByDeathDate"] != None and total_deaths_not_assigned:
-            # this if statement only assigns the first satisfactory value for deaths, as
-            # total_deaths is cumulative
-            total_deaths = current_line["cumDailyNsoDeathsByDeathDate"]
-            print (("Total deaths: ") + str(total_deaths))
-
-            # switch latch post assignment to prevent reassigning a wrong number in future loops
-            total_deaths_not_assigned = False
-
-        if current_line["hospitalCases"] != None and current_hospital_cases_not_assigned:
-            current_hospital_cases = current_line["hospitalCases"]
-            # switch latch post assignment to prevent reassigning a wrong number in future loops
-            current_hospital_cases_not_assigned = False
-            print (("Current hospital cases: ") + str(current_hospital_cases))
-
-        if current_line["newCasesBySpecimenDate"] != None and last7days_cases_not_complete:
-            if first_date_not_passed:
+        # national data dictionary has more keys than local data: if this code is run on
+        # local data the program crashes
+        if len(current_line) > 1:
+            # process data by checking if data is valid to use
+            if current_line["cumDailyNsoDeathsByDeathDate"] is not None and not total_deaths_assigned:
+                # this if statement only assigns the first satisfactory value for deaths, as
+                # total_deaths is cumulative
+                total_deaths = current_line["cumDailyNsoDeathsByDeathDate"]
+                # switch latch post assignment to prevent reassigning a wrong number in future loops
+                total_deaths_assigned = True
+                print (("Total deaths: ") + str(total_deaths))
+            if current_line["hospitalCases"] is not None and not current_hospital_cases_assigned:
+                current_hospital_cases = current_line["hospitalCases"]
+                # switch latch post assignment to prevent reassigning a wrong number in future loops
+                current_hospital_cases_assigned = True
+                print (("Current hospital cases: ") + str(current_hospital_cases))
+        # this code is run on local and national data1
+        if current_line["newCasesBySpecimenDate"] is not None and not last7days_cases_assigned:
+            if not first_date_passed:
                 # switch latch if the first number (incomplete data) has just been read
-                first_date_not_passed = False
-
+                first_date_passed = True
             else:
                 # find new total cases and increment days
                 last7days_cases = last7days_cases + int(current_line["newCasesBySpecimenDate"])
@@ -209,24 +208,28 @@ def process_covid_json_data(covid_json_data):
                 # switch latch if data summed for the past week
                 if days_summed == 7:
                     print (("Last 7 days cases: ") + str(last7days_cases))
-                    last7days_cases_not_complete = False
+                    last7days_cases_assigned = True
 
         # check all tasks complete; if so, end function and return variables
         # logic here checks if all 3 values are False ie. have the related variables been assigned
         # checked in order of least likely to complete quickly to most likely to complete quickly
-        if not total_deaths_not_assigned and not current_hospital_cases_not_assigned and not last7days_cases_not_complete:
+        if total_deaths_assigned and current_hospital_cases_assigned and last7days_cases_assigned:
             print ("All tasks in process_covid_json_data complete")
             return(total_deaths, current_hospital_cases, last7days_cases)
+        if len(current_line) == 1 and last7days_cases_assigned:
+            print ("Only local data detected: returning local 7 days infections")
+            return last7days_cases
 
     # function should always complete the earlier check by the end of the given json
     # if not, the for loop ends and this line will be printed
     print ("Error: not all functions in process_covid_json_data completed")
 
-
 # run functions with local test data for CSV, live API call for JSON
-csv_data = parse_csv_data ("nation_2021-10-28.csv")
-construct_csv_dictionary (parse_csv_data("nation_2021-10-28.csv"))
-process_covid_csv_data (csv_data)
+#csv_data = parse_csv_data ("nation_2021-10-28.csv")
+#construct_csv_dictionary (parse_csv_data("nation_2021-10-28.csv"))
+#process_covid_csv_data (csv_data)
 covid_API_request ()
-json_data = parse_json_data()
-deaths, hospital_cases, last_week_cases = process_covid_json_data (json_data)
+national_json_data = parse_json_data("data_national.json")
+local_json_data = parse_json_data("data_local.json")
+deaths, hospital_cases, national_last_week_cases = process_covid_json_data (national_json_data)
+local_last_week_cases = process_covid_json_data (local_json_data)
