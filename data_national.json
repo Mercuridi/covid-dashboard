@@ -2,10 +2,26 @@
 {
 "areaType": "nation",
 "areaName": "England",
+"date": "2021-11-29",
+"cumDailyNsoDeathsByDeathDate": null,
+"hospitalCases": 6094,
+"newCasesBySpecimenDate": null
+},
+{
+"areaType": "nation",
+"areaName": "England",
+"date": "2021-11-28",
+"cumDailyNsoDeathsByDeathDate": null,
+"hospitalCases": 5890,
+"newCasesBySpecimenDate": 11499
+},
+{
+"areaType": "nation",
+"areaName": "England",
 "date": "2021-11-27",
 "cumDailyNsoDeathsByDeathDate": null,
-"hospitalCases": null,
-"newCasesBySpecimenDate": 6115
+"hospitalCases": 5852,
+"newCasesBySpecimenDate": 24458
 },
 {
 "areaType": "nation",
@@ -13,7 +29,7 @@
 "date": "2021-11-26",
 "cumDailyNsoDeathsByDeathDate": null,
 "hospitalCases": 5992,
-"newCasesBySpecimenDate": 27485
+"newCasesBySpecimenDate": 31271
 },
 {
 "areaType": "nation",
@@ -21,7 +37,7 @@
 "date": "2021-11-25",
 "cumDailyNsoDeathsByDeathDate": null,
 "hospitalCases": 6068,
-"newCasesBySpecimenDate": 34927
+"newCasesBySpecimenDate": 35610
 },
 {
 "areaType": "nation",
@@ -29,7 +45,7 @@
 "date": "2021-11-24",
 "cumDailyNsoDeathsByDeathDate": null,
 "hospitalCases": 6062,
-"newCasesBySpecimenDate": 38495
+"newCasesBySpecimenDate": 38622
 },
 {
 "areaType": "nation",
@@ -37,7 +53,7 @@
 "date": "2021-11-23",
 "cumDailyNsoDeathsByDeathDate": null,
 "hospitalCases": 6257,
-"newCasesBySpecimenDate": 39832
+"newCasesBySpecimenDate": 39839
 },
 {
 "areaType": "nation",
@@ -45,7 +61,7 @@
 "date": "2021-11-22",
 "cumDailyNsoDeathsByDeathDate": null,
 "hospitalCases": 6424,
-"newCasesBySpecimenDate": 41716
+"newCasesBySpecimenDate": 41733
 },
 {
 "areaType": "nation",
@@ -53,7 +69,7 @@
 "date": "2021-11-21",
 "cumDailyNsoDeathsByDeathDate": null,
 "hospitalCases": 6322,
-"newCasesBySpecimenDate": 30946
+"newCasesBySpecimenDate": 30954
 },
 {
 "areaType": "nation",
@@ -61,7 +77,7 @@
 "date": "2021-11-20",
 "cumDailyNsoDeathsByDeathDate": null,
 "hospitalCases": 6191,
-"newCasesBySpecimenDate": 29143
+"newCasesBySpecimenDate": 29141
 },
 {
 "areaType": "nation",
@@ -69,7 +85,7 @@
 "date": "2021-11-19",
 "cumDailyNsoDeathsByDeathDate": null,
 "hospitalCases": 6310,
-"newCasesBySpecimenDate": 32405
+"newCasesBySpecimenDate": 32410
 },
 {
 "areaType": "nation",
@@ -77,7 +93,7 @@
 "date": "2021-11-18",
 "cumDailyNsoDeathsByDeathDate": null,
 "hospitalCases": 6336,
-"newCasesBySpecimenDate": 36183
+"newCasesBySpecimenDate": 36189
 },
 {
 "areaType": "nation",
@@ -85,7 +101,7 @@
 "date": "2021-11-17",
 "cumDailyNsoDeathsByDeathDate": null,
 "hospitalCases": 6412,
-"newCasesBySpecimenDate": 37377
+"newCasesBySpecimenDate": 37378
 },
 {
 "areaType": "nation",
@@ -93,7 +109,7 @@
 "date": "2021-11-16",
 "cumDailyNsoDeathsByDeathDate": null,
 "hospitalCases": 6623,
-"newCasesBySpecimenDate": 37613
+"newCasesBySpecimenDate": 37615
 },
 {
 "areaType": "nation",
@@ -101,7 +117,7 @@
 "date": "2021-11-15",
 "cumDailyNsoDeathsByDeathDate": null,
 "hospitalCases": 6864,
-"newCasesBySpecimenDate": 41497
+"newCasesBySpecimenDate": 41502
 },
 {
 "areaType": "nation",
@@ -109,7 +125,7 @@
 "date": "2021-11-14",
 "cumDailyNsoDeathsByDeathDate": null,
 "hospitalCases": 6707,
-"newCasesBySpecimenDate": 28898
+"newCasesBySpecimenDate": 28901
 },
 {
 "areaType": "nation",
@@ -117,7 +133,7 @@
 "date": "2021-11-13",
 "cumDailyNsoDeathsByDeathDate": null,
 "hospitalCases": 6639,
-"newCasesBySpecimenDate": 26795
+"newCasesBySpecimenDate": 26793
 },
 {
 "areaType": "nation",
@@ -125,7 +141,7 @@
 "date": "2021-11-12",
 "cumDailyNsoDeathsByDeathDate": 144996,
 "hospitalCases": 6777,
-"newCasesBySpecimenDate": 30554
+"newCasesBySpecimenDate": 30553
 },
 {
 "areaType": "nation",
@@ -133,7 +149,7 @@
 "date": "2021-11-11",
 "cumDailyNsoDeathsByDeathDate": 144941,
 "hospitalCases": 6861,
-"newCasesBySpecimenDate": 32900
+"newCasesBySpecimenDate": 32899
 },
 {
 "areaType": "nation",
@@ -141,7 +157,7 @@
 "date": "2021-11-10",
 "cumDailyNsoDeathsByDeathDate": 144860,
 "hospitalCases": 6961,
-"newCasesBySpecimenDate": 34556
+"newCasesBySpecimenDate": 34559
 },
 {
 "areaType": "nation",
@@ -149,7 +165,7 @@
 "date": "2021-11-09",
 "cumDailyNsoDeathsByDeathDate": 144756,
 "hospitalCases": 7053,
-"newCasesBySpecimenDate": 33883
+"newCasesBySpecimenDate": 33881
 },
 {
 "areaType": "nation",
@@ -157,7 +173,7 @@
 "date": "2021-11-08",
 "cumDailyNsoDeathsByDeathDate": 144650,
 "hospitalCases": 7075,
-"newCasesBySpecimenDate": 35286
+"newCasesBySpecimenDate": 35280
 },
 {
 "areaType": "nation",
@@ -165,7 +181,7 @@
 "date": "2021-11-07",
 "cumDailyNsoDeathsByDeathDate": 144544,
 "hospitalCases": 6910,
-"newCasesBySpecimenDate": 24876
+"newCasesBySpecimenDate": 24877
 },
 {
 "areaType": "nation",
@@ -173,7 +189,7 @@
 "date": "2021-11-06",
 "cumDailyNsoDeathsByDeathDate": 144437,
 "hospitalCases": 6874,
-"newCasesBySpecimenDate": 22052
+"newCasesBySpecimenDate": 22051
 },
 {
 "areaType": "nation",
@@ -181,7 +197,7 @@
 "date": "2021-11-05",
 "cumDailyNsoDeathsByDeathDate": 144314,
 "hospitalCases": 7072,
-"newCasesBySpecimenDate": 23823
+"newCasesBySpecimenDate": 23825
 },
 {
 "areaType": "nation",
@@ -189,7 +205,7 @@
 "date": "2021-11-04",
 "cumDailyNsoDeathsByDeathDate": 144201,
 "hospitalCases": 7201,
-"newCasesBySpecimenDate": 26059
+"newCasesBySpecimenDate": 26061
 },
 {
 "areaType": "nation",
@@ -197,7 +213,7 @@
 "date": "2021-11-03",
 "cumDailyNsoDeathsByDeathDate": 144078,
 "hospitalCases": 7291,
-"newCasesBySpecimenDate": 28417
+"newCasesBySpecimenDate": 28419
 },
 {
 "areaType": "nation",
@@ -205,7 +221,7 @@
 "date": "2021-11-02",
 "cumDailyNsoDeathsByDeathDate": 143954,
 "hospitalCases": 7510,
-"newCasesBySpecimenDate": 30409
+"newCasesBySpecimenDate": 30403
 },
 {
 "areaType": "nation",
@@ -221,7 +237,7 @@
 "date": "2021-10-31",
 "cumDailyNsoDeathsByDeathDate": 143696,
 "hospitalCases": 7311,
-"newCasesBySpecimenDate": 28894
+"newCasesBySpecimenDate": 28897
 },
 {
 "areaType": "nation",
@@ -229,7 +245,7 @@
 "date": "2021-10-30",
 "cumDailyNsoDeathsByDeathDate": 143557,
 "hospitalCases": 7155,
-"newCasesBySpecimenDate": 27683
+"newCasesBySpecimenDate": 27684
 },
 {
 "areaType": "nation",
@@ -237,7 +253,7 @@
 "date": "2021-10-29",
 "cumDailyNsoDeathsByDeathDate": 143441,
 "hospitalCases": 7113,
-"newCasesBySpecimenDate": 33263
+"newCasesBySpecimenDate": 33262
 },
 {
 "areaType": "nation",
@@ -245,7 +261,7 @@
 "date": "2021-10-28",
 "cumDailyNsoDeathsByDeathDate": 143317,
 "hospitalCases": 7019,
-"newCasesBySpecimenDate": 34344
+"newCasesBySpecimenDate": 34346
 },
 {
 "areaType": "nation",
@@ -253,7 +269,7 @@
 "date": "2021-10-27",
 "cumDailyNsoDeathsByDeathDate": 143168,
 "hospitalCases": 6951,
-"newCasesBySpecimenDate": 35768
+"newCasesBySpecimenDate": 35766
 },
 {
 "areaType": "nation",
@@ -269,7 +285,7 @@
 "date": "2021-10-25",
 "cumDailyNsoDeathsByDeathDate": 142912,
 "hospitalCases": 6801,
-"newCasesBySpecimenDate": 39125
+"newCasesBySpecimenDate": 39123
 },
 {
 "areaType": "nation",
@@ -277,7 +293,7 @@
 "date": "2021-10-24",
 "cumDailyNsoDeathsByDeathDate": 142793,
 "hospitalCases": 6515,
-"newCasesBySpecimenDate": 29488
+"newCasesBySpecimenDate": 29485
 },
 {
 "areaType": "nation",
@@ -285,7 +301,7 @@
 "date": "2021-10-23",
 "cumDailyNsoDeathsByDeathDate": 142677,
 "hospitalCases": 6386,
-"newCasesBySpecimenDate": 29174
+"newCasesBySpecimenDate": 29176
 },
 {
 "areaType": "nation",
@@ -301,7 +317,7 @@
 "date": "2021-10-21",
 "cumDailyNsoDeathsByDeathDate": 142445,
 "hospitalCases": 6366,
-"newCasesBySpecimenDate": 37786
+"newCasesBySpecimenDate": 37787
 },
 {
 "areaType": "nation",
@@ -309,7 +325,7 @@
 "date": "2021-10-20",
 "cumDailyNsoDeathsByDeathDate": 142334,
 "hospitalCases": 6299,
-"newCasesBySpecimenDate": 43116
+"newCasesBySpecimenDate": 43112
 },
 {
 "areaType": "nation",
@@ -317,7 +333,7 @@
 "date": "2021-10-19",
 "cumDailyNsoDeathsByDeathDate": 142224,
 "hospitalCases": 6099,
-"newCasesBySpecimenDate": 43690
+"newCasesBySpecimenDate": 43687
 },
 {
 "areaType": "nation",
@@ -325,7 +341,7 @@
 "date": "2021-10-18",
 "cumDailyNsoDeathsByDeathDate": 142119,
 "hospitalCases": 5938,
-"newCasesBySpecimenDate": 48241
+"newCasesBySpecimenDate": 48243
 },
 {
 "areaType": "nation",
@@ -333,7 +349,7 @@
 "date": "2021-10-17",
 "cumDailyNsoDeathsByDeathDate": 142025,
 "hospitalCases": 5623,
-"newCasesBySpecimenDate": 36772
+"newCasesBySpecimenDate": 36771
 },
 {
 "areaType": "nation",
@@ -349,7 +365,7 @@
 "date": "2021-10-15",
 "cumDailyNsoDeathsByDeathDate": 141821,
 "hospitalCases": 5363,
-"newCasesBySpecimenDate": 35915
+"newCasesBySpecimenDate": 35918
 },
 {
 "areaType": "nation",
@@ -357,7 +373,7 @@
 "date": "2021-10-14",
 "cumDailyNsoDeathsByDeathDate": 141718,
 "hospitalCases": 5289,
-"newCasesBySpecimenDate": 38467
+"newCasesBySpecimenDate": 38466
 },
 {
 "areaType": "nation",
@@ -373,7 +389,7 @@
 "date": "2021-10-12",
 "cumDailyNsoDeathsByDeathDate": 141514,
 "hospitalCases": 5213,
-"newCasesBySpecimenDate": 40067
+"newCasesBySpecimenDate": 40065
 },
 {
 "areaType": "nation",
@@ -381,7 +397,7 @@
 "date": "2021-10-11",
 "cumDailyNsoDeathsByDeathDate": 141422,
 "hospitalCases": 5206,
-"newCasesBySpecimenDate": 42279
+"newCasesBySpecimenDate": 42276
 },
 {
 "areaType": "nation",
@@ -397,7 +413,7 @@
 "date": "2021-10-09",
 "cumDailyNsoDeathsByDeathDate": 141248,
 "hospitalCases": 4921,
-"newCasesBySpecimenDate": 26601
+"newCasesBySpecimenDate": 26602
 },
 {
 "areaType": "nation",
@@ -405,7 +421,7 @@
 "date": "2021-10-08",
 "cumDailyNsoDeathsByDeathDate": 141157,
 "hospitalCases": 4975,
-"newCasesBySpecimenDate": 29268
+"newCasesBySpecimenDate": 29266
 },
 {
 "areaType": "nation",
@@ -421,7 +437,7 @@
 "date": "2021-10-06",
 "cumDailyNsoDeathsByDeathDate": 140970,
 "hospitalCases": 5009,
-"newCasesBySpecimenDate": 31915
+"newCasesBySpecimenDate": 31917
 },
 {
 "areaType": "nation",
@@ -429,7 +445,7 @@
 "date": "2021-10-05",
 "cumDailyNsoDeathsByDeathDate": 140895,
 "hospitalCases": 5006,
-"newCasesBySpecimenDate": 31591
+"newCasesBySpecimenDate": 31593
 },
 {
 "areaType": "nation",
@@ -437,7 +453,7 @@
 "date": "2021-10-04",
 "cumDailyNsoDeathsByDeathDate": 140806,
 "hospitalCases": 4909,
-"newCasesBySpecimenDate": 35790
+"newCasesBySpecimenDate": 35789
 },
 {
 "areaType": "nation",
@@ -445,7 +461,7 @@
 "date": "2021-10-03",
 "cumDailyNsoDeathsByDeathDate": 140727,
 "hospitalCases": 4778,
-"newCasesBySpecimenDate": 26626
+"newCasesBySpecimenDate": 26629
 },
 {
 "areaType": "nation",
@@ -461,7 +477,7 @@
 "date": "2021-10-01",
 "cumDailyNsoDeathsByDeathDate": 140581,
 "hospitalCases": 4799,
-"newCasesBySpecimenDate": 23670
+"newCasesBySpecimenDate": 23671
 },
 {
 "areaType": "nation",
@@ -477,7 +493,7 @@
 "date": "2021-09-29",
 "cumDailyNsoDeathsByDeathDate": 140389,
 "hospitalCases": 5017,
-"newCasesBySpecimenDate": 28141
+"newCasesBySpecimenDate": 28142
 },
 {
 "areaType": "nation",
@@ -485,7 +501,7 @@
 "date": "2021-09-28",
 "cumDailyNsoDeathsByDeathDate": 140300,
 "hospitalCases": 5126,
-"newCasesBySpecimenDate": 29024
+"newCasesBySpecimenDate": 29022
 },
 {
 "areaType": "nation",
@@ -493,7 +509,7 @@
 "date": "2021-09-27",
 "cumDailyNsoDeathsByDeathDate": 140218,
 "hospitalCases": 5121,
-"newCasesBySpecimenDate": 33900
+"newCasesBySpecimenDate": 33903
 },
 {
 "areaType": "nation",
@@ -501,7 +517,7 @@
 "date": "2021-09-26",
 "cumDailyNsoDeathsByDeathDate": 140139,
 "hospitalCases": 4949,
-"newCasesBySpecimenDate": 26267
+"newCasesBySpecimenDate": 26269
 },
 {
 "areaType": "nation",
@@ -509,7 +525,7 @@
 "date": "2021-09-25",
 "cumDailyNsoDeathsByDeathDate": 140065,
 "hospitalCases": 5100,
-"newCasesBySpecimenDate": 22658
+"newCasesBySpecimenDate": 22657
 },
 {
 "areaType": "nation",
@@ -517,7 +533,7 @@
 "date": "2021-09-24",
 "cumDailyNsoDeathsByDeathDate": 139977,
 "hospitalCases": 5036,
-"newCasesBySpecimenDate": 25220
+"newCasesBySpecimenDate": 25218
 },
 {
 "areaType": "nation",
@@ -525,7 +541,7 @@
 "date": "2021-09-23",
 "cumDailyNsoDeathsByDeathDate": 139881,
 "hospitalCases": 5214,
-"newCasesBySpecimenDate": 27714
+"newCasesBySpecimenDate": 27716
 },
 {
 "areaType": "nation",
@@ -533,7 +549,7 @@
 "date": "2021-09-22",
 "cumDailyNsoDeathsByDeathDate": 139775,
 "hospitalCases": 5406,
-"newCasesBySpecimenDate": 28189
+"newCasesBySpecimenDate": 28187
 },
 {
 "areaType": "nation",
@@ -541,7 +557,7 @@
 "date": "2021-09-21",
 "cumDailyNsoDeathsByDeathDate": 139664,
 "hospitalCases": 5543,
-"newCasesBySpecimenDate": 29949
+"newCasesBySpecimenDate": 29951
 },
 {
 "areaType": "nation",
@@ -549,7 +565,7 @@
 "date": "2021-09-20",
 "cumDailyNsoDeathsByDeathDate": 139569,
 "hospitalCases": 5727,
-"newCasesBySpecimenDate": 31457
+"newCasesBySpecimenDate": 31456
 },
 {
 "areaType": "nation",
@@ -565,7 +581,7 @@
 "date": "2021-09-18",
 "cumDailyNsoDeathsByDeathDate": 139359,
 "hospitalCases": 5688,
-"newCasesBySpecimenDate": 20524
+"newCasesBySpecimenDate": 20523
 },
 {
 "areaType": "nation",
@@ -581,7 +597,7 @@
 "date": "2021-09-16",
 "cumDailyNsoDeathsByDeathDate": 139131,
 "hospitalCases": 6081,
-"newCasesBySpecimenDate": 21732
+"newCasesBySpecimenDate": 21729
 },
 {
 "areaType": "nation",
@@ -589,7 +605,7 @@
 "date": "2021-09-15",
 "cumDailyNsoDeathsByDeathDate": 139017,
 "hospitalCases": 6306,
-"newCasesBySpecimenDate": 21955
+"newCasesBySpecimenDate": 21954
 },
 {
 "areaType": "nation",
@@ -597,7 +613,7 @@
 "date": "2021-09-14",
 "cumDailyNsoDeathsByDeathDate": 138899,
 "hospitalCases": 6344,
-"newCasesBySpecimenDate": 22142
+"newCasesBySpecimenDate": 22144
 },
 {
 "areaType": "nation",
@@ -621,7 +637,7 @@
 "date": "2021-09-11",
 "cumDailyNsoDeathsByDeathDate": 138603,
 "hospitalCases": 6206,
-"newCasesBySpecimenDate": 16602
+"newCasesBySpecimenDate": 16604
 },
 {
 "areaType": "nation",
@@ -629,7 +645,7 @@
 "date": "2021-09-10",
 "cumDailyNsoDeathsByDeathDate": 138496,
 "hospitalCases": 6400,
-"newCasesBySpecimenDate": 20527
+"newCasesBySpecimenDate": 20528
 },
 {
 "areaType": "nation",
@@ -637,7 +653,7 @@
 "date": "2021-09-09",
 "cumDailyNsoDeathsByDeathDate": 138387,
 "hospitalCases": 6254,
-"newCasesBySpecimenDate": 23904
+"newCasesBySpecimenDate": 23903
 },
 {
 "areaType": "nation",
@@ -645,7 +661,7 @@
 "date": "2021-09-08",
 "cumDailyNsoDeathsByDeathDate": 138252,
 "hospitalCases": 6302,
-"newCasesBySpecimenDate": 25066
+"newCasesBySpecimenDate": 25060
 },
 {
 "areaType": "nation",
@@ -669,7 +685,7 @@
 "date": "2021-09-05",
 "cumDailyNsoDeathsByDeathDate": 137890,
 "hospitalCases": 6167,
-"newCasesBySpecimenDate": 22974
+"newCasesBySpecimenDate": 22975
 },
 {
 "areaType": "nation",
@@ -677,7 +693,7 @@
 "date": "2021-09-04",
 "cumDailyNsoDeathsByDeathDate": 137774,
 "hospitalCases": 6043,
-"newCasesBySpecimenDate": 22966
+"newCasesBySpecimenDate": 22965
 },
 {
 "areaType": "nation",
@@ -685,7 +701,7 @@
 "date": "2021-09-03",
 "cumDailyNsoDeathsByDeathDate": 137660,
 "hospitalCases": 6195,
-"newCasesBySpecimenDate": 28111
+"newCasesBySpecimenDate": 28113
 },
 {
 "areaType": "nation",
@@ -693,7 +709,7 @@
 "date": "2021-09-02",
 "cumDailyNsoDeathsByDeathDate": 137538,
 "hospitalCases": 6186,
-"newCasesBySpecimenDate": 29981
+"newCasesBySpecimenDate": 29979
 },
 {
 "areaType": "nation",
@@ -709,7 +725,7 @@
 "date": "2021-08-31",
 "cumDailyNsoDeathsByDeathDate": 137337,
 "hospitalCases": 6293,
-"newCasesBySpecimenDate": 32856
+"newCasesBySpecimenDate": 32855
 },
 {
 "areaType": "nation",
@@ -717,7 +733,7 @@
 "date": "2021-08-30",
 "cumDailyNsoDeathsByDeathDate": 137241,
 "hospitalCases": 6002,
-"newCasesBySpecimenDate": 24403
+"newCasesBySpecimenDate": 24402
 },
 {
 "areaType": "nation",
@@ -725,7 +741,7 @@
 "date": "2021-08-29",
 "cumDailyNsoDeathsByDeathDate": 137149,
 "hospitalCases": 5855,
-"newCasesBySpecimenDate": 18737
+"newCasesBySpecimenDate": 18736
 },
 {
 "areaType": "nation",
@@ -741,7 +757,7 @@
 "date": "2021-08-27",
 "cumDailyNsoDeathsByDeathDate": 136934,
 "hospitalCases": 5889,
-"newCasesBySpecimenDate": 23714
+"newCasesBySpecimenDate": 23711
 },
 {
 "areaType": "nation",
@@ -749,7 +765,7 @@
 "date": "2021-08-26",
 "cumDailyNsoDeathsByDeathDate": 136822,
 "hospitalCases": 5893,
-"newCasesBySpecimenDate": 25899
+"newCasesBySpecimenDate": 25898
 },
 {
 "areaType": "nation",
@@ -757,7 +773,7 @@
 "date": "2021-08-25",
 "cumDailyNsoDeathsByDeathDate": 136717,
 "hospitalCases": 5922,
-"newCasesBySpecimenDate": 27247
+"newCasesBySpecimenDate": 27246
 },
 {
 "areaType": "nation",
@@ -765,7 +781,7 @@
 "date": "2021-08-24",
 "cumDailyNsoDeathsByDeathDate": 136633,
 "hospitalCases": 5911,
-"newCasesBySpecimenDate": 27546
+"newCasesBySpecimenDate": 27550
 },
 {
 "areaType": "nation",
@@ -773,7 +789,7 @@
 "date": "2021-08-23",
 "cumDailyNsoDeathsByDeathDate": 136531,
 "hospitalCases": 6000,
-"newCasesBySpecimenDate": 29665
+"newCasesBySpecimenDate": 29668
 },
 {
 "areaType": "nation",
@@ -781,7 +797,7 @@
 "date": "2021-08-22",
 "cumDailyNsoDeathsByDeathDate": 136435,
 "hospitalCases": 5749,
-"newCasesBySpecimenDate": 21954
+"newCasesBySpecimenDate": 21953
 },
 {
 "areaType": "nation",
@@ -789,7 +805,7 @@
 "date": "2021-08-21",
 "cumDailyNsoDeathsByDeathDate": 136328,
 "hospitalCases": 5575,
-"newCasesBySpecimenDate": 22147
+"newCasesBySpecimenDate": 22146
 },
 {
 "areaType": "nation",
@@ -797,7 +813,7 @@
 "date": "2021-08-20",
 "cumDailyNsoDeathsByDeathDate": 136236,
 "hospitalCases": 5576,
-"newCasesBySpecimenDate": 25003
+"newCasesBySpecimenDate": 25005
 },
 {
 "areaType": "nation",
@@ -805,7 +821,7 @@
 "date": "2021-08-19",
 "cumDailyNsoDeathsByDeathDate": 136130,
 "hospitalCases": 5554,
-"newCasesBySpecimenDate": 28392
+"newCasesBySpecimenDate": 28389
 },
 {
 "areaType": "nation",
@@ -821,7 +837,7 @@
 "date": "2021-08-17",
 "cumDailyNsoDeathsByDeathDate": 135946,
 "hospitalCases": 5437,
-"newCasesBySpecimenDate": 30334
+"newCasesBySpecimenDate": 30335
 },
 {
 "areaType": "nation",
@@ -829,7 +845,7 @@
 "date": "2021-08-16",
 "cumDailyNsoDeathsByDeathDate": 135861,
 "hospitalCases": 5429,
-"newCasesBySpecimenDate": 30151
+"newCasesBySpecimenDate": 30155
 },
 {
 "areaType": "nation",
@@ -837,7 +853,7 @@
 "date": "2021-08-15",
 "cumDailyNsoDeathsByDeathDate": 135786,
 "hospitalCases": 5115,
-"newCasesBySpecimenDate": 20841
+"newCasesBySpecimenDate": 20840
 },
 {
 "areaType": "nation",
@@ -845,7 +861,7 @@
 "date": "2021-08-14",
 "cumDailyNsoDeathsByDeathDate": 135711,
 "hospitalCases": 4973,
-"newCasesBySpecimenDate": 20921
+"newCasesBySpecimenDate": 20922
 },
 {
 "areaType": "nation",
@@ -853,7 +869,7 @@
 "date": "2021-08-13",
 "cumDailyNsoDeathsByDeathDate": 135627,
 "hospitalCases": 5076,
-"newCasesBySpecimenDate": 24464
+"newCasesBySpecimenDate": 24465
 },
 {
 "areaType": "nation",
@@ -861,7 +877,7 @@
 "date": "2021-08-12",
 "cumDailyNsoDeathsByDeathDate": 135548,
 "hospitalCases": 5029,
-"newCasesBySpecimenDate": 27070
+"newCasesBySpecimenDate": 27075
 },
 {
 "areaType": "nation",
@@ -869,7 +885,7 @@
 "date": "2021-08-11",
 "cumDailyNsoDeathsByDeathDate": 135460,
 "hospitalCases": 5073,
-"newCasesBySpecimenDate": 28494
+"newCasesBySpecimenDate": 28493
 },
 {
 "areaType": "nation",
@@ -877,7 +893,7 @@
 "date": "2021-08-10",
 "cumDailyNsoDeathsByDeathDate": 135385,
 "hospitalCases": 5096,
-"newCasesBySpecimenDate": 26983
+"newCasesBySpecimenDate": 26988
 },
 {
 "areaType": "nation",
@@ -885,7 +901,7 @@
 "date": "2021-08-09",
 "cumDailyNsoDeathsByDeathDate": 135314,
 "hospitalCases": 5098,
-"newCasesBySpecimenDate": 27631
+"newCasesBySpecimenDate": 27630
 },
 {
 "areaType": "nation",
@@ -909,7 +925,7 @@
 "date": "2021-08-06",
 "cumDailyNsoDeathsByDeathDate": 135086,
 "hospitalCases": 4879,
-"newCasesBySpecimenDate": 24297
+"newCasesBySpecimenDate": 24295
 },
 {
 "areaType": "nation",
@@ -925,7 +941,7 @@
 "date": "2021-08-04",
 "cumDailyNsoDeathsByDeathDate": 134916,
 "hospitalCases": 4944,
-"newCasesBySpecimenDate": 28239
+"newCasesBySpecimenDate": 28242
 },
 {
 "areaType": "nation",
@@ -933,7 +949,7 @@
 "date": "2021-08-03",
 "cumDailyNsoDeathsByDeathDate": 134838,
 "hospitalCases": 5116,
-"newCasesBySpecimenDate": 26412
+"newCasesBySpecimenDate": 26413
 },
 {
 "areaType": "nation",
@@ -965,7 +981,7 @@
 "date": "2021-07-30",
 "cumDailyNsoDeathsByDeathDate": 134548,
 "hospitalCases": 5111,
-"newCasesBySpecimenDate": 21588
+"newCasesBySpecimenDate": 21587
 },
 {
 "areaType": "nation",
@@ -973,7 +989,7 @@
 "date": "2021-07-29",
 "cumDailyNsoDeathsByDeathDate": 134462,
 "hospitalCases": 5056,
-"newCasesBySpecimenDate": 24792
+"newCasesBySpecimenDate": 24794
 },
 {
 "areaType": "nation",
@@ -981,7 +997,7 @@
 "date": "2021-07-28",
 "cumDailyNsoDeathsByDeathDate": 134392,
 "hospitalCases": 5182,
-"newCasesBySpecimenDate": 26350
+"newCasesBySpecimenDate": 26345
 },
 {
 "areaType": "nation",
@@ -997,7 +1013,7 @@
 "date": "2021-07-26",
 "cumDailyNsoDeathsByDeathDate": 134264,
 "hospitalCases": 5055,
-"newCasesBySpecimenDate": 25927
+"newCasesBySpecimenDate": 25926
 },
 {
 "areaType": "nation",
@@ -1013,7 +1029,7 @@
 "date": "2021-07-24",
 "cumDailyNsoDeathsByDeathDate": 134136,
 "hospitalCases": 4476,
-"newCasesBySpecimenDate": 19850
+"newCasesBySpecimenDate": 19851
 },
 {
 "areaType": "nation",
@@ -1021,7 +1037,7 @@
 "date": "2021-07-23",
 "cumDailyNsoDeathsByDeathDate": 134078,
 "hospitalCases": 4401,
-"newCasesBySpecimenDate": 24013
+"newCasesBySpecimenDate": 24009
 },
 {
 "areaType": "nation",
@@ -1029,7 +1045,7 @@
 "date": "2021-07-22",
 "cumDailyNsoDeathsByDeathDate": 134013,
 "hospitalCases": 4230,
-"newCasesBySpecimenDate": 27169
+"newCasesBySpecimenDate": 27171
 },
 {
 "areaType": "nation",
@@ -1037,7 +1053,7 @@
 "date": "2021-07-21",
 "cumDailyNsoDeathsByDeathDate": 133940,
 "hospitalCases": 4063,
-"newCasesBySpecimenDate": 31045
+"newCasesBySpecimenDate": 31046
 },
 {
 "areaType": "nation",
@@ -1045,7 +1061,7 @@
 "date": "2021-07-20",
 "cumDailyNsoDeathsByDeathDate": 133892,
 "hospitalCases": 3894,
-"newCasesBySpecimenDate": 35118
+"newCasesBySpecimenDate": 35121
 },
 {
 "areaType": "nation",
@@ -1053,7 +1069,7 @@
 "date": "2021-07-19",
 "cumDailyNsoDeathsByDeathDate": 133840,
 "hospitalCases": 3813,
-"newCasesBySpecimenDate": 42437
+"newCasesBySpecimenDate": 42443
 },
 {
 "areaType": "nation",
@@ -1061,7 +1077,7 @@
 "date": "2021-07-18",
 "cumDailyNsoDeathsByDeathDate": 133766,
 "hospitalCases": 3546,
-"newCasesBySpecimenDate": 32494
+"newCasesBySpecimenDate": 32496
 },
 {
 "areaType": "nation",
@@ -1069,7 +1085,7 @@
 "date": "2021-07-17",
 "cumDailyNsoDeathsByDeathDate": 133708,
 "hospitalCases": 3442,
-"newCasesBySpecimenDate": 34638
+"newCasesBySpecimenDate": 34637
 },
 {
 "areaType": "nation",
@@ -1077,7 +1093,7 @@
 "date": "2021-07-16",
 "cumDailyNsoDeathsByDeathDate": 133659,
 "hospitalCases": 3367,
-"newCasesBySpecimenDate": 50138
+"newCasesBySpecimenDate": 50132
 },
 {
 "areaType": "nation",
@@ -1085,7 +1101,7 @@
 "date": "2021-07-15",
 "cumDailyNsoDeathsByDeathDate": 133616,
 "hospitalCases": 3241,
-"newCasesBySpecimenDate": 56365
+"newCasesBySpecimenDate": 56371
 },
 {
 "areaType": "nation",
@@ -1093,7 +1109,7 @@
 "date": "2021-07-14",
 "cumDailyNsoDeathsByDeathDate": 133573,
 "hospitalCases": 3110,
-"newCasesBySpecimenDate": 49281
+"newCasesBySpecimenDate": 49284
 },
 {
 "areaType": "nation",
@@ -1101,7 +1117,7 @@
 "date": "2021-07-13",
 "cumDailyNsoDeathsByDeathDate": 133537,
 "hospitalCases": 2970,
-"newCasesBySpecimenDate": 42317
+"newCasesBySpecimenDate": 42311
 },
 {
 "areaType": "nation",
@@ -1109,7 +1125,7 @@
 "date": "2021-07-12",
 "cumDailyNsoDeathsByDeathDate": 133498,
 "hospitalCases": 2798,
-"newCasesBySpecimenDate": 39642
+"newCasesBySpecimenDate": 39634
 },
 {
 "areaType": "nation",
@@ -1117,7 +1133,7 @@
 "date": "2021-07-11",
 "cumDailyNsoDeathsByDeathDate": 133466,
 "hospitalCases": 2564,
-"newCasesBySpecimenDate": 26939
+"newCasesBySpecimenDate": 26942
 },
 {
 "areaType": "nation",
@@ -1125,7 +1141,7 @@
 "date": "2021-07-10",
 "cumDailyNsoDeathsByDeathDate": 133439,
 "hospitalCases": 2429,
-"newCasesBySpecimenDate": 24927
+"newCasesBySpecimenDate": 24930
 },
 {
 "areaType": "nation",
@@ -1133,7 +1149,7 @@
 "date": "2021-07-09",
 "cumDailyNsoDeathsByDeathDate": 133405,
 "hospitalCases": 2352,
-"newCasesBySpecimenDate": 28457
+"newCasesBySpecimenDate": 28460
 },
 {
 "areaType": "nation",
@@ -1141,7 +1157,7 @@
 "date": "2021-07-08",
 "cumDailyNsoDeathsByDeathDate": 133366,
 "hospitalCases": 2209,
-"newCasesBySpecimenDate": 29279
+"newCasesBySpecimenDate": 29273
 },
 {
 "areaType": "nation",
@@ -1149,7 +1165,7 @@
 "date": "2021-07-07",
 "cumDailyNsoDeathsByDeathDate": 133337,
 "hospitalCases": 2144,
-"newCasesBySpecimenDate": 33511
+"newCasesBySpecimenDate": 33513
 },
 {
 "areaType": "nation",
@@ -1157,7 +1173,7 @@
 "date": "2021-07-06",
 "cumDailyNsoDeathsByDeathDate": 133309,
 "hospitalCases": 1998,
-"newCasesBySpecimenDate": 30962
+"newCasesBySpecimenDate": 30961
 },
 {
 "areaType": "nation",
@@ -1165,7 +1181,7 @@
 "date": "2021-07-05",
 "cumDailyNsoDeathsByDeathDate": 133287,
 "hospitalCases": 1888,
-"newCasesBySpecimenDate": 29527
+"newCasesBySpecimenDate": 29525
 },
 {
 "areaType": "nation",
@@ -1173,7 +1189,7 @@
 "date": "2021-07-04",
 "cumDailyNsoDeathsByDeathDate": 133267,
 "hospitalCases": 1744,
-"newCasesBySpecimenDate": 21320
+"newCasesBySpecimenDate": 21322
 },
 {
 "areaType": "nation",
@@ -1197,7 +1213,7 @@
 "date": "2021-07-01",
 "cumDailyNsoDeathsByDeathDate": 133191,
 "hospitalCases": 1560,
-"newCasesBySpecimenDate": 23614
+"newCasesBySpecimenDate": 23615
 },
 {
 "areaType": "nation",
@@ -1213,7 +1229,7 @@
 "date": "2021-06-29",
 "cumDailyNsoDeathsByDeathDate": 133143,
 "hospitalCases": 1445,
-"newCasesBySpecimenDate": 22677
+"newCasesBySpecimenDate": 22675
 },
 {
 "areaType": "nation",
@@ -1221,7 +1237,7 @@
 "date": "2021-06-28",
 "cumDailyNsoDeathsByDeathDate": 133122,
 "hospitalCases": 1465,
-"newCasesBySpecimenDate": 22878
+"newCasesBySpecimenDate": 22880
 },
 {
 "areaType": "nation",
@@ -1229,7 +1245,7 @@
 "date": "2021-06-27",
 "cumDailyNsoDeathsByDeathDate": 133109,
 "hospitalCases": 1331,
-"newCasesBySpecimenDate": 15041
+"newCasesBySpecimenDate": 15044
 },
 {
 "areaType": "nation",
@@ -1237,7 +1253,7 @@
 "date": "2021-06-26",
 "cumDailyNsoDeathsByDeathDate": 133089,
 "hospitalCases": 1276,
-"newCasesBySpecimenDate": 13181
+"newCasesBySpecimenDate": 13180
 },
 {
 "areaType": "nation",
@@ -1245,7 +1261,7 @@
 "date": "2021-06-25",
 "cumDailyNsoDeathsByDeathDate": 133079,
 "hospitalCases": 1284,
-"newCasesBySpecimenDate": 14519
+"newCasesBySpecimenDate": 14518
 },
 {
 "areaType": "nation",
@@ -1253,7 +1269,7 @@
 "date": "2021-06-24",
 "cumDailyNsoDeathsByDeathDate": 133059,
 "hospitalCases": 1274,
-"newCasesBySpecimenDate": 14707
+"newCasesBySpecimenDate": 14710
 },
 {
 "areaType": "nation",
@@ -1261,7 +1277,7 @@
 "date": "2021-06-23",
 "cumDailyNsoDeathsByDeathDate": 133037,
 "hospitalCases": 1255,
-"newCasesBySpecimenDate": 14396
+"newCasesBySpecimenDate": 14397
 },
 {
 "areaType": "nation",
@@ -1285,7 +1301,7 @@
 "date": "2021-06-20",
 "cumDailyNsoDeathsByDeathDate": 133008,
 "hospitalCases": 1168,
-"newCasesBySpecimenDate": 8006
+"newCasesBySpecimenDate": 8007
 },
 {
 "areaType": "nation",
@@ -1301,7 +1317,7 @@
 "date": "2021-06-18",
 "cumDailyNsoDeathsByDeathDate": 132972,
 "hospitalCases": 1170,
-"newCasesBySpecimenDate": 8506
+"newCasesBySpecimenDate": 8507
 },
 {
 "areaType": "nation",
@@ -1309,7 +1325,7 @@
 "date": "2021-06-17",
 "cumDailyNsoDeathsByDeathDate": 132958,
 "hospitalCases": 1122,
-"newCasesBySpecimenDate": 9200
+"newCasesBySpecimenDate": 9199
 },
 {
 "areaType": "nation",
@@ -1317,7 +1333,7 @@
 "date": "2021-06-16",
 "cumDailyNsoDeathsByDeathDate": 132951,
 "hospitalCases": 1057,
-"newCasesBySpecimenDate": 9155
+"newCasesBySpecimenDate": 9154
 },
 {
 "areaType": "nation",
@@ -1325,7 +1341,7 @@
 "date": "2021-06-15",
 "cumDailyNsoDeathsByDeathDate": 132939,
 "hospitalCases": 1030,
-"newCasesBySpecimenDate": 8867
+"newCasesBySpecimenDate": 8866
 },
 {
 "areaType": "nation",
@@ -1333,7 +1349,7 @@
 "date": "2021-06-14",
 "cumDailyNsoDeathsByDeathDate": 132924,
 "hospitalCases": 993,
-"newCasesBySpecimenDate": 8690
+"newCasesBySpecimenDate": 8689
 },
 {
 "areaType": "nation",
@@ -1349,7 +1365,7 @@
 "date": "2021-06-12",
 "cumDailyNsoDeathsByDeathDate": 132904,
 "hospitalCases": 915,
-"newCasesBySpecimenDate": 5257
+"newCasesBySpecimenDate": 5256
 },
 {
 "areaType": "nation",
@@ -1357,7 +1373,7 @@
 "date": "2021-06-11",
 "cumDailyNsoDeathsByDeathDate": 132894,
 "hospitalCases": 884,
-"newCasesBySpecimenDate": 6337
+"newCasesBySpecimenDate": 6336
 },
 {
 "areaType": "nation",
@@ -1381,7 +1397,7 @@
 "date": "2021-06-08",
 "cumDailyNsoDeathsByDeathDate": 132853,
 "hospitalCases": 879,
-"newCasesBySpecimenDate": 6428
+"newCasesBySpecimenDate": 6430
 },
 {
 "areaType": "nation",
@@ -1389,7 +1405,7 @@
 "date": "2021-06-07",
 "cumDailyNsoDeathsByDeathDate": 132840,
 "hospitalCases": 860,
-"newCasesBySpecimenDate": 6597
+"newCasesBySpecimenDate": 6598
 },
 {
 "areaType": "nation",
@@ -1397,7 +1413,7 @@
 "date": "2021-06-06",
 "cumDailyNsoDeathsByDeathDate": 132835,
 "hospitalCases": 807,
-"newCasesBySpecimenDate": 4610
+"newCasesBySpecimenDate": 4611
 },
 {
 "areaType": "nation",
@@ -1413,7 +1429,7 @@
 "date": "2021-06-04",
 "cumDailyNsoDeathsByDeathDate": 132819,
 "hospitalCases": 805,
-"newCasesBySpecimenDate": 4738
+"newCasesBySpecimenDate": 4739
 },
 {
 "areaType": "nation",
@@ -1445,7 +1461,7 @@
 "date": "2021-05-31",
 "cumDailyNsoDeathsByDeathDate": 132773,
 "hospitalCases": 773,
-"newCasesBySpecimenDate": 3064
+"newCasesBySpecimenDate": 3065
 },
 {
 "areaType": "nation",
@@ -1469,7 +1485,7 @@
 "date": "2021-05-28",
 "cumDailyNsoDeathsByDeathDate": 132747,
 "hospitalCases": 743,
-"newCasesBySpecimenDate": 2828
+"newCasesBySpecimenDate": 2827
 },
 {
 "areaType": "nation",
@@ -1477,7 +1493,7 @@
 "date": "2021-05-27",
 "cumDailyNsoDeathsByDeathDate": 132736,
 "hospitalCases": 742,
-"newCasesBySpecimenDate": 2963
+"newCasesBySpecimenDate": 2962
 },
 {
 "areaType": "nation",
@@ -1493,7 +1509,7 @@
 "date": "2021-05-25",
 "cumDailyNsoDeathsByDeathDate": 132716,
 "hospitalCases": 765,
-"newCasesBySpecimenDate": 2689
+"newCasesBySpecimenDate": 2691
 },
 {
 "areaType": "nation",
@@ -1509,7 +1525,7 @@
 "date": "2021-05-23",
 "cumDailyNsoDeathsByDeathDate": 132696,
 "hospitalCases": 756,
-"newCasesBySpecimenDate": 1842
+"newCasesBySpecimenDate": 1841
 },
 {
 "areaType": "nation",
@@ -1517,7 +1533,7 @@
 "date": "2021-05-22",
 "cumDailyNsoDeathsByDeathDate": 132682,
 "hospitalCases": 730,
-"newCasesBySpecimenDate": 1535
+"newCasesBySpecimenDate": 1536
 },
 {
 "areaType": "nation",
@@ -1525,7 +1541,7 @@
 "date": "2021-05-21",
 "cumDailyNsoDeathsByDeathDate": 132679,
 "hospitalCases": 766,
-"newCasesBySpecimenDate": 1800
+"newCasesBySpecimenDate": 1799
 },
 {
 "areaType": "nation",
@@ -1541,7 +1557,7 @@
 "date": "2021-05-19",
 "cumDailyNsoDeathsByDeathDate": 132657,
 "hospitalCases": 757,
-"newCasesBySpecimenDate": 2174
+"newCasesBySpecimenDate": 2173
 },
 {
 "areaType": "nation",
@@ -1573,7 +1589,7 @@
 "date": "2021-05-15",
 "cumDailyNsoDeathsByDeathDate": 132624,
 "hospitalCases": 810,
-"newCasesBySpecimenDate": 1262
+"newCasesBySpecimenDate": 1261
 },
 {
 "areaType": "nation",
@@ -1581,7 +1597,7 @@
 "date": "2021-05-14",
 "cumDailyNsoDeathsByDeathDate": 132611,
 "hospitalCases": 818,
-"newCasesBySpecimenDate": 1459
+"newCasesBySpecimenDate": 1457
 },
 {
 "areaType": "nation",
@@ -1613,7 +1629,7 @@
 "date": "2021-05-10",
 "cumDailyNsoDeathsByDeathDate": 132560,
 "hospitalCases": 944,
-"newCasesBySpecimenDate": 2175
+"newCasesBySpecimenDate": 2176
 },
 {
 "areaType": "nation",
@@ -1629,7 +1645,7 @@
 "date": "2021-05-08",
 "cumDailyNsoDeathsByDeathDate": 132542,
 "hospitalCases": 948,
-"newCasesBySpecimenDate": 1202
+"newCasesBySpecimenDate": 1204
 },
 {
 "areaType": "nation",
@@ -1645,7 +1661,7 @@
 "date": "2021-05-06",
 "cumDailyNsoDeathsByDeathDate": 132510,
 "hospitalCases": 976,
-"newCasesBySpecimenDate": 1808
+"newCasesBySpecimenDate": 1807
 },
 {
 "areaType": "nation",
@@ -1661,7 +1677,7 @@
 "date": "2021-05-04",
 "cumDailyNsoDeathsByDeathDate": 132476,
 "hospitalCases": 1093,
-"newCasesBySpecimenDate": 2044
+"newCasesBySpecimenDate": 2045
 },
 {
 "areaType": "nation",
@@ -1669,7 +1685,7 @@
 "date": "2021-05-03",
 "cumDailyNsoDeathsByDeathDate": 132462,
 "hospitalCases": 1096,
-"newCasesBySpecimenDate": 1694
+"newCasesBySpecimenDate": 1695
 },
 {
 "areaType": "nation",
@@ -1693,7 +1709,7 @@
 "date": "2021-04-30",
 "cumDailyNsoDeathsByDeathDate": 132417,
 "hospitalCases": 1161,
-"newCasesBySpecimenDate": 1411
+"newCasesBySpecimenDate": 1412
 },
 {
 "areaType": "nation",
@@ -1717,7 +1733,7 @@
 "date": "2021-04-27",
 "cumDailyNsoDeathsByDeathDate": 132367,
 "hospitalCases": 1310,
-"newCasesBySpecimenDate": 1694
+"newCasesBySpecimenDate": 1693
 },
 {
 "areaType": "nation",
@@ -1733,7 +1749,7 @@
 "date": "2021-04-25",
 "cumDailyNsoDeathsByDeathDate": 132325,
 "hospitalCases": 1377,
-"newCasesBySpecimenDate": 1775
+"newCasesBySpecimenDate": 1774
 },
 {
 "areaType": "nation",
@@ -1789,7 +1805,7 @@
 "date": "2021-04-18",
 "cumDailyNsoDeathsByDeathDate": 132162,
 "hospitalCases": 1691,
-"newCasesBySpecimenDate": 2129
+"newCasesBySpecimenDate": 2130
 },
 {
 "areaType": "nation",
@@ -1805,7 +1821,7 @@
 "date": "2021-04-16",
 "cumDailyNsoDeathsByDeathDate": 132101,
 "hospitalCases": 1844,
-"newCasesBySpecimenDate": 1810
+"newCasesBySpecimenDate": 1811
 },
 {
 "areaType": "nation",
@@ -1821,7 +1837,7 @@
 "date": "2021-04-14",
 "cumDailyNsoDeathsByDeathDate": 132037,
 "hospitalCases": 1972,
-"newCasesBySpecimenDate": 1944
+"newCasesBySpecimenDate": 1945
 },
 {
 "areaType": "nation",
@@ -1829,7 +1845,7 @@
 "date": "2021-04-13",
 "cumDailyNsoDeathsByDeathDate": 132012,
 "hospitalCases": 2057,
-"newCasesBySpecimenDate": 1909
+"newCasesBySpecimenDate": 1908
 },
 {
 "areaType": "nation",
@@ -1853,7 +1869,7 @@
 "date": "2021-04-10",
 "cumDailyNsoDeathsByDeathDate": 131908,
 "hospitalCases": 2190,
-"newCasesBySpecimenDate": 1889
+"newCasesBySpecimenDate": 1891
 },
 {
 "areaType": "nation",
@@ -1885,7 +1901,7 @@
 "date": "2021-04-06",
 "cumDailyNsoDeathsByDeathDate": 131752,
 "hospitalCases": 2588,
-"newCasesBySpecimenDate": 2564
+"newCasesBySpecimenDate": 2561
 },
 {
 "areaType": "nation",
@@ -1909,7 +1925,7 @@
 "date": "2021-04-03",
 "cumDailyNsoDeathsByDeathDate": 131630,
 "hospitalCases": 2677,
-"newCasesBySpecimenDate": 2011
+"newCasesBySpecimenDate": 2012
 },
 {
 "areaType": "nation",
@@ -1917,7 +1933,7 @@
 "date": "2021-04-02",
 "cumDailyNsoDeathsByDeathDate": 131598,
 "hospitalCases": 2784,
-"newCasesBySpecimenDate": 2131
+"newCasesBySpecimenDate": 2127
 },
 {
 "areaType": "nation",
@@ -1925,7 +1941,7 @@
 "date": "2021-04-01",
 "cumDailyNsoDeathsByDeathDate": 131560,
 "hospitalCases": 2928,
-"newCasesBySpecimenDate": 2867
+"newCasesBySpecimenDate": 2866
 },
 {
 "areaType": "nation",
@@ -1933,7 +1949,7 @@
 "date": "2021-03-31",
 "cumDailyNsoDeathsByDeathDate": 131506,
 "hospitalCases": 3084,
-"newCasesBySpecimenDate": 3148
+"newCasesBySpecimenDate": 3146
 },
 {
 "areaType": "nation",
@@ -1941,7 +1957,7 @@
 "date": "2021-03-30",
 "cumDailyNsoDeathsByDeathDate": 131442,
 "hospitalCases": 3283,
-"newCasesBySpecimenDate": 2955
+"newCasesBySpecimenDate": 2956
 },
 {
 "areaType": "nation",
@@ -1965,7 +1981,7 @@
 "date": "2021-03-27",
 "cumDailyNsoDeathsByDeathDate": 131297,
 "hospitalCases": 3676,
-"newCasesBySpecimenDate": 2946
+"newCasesBySpecimenDate": 2947
 },
 {
 "areaType": "nation",
@@ -1973,7 +1989,7 @@
 "date": "2021-03-26",
 "cumDailyNsoDeathsByDeathDate": 131242,
 "hospitalCases": 3712,
-"newCasesBySpecimenDate": 3627
+"newCasesBySpecimenDate": 3628
 },
 {
 "areaType": "nation",
@@ -1981,7 +1997,7 @@
 "date": "2021-03-25",
 "cumDailyNsoDeathsByDeathDate": 131181,
 "hospitalCases": 3763,
-"newCasesBySpecimenDate": 4451
+"newCasesBySpecimenDate": 4452
 },
 {
 "areaType": "nation",
@@ -2005,7 +2021,7 @@
 "date": "2021-03-22",
 "cumDailyNsoDeathsByDeathDate": 130974,
 "hospitalCases": 4501,
-"newCasesBySpecimenDate": 5148
+"newCasesBySpecimenDate": 5150
 },
 {
 "areaType": "nation",
@@ -2021,7 +2037,7 @@
 "date": "2021-03-20",
 "cumDailyNsoDeathsByDeathDate": 130782,
 "hospitalCases": 4589,
-"newCasesBySpecimenDate": 3367
+"newCasesBySpecimenDate": 3370
 },
 {
 "areaType": "nation",
@@ -2037,7 +2053,7 @@
 "date": "2021-03-18",
 "cumDailyNsoDeathsByDeathDate": 130615,
 "hospitalCases": 5083,
-"newCasesBySpecimenDate": 4527
+"newCasesBySpecimenDate": 4526
 },
 {
 "areaType": "nation",
@@ -2053,7 +2069,7 @@
 "date": "2021-03-16",
 "cumDailyNsoDeathsByDeathDate": 130426,
 "hospitalCases": 5664,
-"newCasesBySpecimenDate": 4743
+"newCasesBySpecimenDate": 4742
 },
 {
 "areaType": "nation",
@@ -2069,7 +2085,7 @@
 "date": "2021-03-14",
 "cumDailyNsoDeathsByDeathDate": 130213,
 "hospitalCases": 6039,
-"newCasesBySpecimenDate": 3586
+"newCasesBySpecimenDate": 3587
 },
 {
 "areaType": "nation",
@@ -2109,7 +2125,7 @@
 "date": "2021-03-09",
 "cumDailyNsoDeathsByDeathDate": 129577,
 "hospitalCases": 7451,
-"newCasesBySpecimenDate": 5222
+"newCasesBySpecimenDate": 5220
 },
 {
 "areaType": "nation",
@@ -2125,7 +2141,7 @@
 "date": "2021-03-07",
 "cumDailyNsoDeathsByDeathDate": 129252,
 "hospitalCases": 7812,
-"newCasesBySpecimenDate": 3543
+"newCasesBySpecimenDate": 3542
 },
 {
 "areaType": "nation",
@@ -2141,7 +2157,7 @@
 "date": "2021-03-05",
 "cumDailyNsoDeathsByDeathDate": 128902,
 "hospitalCases": 8594,
-"newCasesBySpecimenDate": 4553
+"newCasesBySpecimenDate": 4552
 },
 {
 "areaType": "nation",
@@ -2157,7 +2173,7 @@
 "date": "2021-03-03",
 "cumDailyNsoDeathsByDeathDate": 128496,
 "hospitalCases": 9594,
-"newCasesBySpecimenDate": 5103
+"newCasesBySpecimenDate": 5105
 },
 {
 "areaType": "nation",
@@ -2197,7 +2213,7 @@
 "date": "2021-02-26",
 "cumDailyNsoDeathsByDeathDate": 127334,
 "hospitalCases": 11781,
-"newCasesBySpecimenDate": 5668
+"newCasesBySpecimenDate": 5670
 },
 {
 "areaType": "nation",
@@ -2213,7 +2229,7 @@
 "date": "2021-02-24",
 "cumDailyNsoDeathsByDeathDate": 126772,
 "hospitalCases": 13007,
-"newCasesBySpecimenDate": 7304
+"newCasesBySpecimenDate": 7305
 },
 {
 "areaType": "nation",
@@ -2221,7 +2237,7 @@
 "date": "2021-02-23",
 "cumDailyNsoDeathsByDeathDate": 126458,
 "hospitalCases": 13511,
-"newCasesBySpecimenDate": 8144
+"newCasesBySpecimenDate": 8145
 },
 {
 "areaType": "nation",
@@ -2229,7 +2245,7 @@
 "date": "2021-02-22",
 "cumDailyNsoDeathsByDeathDate": 126126,
 "hospitalCases": 14137,
-"newCasesBySpecimenDate": 9856
+"newCasesBySpecimenDate": 9857
 },
 {
 "areaType": "nation",
@@ -2237,7 +2253,7 @@
 "date": "2021-02-21",
 "cumDailyNsoDeathsByDeathDate": 125804,
 "hospitalCases": 14142,
-"newCasesBySpecimenDate": 6800
+"newCasesBySpecimenDate": 6799
 },
 {
 "areaType": "nation",
@@ -2245,7 +2261,7 @@
 "date": "2021-02-20",
 "cumDailyNsoDeathsByDeathDate": 125449,
 "hospitalCases": 14316,
-"newCasesBySpecimenDate": 6896
+"newCasesBySpecimenDate": 6895
 },
 {
 "areaType": "nation",
@@ -2261,7 +2277,7 @@
 "date": "2021-02-18",
 "cumDailyNsoDeathsByDeathDate": 124677,
 "hospitalCases": 15633,
-"newCasesBySpecimenDate": 9912
+"newCasesBySpecimenDate": 9911
 },
 {
 "areaType": "nation",
@@ -2269,7 +2285,7 @@
 "date": "2021-02-17",
 "cumDailyNsoDeathsByDeathDate": 124223,
 "hospitalCases": 16458,
-"newCasesBySpecimenDate": 10029
+"newCasesBySpecimenDate": 10025
 },
 {
 "areaType": "nation",
@@ -2285,7 +2301,7 @@
 "date": "2021-02-15",
 "cumDailyNsoDeathsByDeathDate": 123289,
 "hospitalCases": 17730,
-"newCasesBySpecimenDate": 12471
+"newCasesBySpecimenDate": 12469
 },
 {
 "areaType": "nation",
@@ -2293,7 +2309,7 @@
 "date": "2021-02-14",
 "cumDailyNsoDeathsByDeathDate": 122742,
 "hospitalCases": 17787,
-"newCasesBySpecimenDate": 7533
+"newCasesBySpecimenDate": 7535
 },
 {
 "areaType": "nation",
@@ -2301,7 +2317,7 @@
 "date": "2021-02-13",
 "cumDailyNsoDeathsByDeathDate": 122225,
 "hospitalCases": 17694,
-"newCasesBySpecimenDate": 7744
+"newCasesBySpecimenDate": 7742
 },
 {
 "areaType": "nation",
@@ -2325,7 +2341,7 @@
 "date": "2021-02-10",
 "cumDailyNsoDeathsByDeathDate": 120586,
 "hospitalCases": 20926,
-"newCasesBySpecimenDate": 11848
+"newCasesBySpecimenDate": 11846
 },
 {
 "areaType": "nation",
@@ -2333,7 +2349,7 @@
 "date": "2021-02-09",
 "cumDailyNsoDeathsByDeathDate": 119959,
 "hospitalCases": 22067,
-"newCasesBySpecimenDate": 12246
+"newCasesBySpecimenDate": 12245
 },
 {
 "areaType": "nation",
@@ -2341,7 +2357,7 @@
 "date": "2021-02-08",
 "cumDailyNsoDeathsByDeathDate": 119332,
 "hospitalCases": 23020,
-"newCasesBySpecimenDate": 13852
+"newCasesBySpecimenDate": 13854
 },
 {
 "areaType": "nation",
@@ -2357,7 +2373,7 @@
 "date": "2021-02-06",
 "cumDailyNsoDeathsByDeathDate": 117970,
 "hospitalCases": 23042,
-"newCasesBySpecimenDate": 10590
+"newCasesBySpecimenDate": 10589
 },
 {
 "areaType": "nation",
@@ -2365,7 +2381,7 @@
 "date": "2021-02-05",
 "cumDailyNsoDeathsByDeathDate": 117287,
 "hospitalCases": 24402,
-"newCasesBySpecimenDate": 13978
+"newCasesBySpecimenDate": 13977
 },
 {
 "areaType": "nation",
@@ -2373,7 +2389,7 @@
 "date": "2021-02-04",
 "cumDailyNsoDeathsByDeathDate": 116518,
 "hospitalCases": 25334,
-"newCasesBySpecimenDate": 16160
+"newCasesBySpecimenDate": 16158
 },
 {
 "areaType": "nation",
@@ -2381,7 +2397,7 @@
 "date": "2021-02-03",
 "cumDailyNsoDeathsByDeathDate": 115783,
 "hospitalCases": 26374,
-"newCasesBySpecimenDate": 17410
+"newCasesBySpecimenDate": 17411
 },
 {
 "areaType": "nation",
@@ -2397,7 +2413,7 @@
 "date": "2021-02-01",
 "cumDailyNsoDeathsByDeathDate": 114067,
 "hospitalCases": 28539,
-"newCasesBySpecimenDate": 20112
+"newCasesBySpecimenDate": 20113
 },
 {
 "areaType": "nation",
@@ -2405,7 +2421,7 @@
 "date": "2021-01-31",
 "cumDailyNsoDeathsByDeathDate": 113176,
 "hospitalCases": 28112,
-"newCasesBySpecimenDate": 13711
+"newCasesBySpecimenDate": 13710
 },
 {
 "areaType": "nation",
@@ -2421,7 +2437,7 @@
 "date": "2021-01-29",
 "cumDailyNsoDeathsByDeathDate": 111358,
 "hospitalCases": 29359,
-"newCasesBySpecimenDate": 19686
+"newCasesBySpecimenDate": 19688
 },
 {
 "areaType": "nation",
@@ -2429,7 +2445,7 @@
 "date": "2021-01-28",
 "cumDailyNsoDeathsByDeathDate": 110355,
 "hospitalCases": 30333,
-"newCasesBySpecimenDate": 21845
+"newCasesBySpecimenDate": 21843
 },
 {
 "areaType": "nation",
@@ -2437,7 +2453,7 @@
 "date": "2021-01-27",
 "cumDailyNsoDeathsByDeathDate": 109247,
 "hospitalCases": 30846,
-"newCasesBySpecimenDate": 23239
+"newCasesBySpecimenDate": 23240
 },
 {
 "areaType": "nation",
@@ -2453,7 +2469,7 @@
 "date": "2021-01-25",
 "cumDailyNsoDeathsByDeathDate": 107100,
 "hospitalCases": 32938,
-"newCasesBySpecimenDate": 27112
+"newCasesBySpecimenDate": 27111
 },
 {
 "areaType": "nation",
@@ -2461,7 +2477,7 @@
 "date": "2021-01-24",
 "cumDailyNsoDeathsByDeathDate": 105953,
 "hospitalCases": 32907,
-"newCasesBySpecimenDate": 15456
+"newCasesBySpecimenDate": 15455
 },
 {
 "areaType": "nation",
@@ -2469,7 +2485,7 @@
 "date": "2021-01-23",
 "cumDailyNsoDeathsByDeathDate": 104872,
 "hospitalCases": 32614,
-"newCasesBySpecimenDate": 19873
+"newCasesBySpecimenDate": 19875
 },
 {
 "areaType": "nation",
@@ -2485,7 +2501,7 @@
 "date": "2021-01-21",
 "cumDailyNsoDeathsByDeathDate": 102541,
 "hospitalCases": 33235,
-"newCasesBySpecimenDate": 28755
+"newCasesBySpecimenDate": 28753
 },
 {
 "areaType": "nation",
@@ -2493,7 +2509,7 @@
 "date": "2021-01-20",
 "cumDailyNsoDeathsByDeathDate": 101340,
 "hospitalCases": 33886,
-"newCasesBySpecimenDate": 31746
+"newCasesBySpecimenDate": 31745
 },
 {
 "areaType": "nation",
@@ -2501,7 +2517,7 @@
 "date": "2021-01-19",
 "cumDailyNsoDeathsByDeathDate": 100107,
 "hospitalCases": 34015,
-"newCasesBySpecimenDate": 35968
+"newCasesBySpecimenDate": 35964
 },
 {
 "areaType": "nation",
@@ -2509,7 +2525,7 @@
 "date": "2021-01-18",
 "cumDailyNsoDeathsByDeathDate": 98784,
 "hospitalCases": 34336,
-"newCasesBySpecimenDate": 40720
+"newCasesBySpecimenDate": 40721
 },
 {
 "areaType": "nation",
@@ -2525,7 +2541,7 @@
 "date": "2021-01-16",
 "cumDailyNsoDeathsByDeathDate": 96320,
 "hospitalCases": 32923,
-"newCasesBySpecimenDate": 27655
+"newCasesBySpecimenDate": 27653
 },
 {
 "areaType": "nation",
@@ -2533,7 +2549,7 @@
 "date": "2021-01-15",
 "cumDailyNsoDeathsByDeathDate": 95082,
 "hospitalCases": 33362,
-"newCasesBySpecimenDate": 36783
+"newCasesBySpecimenDate": 36786
 },
 {
 "areaType": "nation",
@@ -2541,7 +2557,7 @@
 "date": "2021-01-14",
 "cumDailyNsoDeathsByDeathDate": 93924,
 "hospitalCases": 32925,
-"newCasesBySpecimenDate": 38531
+"newCasesBySpecimenDate": 38533
 },
 {
 "areaType": "nation",
@@ -2549,7 +2565,7 @@
 "date": "2021-01-13",
 "cumDailyNsoDeathsByDeathDate": 92760,
 "hospitalCases": 32689,
-"newCasesBySpecimenDate": 41162
+"newCasesBySpecimenDate": 41165
 },
 {
 "areaType": "nation",
@@ -2557,7 +2573,7 @@
 "date": "2021-01-12",
 "cumDailyNsoDeathsByDeathDate": 91603,
 "hospitalCases": 32202,
-"newCasesBySpecimenDate": 44676
+"newCasesBySpecimenDate": 44675
 },
 {
 "areaType": "nation",
@@ -2565,7 +2581,7 @@
 "date": "2021-01-11",
 "cumDailyNsoDeathsByDeathDate": 90433,
 "hospitalCases": 32070,
-"newCasesBySpecimenDate": 52022
+"newCasesBySpecimenDate": 52020
 },
 {
 "areaType": "nation",
@@ -2573,7 +2589,7 @@
 "date": "2021-01-10",
 "cumDailyNsoDeathsByDeathDate": 89363,
 "hospitalCases": 30758,
-"newCasesBySpecimenDate": 32858
+"newCasesBySpecimenDate": 32859
 },
 {
 "areaType": "nation",
@@ -2581,7 +2597,7 @@
 "date": "2021-01-09",
 "cumDailyNsoDeathsByDeathDate": 88336,
 "hospitalCases": 29462,
-"newCasesBySpecimenDate": 35445
+"newCasesBySpecimenDate": 35446
 },
 {
 "areaType": "nation",
@@ -2589,7 +2605,7 @@
 "date": "2021-01-08",
 "cumDailyNsoDeathsByDeathDate": 87363,
 "hospitalCases": 29346,
-"newCasesBySpecimenDate": 42336
+"newCasesBySpecimenDate": 42332
 },
 {
 "areaType": "nation",
@@ -2597,7 +2613,7 @@
 "date": "2021-01-07",
 "cumDailyNsoDeathsByDeathDate": 86441,
 "hospitalCases": 28246,
-"newCasesBySpecimenDate": 46861
+"newCasesBySpecimenDate": 46856
 },
 {
 "areaType": "nation",
@@ -2605,7 +2621,7 @@
 "date": "2021-01-06",
 "cumDailyNsoDeathsByDeathDate": 85526,
 "hospitalCases": 27727,
-"newCasesBySpecimenDate": 51318
+"newCasesBySpecimenDate": 51321
 },
 {
 "areaType": "nation",
@@ -2613,7 +2629,7 @@
 "date": "2021-01-05",
 "cumDailyNsoDeathsByDeathDate": 84644,
 "hospitalCases": 26467,
-"newCasesBySpecimenDate": 58039
+"newCasesBySpecimenDate": 58040
 },
 {
 "areaType": "nation",
@@ -2621,7 +2637,7 @@
 "date": "2021-01-04",
 "cumDailyNsoDeathsByDeathDate": 83792,
 "hospitalCases": 26626,
-"newCasesBySpecimenDate": 69116
+"newCasesBySpecimenDate": 69115
 },
 {
 "areaType": "nation",
@@ -2629,7 +2645,7 @@
 "date": "2021-01-03",
 "cumDailyNsoDeathsByDeathDate": 83003,
 "hospitalCases": 24957,
-"newCasesBySpecimenDate": 49513
+"newCasesBySpecimenDate": 49510
 },
 {
 "areaType": "nation",
@@ -2637,7 +2653,7 @@
 "date": "2021-01-02",
 "cumDailyNsoDeathsByDeathDate": 82319,
 "hospitalCases": 23557,
-"newCasesBySpecimenDate": 54173
+"newCasesBySpecimenDate": 54175
 },
 {
 "areaType": "nation",
@@ -2645,7 +2661,7 @@
 "date": "2021-01-01",
 "cumDailyNsoDeathsByDeathDate": 81595,
 "hospitalCases": 22534,
-"newCasesBySpecimenDate": 28224
+"newCasesBySpecimenDate": 28227
 },
 {
 "areaType": "nation",
@@ -2653,7 +2669,7 @@
 "date": "2020-12-31",
 "cumDailyNsoDeathsByDeathDate": 80904,
 "hospitalCases": 22728,
-"newCasesBySpecimenDate": 46694
+"newCasesBySpecimenDate": 46690
 },
 {
 "areaType": "nation",
@@ -2669,7 +2685,7 @@
 "date": "2020-12-29",
 "cumDailyNsoDeathsByDeathDate": 79548,
 "hospitalCases": 21787,
-"newCasesBySpecimenDate": 72507
+"newCasesBySpecimenDate": 72505
 },
 {
 "areaType": "nation",
@@ -2677,7 +2693,7 @@
 "date": "2020-12-28",
 "cumDailyNsoDeathsByDeathDate": 78934,
 "hospitalCases": 20426,
-"newCasesBySpecimenDate": 40038
+"newCasesBySpecimenDate": 40039
 },
 {
 "areaType": "nation",
@@ -2685,7 +2701,7 @@
 "date": "2020-12-27",
 "cumDailyNsoDeathsByDeathDate": 78319,
 "hospitalCases": 19277,
-"newCasesBySpecimenDate": 42437
+"newCasesBySpecimenDate": 42434
 },
 {
 "areaType": "nation",
@@ -2701,7 +2717,7 @@
 "date": "2020-12-25",
 "cumDailyNsoDeathsByDeathDate": 77114,
 "hospitalCases": 17701,
-"newCasesBySpecimenDate": 12674
+"newCasesBySpecimenDate": 12672
 },
 {
 "areaType": "nation",
@@ -2717,7 +2733,7 @@
 "date": "2020-12-23",
 "cumDailyNsoDeathsByDeathDate": 76053,
 "hospitalCases": 17834,
-"newCasesBySpecimenDate": 37609
+"newCasesBySpecimenDate": 37605
 },
 {
 "areaType": "nation",
@@ -2725,7 +2741,7 @@
 "date": "2020-12-22",
 "cumDailyNsoDeathsByDeathDate": 75534,
 "hospitalCases": 18063,
-"newCasesBySpecimenDate": 40898
+"newCasesBySpecimenDate": 40897
 },
 {
 "areaType": "nation",
@@ -2733,7 +2749,7 @@
 "date": "2020-12-21",
 "cumDailyNsoDeathsByDeathDate": 74995,
 "hospitalCases": 17709,
-"newCasesBySpecimenDate": 42595
+"newCasesBySpecimenDate": 42599
 },
 {
 "areaType": "nation",
@@ -2741,7 +2757,7 @@
 "date": "2020-12-20",
 "cumDailyNsoDeathsByDeathDate": 74489,
 "hospitalCases": 16633,
-"newCasesBySpecimenDate": 28940
+"newCasesBySpecimenDate": 28939
 },
 {
 "areaType": "nation",
@@ -2749,7 +2765,7 @@
 "date": "2020-12-19",
 "cumDailyNsoDeathsByDeathDate": 74034,
 "hospitalCases": 16183,
-"newCasesBySpecimenDate": 21740
+"newCasesBySpecimenDate": 21737
 },
 {
 "areaType": "nation",
@@ -2765,7 +2781,7 @@
 "date": "2020-12-17",
 "cumDailyNsoDeathsByDeathDate": 73099,
 "hospitalCases": 15741,
-"newCasesBySpecimenDate": 29601
+"newCasesBySpecimenDate": 29605
 },
 {
 "areaType": "nation",
@@ -2773,7 +2789,7 @@
 "date": "2020-12-16",
 "cumDailyNsoDeathsByDeathDate": 72636,
 "hospitalCases": 15465,
-"newCasesBySpecimenDate": 30132
+"newCasesBySpecimenDate": 30128
 },
 {
 "areaType": "nation",
@@ -2781,7 +2797,7 @@
 "date": "2020-12-15",
 "cumDailyNsoDeathsByDeathDate": 72250,
 "hospitalCases": 15031,
-"newCasesBySpecimenDate": 29096
+"newCasesBySpecimenDate": 29092
 },
 {
 "areaType": "nation",
@@ -2789,7 +2805,7 @@
 "date": "2020-12-14",
 "cumDailyNsoDeathsByDeathDate": 71842,
 "hospitalCases": 15053,
-"newCasesBySpecimenDate": 29509
+"newCasesBySpecimenDate": 29511
 },
 {
 "areaType": "nation",
@@ -2805,7 +2821,7 @@
 "date": "2020-12-12",
 "cumDailyNsoDeathsByDeathDate": 71010,
 "hospitalCases": 13927,
-"newCasesBySpecimenDate": 16027
+"newCasesBySpecimenDate": 16029
 },
 {
 "areaType": "nation",
@@ -2813,7 +2829,7 @@
 "date": "2020-12-11",
 "cumDailyNsoDeathsByDeathDate": 70599,
 "hospitalCases": 13901,
-"newCasesBySpecimenDate": 19866
+"newCasesBySpecimenDate": 19868
 },
 {
 "areaType": "nation",
@@ -2821,7 +2837,7 @@
 "date": "2020-12-10",
 "cumDailyNsoDeathsByDeathDate": 70175,
 "hospitalCases": 13796,
-"newCasesBySpecimenDate": 18537
+"newCasesBySpecimenDate": 18538
 },
 {
 "areaType": "nation",
@@ -2829,7 +2845,7 @@
 "date": "2020-12-09",
 "cumDailyNsoDeathsByDeathDate": 69768,
 "hospitalCases": 13467,
-"newCasesBySpecimenDate": 17457
+"newCasesBySpecimenDate": 17461
 },
 {
 "areaType": "nation",
@@ -2837,7 +2853,7 @@
 "date": "2020-12-08",
 "cumDailyNsoDeathsByDeathDate": 69387,
 "hospitalCases": 13629,
-"newCasesBySpecimenDate": 16661
+"newCasesBySpecimenDate": 16662
 },
 {
 "areaType": "nation",
@@ -2845,7 +2861,7 @@
 "date": "2020-12-07",
 "cumDailyNsoDeathsByDeathDate": 68989,
 "hospitalCases": 13616,
-"newCasesBySpecimenDate": 17393
+"newCasesBySpecimenDate": 17395
 },
 {
 "areaType": "nation",
@@ -2853,7 +2869,7 @@
 "date": "2020-12-06",
 "cumDailyNsoDeathsByDeathDate": 68610,
 "hospitalCases": 13189,
-"newCasesBySpecimenDate": 10868
+"newCasesBySpecimenDate": 10870
 },
 {
 "areaType": "nation",
@@ -2869,7 +2885,7 @@
 "date": "2020-12-04",
 "cumDailyNsoDeathsByDeathDate": 67902,
 "hospitalCases": 12987,
-"newCasesBySpecimenDate": 12882
+"newCasesBySpecimenDate": 12883
 },
 {
 "areaType": "nation",
@@ -2877,7 +2893,7 @@
 "date": "2020-12-03",
 "cumDailyNsoDeathsByDeathDate": 67482,
 "hospitalCases": 12896,
-"newCasesBySpecimenDate": 12523
+"newCasesBySpecimenDate": 12527
 },
 {
 "areaType": "nation",
@@ -2893,7 +2909,7 @@
 "date": "2020-12-01",
 "cumDailyNsoDeathsByDeathDate": 66724,
 "hospitalCases": 13507,
-"newCasesBySpecimenDate": 13521
+"newCasesBySpecimenDate": 13520
 },
 {
 "areaType": "nation",
@@ -2901,7 +2917,7 @@
 "date": "2020-11-30",
 "cumDailyNsoDeathsByDeathDate": 66365,
 "hospitalCases": 13756,
-"newCasesBySpecimenDate": 15022
+"newCasesBySpecimenDate": 15023
 },
 {
 "areaType": "nation",
@@ -2917,7 +2933,7 @@
 "date": "2020-11-28",
 "cumDailyNsoDeathsByDeathDate": 65557,
 "hospitalCases": 13208,
-"newCasesBySpecimenDate": 9204
+"newCasesBySpecimenDate": 9202
 },
 {
 "areaType": "nation",
@@ -2933,7 +2949,7 @@
 "date": "2020-11-26",
 "cumDailyNsoDeathsByDeathDate": 64781,
 "hospitalCases": 13908,
-"newCasesBySpecimenDate": 12268
+"newCasesBySpecimenDate": 12273
 },
 {
 "areaType": "nation",
@@ -2941,7 +2957,7 @@
 "date": "2020-11-25",
 "cumDailyNsoDeathsByDeathDate": 64401,
 "hospitalCases": 14240,
-"newCasesBySpecimenDate": 13931
+"newCasesBySpecimenDate": 13930
 },
 {
 "areaType": "nation",
@@ -2949,7 +2965,7 @@
 "date": "2020-11-24",
 "cumDailyNsoDeathsByDeathDate": 63965,
 "hospitalCases": 14506,
-"newCasesBySpecimenDate": 14028
+"newCasesBySpecimenDate": 14023
 },
 {
 "areaType": "nation",
@@ -2957,7 +2973,7 @@
 "date": "2020-11-23",
 "cumDailyNsoDeathsByDeathDate": 63542,
 "hospitalCases": 14712,
-"newCasesBySpecimenDate": 16205
+"newCasesBySpecimenDate": 16208
 },
 {
 "areaType": "nation",
@@ -2965,7 +2981,7 @@
 "date": "2020-11-22",
 "cumDailyNsoDeathsByDeathDate": 63113,
 "hospitalCases": 14354,
-"newCasesBySpecimenDate": 10035
+"newCasesBySpecimenDate": 10034
 },
 {
 "areaType": "nation",
@@ -2973,7 +2989,7 @@
 "date": "2020-11-21",
 "cumDailyNsoDeathsByDeathDate": 62693,
 "hospitalCases": 14118,
-"newCasesBySpecimenDate": 10618
+"newCasesBySpecimenDate": 10616
 },
 {
 "areaType": "nation",
@@ -2981,7 +2997,7 @@
 "date": "2020-11-20",
 "cumDailyNsoDeathsByDeathDate": 62280,
 "hospitalCases": 14236,
-"newCasesBySpecimenDate": 14678
+"newCasesBySpecimenDate": 14676
 },
 {
 "areaType": "nation",
@@ -2989,7 +3005,7 @@
 "date": "2020-11-19",
 "cumDailyNsoDeathsByDeathDate": 61873,
 "hospitalCases": 14479,
-"newCasesBySpecimenDate": 15493
+"newCasesBySpecimenDate": 15496
 },
 {
 "areaType": "nation",
@@ -2997,7 +3013,7 @@
 "date": "2020-11-18",
 "cumDailyNsoDeathsByDeathDate": 61466,
 "hospitalCases": 14490,
-"newCasesBySpecimenDate": 18205
+"newCasesBySpecimenDate": 18206
 },
 {
 "areaType": "nation",
@@ -3005,7 +3021,7 @@
 "date": "2020-11-17",
 "cumDailyNsoDeathsByDeathDate": 61022,
 "hospitalCases": 14411,
-"newCasesBySpecimenDate": 20323
+"newCasesBySpecimenDate": 20314
 },
 {
 "areaType": "nation",
@@ -3013,7 +3029,7 @@
 "date": "2020-11-16",
 "cumDailyNsoDeathsByDeathDate": 60644,
 "hospitalCases": 14313,
-"newCasesBySpecimenDate": 23723
+"newCasesBySpecimenDate": 23727
 },
 {
 "areaType": "nation",
@@ -3021,7 +3037,7 @@
 "date": "2020-11-15",
 "cumDailyNsoDeathsByDeathDate": 60282,
 "hospitalCases": 13886,
-"newCasesBySpecimenDate": 14212
+"newCasesBySpecimenDate": 14206
 },
 {
 "areaType": "nation",
@@ -3029,7 +3045,7 @@
 "date": "2020-11-14",
 "cumDailyNsoDeathsByDeathDate": 59907,
 "hospitalCases": 13399,
-"newCasesBySpecimenDate": 16033
+"newCasesBySpecimenDate": 16031
 },
 {
 "areaType": "nation",
@@ -3045,7 +3061,7 @@
 "date": "2020-11-12",
 "cumDailyNsoDeathsByDeathDate": 59188,
 "hospitalCases": 12967,
-"newCasesBySpecimenDate": 21951
+"newCasesBySpecimenDate": 21952
 },
 {
 "areaType": "nation",
@@ -3053,7 +3069,7 @@
 "date": "2020-11-11",
 "cumDailyNsoDeathsByDeathDate": 58831,
 "hospitalCases": 12730,
-"newCasesBySpecimenDate": 24637
+"newCasesBySpecimenDate": 24642
 },
 {
 "areaType": "nation",
@@ -3061,7 +3077,7 @@
 "date": "2020-11-10",
 "cumDailyNsoDeathsByDeathDate": 58514,
 "hospitalCases": 12033,
-"newCasesBySpecimenDate": 24472
+"newCasesBySpecimenDate": 24467
 },
 {
 "areaType": "nation",
@@ -3069,7 +3085,7 @@
 "date": "2020-11-09",
 "cumDailyNsoDeathsByDeathDate": 58185,
 "hospitalCases": 12259,
-"newCasesBySpecimenDate": 28097
+"newCasesBySpecimenDate": 28095
 },
 {
 "areaType": "nation",
@@ -3077,7 +3093,7 @@
 "date": "2020-11-08",
 "cumDailyNsoDeathsByDeathDate": 57781,
 "hospitalCases": 11680,
-"newCasesBySpecimenDate": 17968
+"newCasesBySpecimenDate": 17967
 },
 {
 "areaType": "nation",
@@ -3093,7 +3109,7 @@
 "date": "2020-11-06",
 "cumDailyNsoDeathsByDeathDate": 57086,
 "hospitalCases": 11181,
-"newCasesBySpecimenDate": 20831
+"newCasesBySpecimenDate": 20828
 },
 {
 "areaType": "nation",
@@ -3101,7 +3117,7 @@
 "date": "2020-11-05",
 "cumDailyNsoDeathsByDeathDate": 56747,
 "hospitalCases": 10994,
-"newCasesBySpecimenDate": 20874
+"newCasesBySpecimenDate": 20875
 },
 {
 "areaType": "nation",
@@ -3109,7 +3125,7 @@
 "date": "2020-11-04",
 "cumDailyNsoDeathsByDeathDate": 56447,
 "hospitalCases": 11037,
-"newCasesBySpecimenDate": 20691
+"newCasesBySpecimenDate": 20693
 },
 {
 "areaType": "nation",
@@ -3117,7 +3133,7 @@
 "date": "2020-11-03",
 "cumDailyNsoDeathsByDeathDate": 56164,
 "hospitalCases": 10971,
-"newCasesBySpecimenDate": 22307
+"newCasesBySpecimenDate": 22310
 },
 {
 "areaType": "nation",
@@ -3125,7 +3141,7 @@
 "date": "2020-11-02",
 "cumDailyNsoDeathsByDeathDate": 55860,
 "hospitalCases": 10397,
-"newCasesBySpecimenDate": 27928
+"newCasesBySpecimenDate": 27933
 },
 {
 "areaType": "nation",
@@ -3133,7 +3149,7 @@
 "date": "2020-11-01",
 "cumDailyNsoDeathsByDeathDate": 55581,
 "hospitalCases": 9623,
-"newCasesBySpecimenDate": 13369
+"newCasesBySpecimenDate": 13368
 },
 {
 "areaType": "nation",
@@ -3141,7 +3157,7 @@
 "date": "2020-10-31",
 "cumDailyNsoDeathsByDeathDate": 55298,
 "hospitalCases": 9782,
-"newCasesBySpecimenDate": 14346
+"newCasesBySpecimenDate": 14348
 },
 {
 "areaType": "nation",
@@ -3149,7 +3165,7 @@
 "date": "2020-10-30",
 "cumDailyNsoDeathsByDeathDate": 55021,
 "hospitalCases": 9295,
-"newCasesBySpecimenDate": 19644
+"newCasesBySpecimenDate": 19646
 },
 {
 "areaType": "nation",
@@ -3157,7 +3173,7 @@
 "date": "2020-10-29",
 "cumDailyNsoDeathsByDeathDate": 54737,
 "hospitalCases": 9127,
-"newCasesBySpecimenDate": 19961
+"newCasesBySpecimenDate": 19963
 },
 {
 "areaType": "nation",
@@ -3165,7 +3181,7 @@
 "date": "2020-10-28",
 "cumDailyNsoDeathsByDeathDate": 54484,
 "hospitalCases": 9070,
-"newCasesBySpecimenDate": 20233
+"newCasesBySpecimenDate": 20228
 },
 {
 "areaType": "nation",
@@ -3173,7 +3189,7 @@
 "date": "2020-10-27",
 "cumDailyNsoDeathsByDeathDate": 54256,
 "hospitalCases": 8595,
-"newCasesBySpecimenDate": 20484
+"newCasesBySpecimenDate": 20487
 },
 {
 "areaType": "nation",
@@ -3181,7 +3197,7 @@
 "date": "2020-10-26",
 "cumDailyNsoDeathsByDeathDate": 54030,
 "hospitalCases": 7856,
-"newCasesBySpecimenDate": 22750
+"newCasesBySpecimenDate": 22753
 },
 {
 "areaType": "nation",
@@ -3197,7 +3213,7 @@
 "date": "2020-10-24",
 "cumDailyNsoDeathsByDeathDate": 53605,
 "hospitalCases": 7176,
-"newCasesBySpecimenDate": 13521
+"newCasesBySpecimenDate": 13524
 },
 {
 "areaType": "nation",
@@ -3205,7 +3221,7 @@
 "date": "2020-10-23",
 "cumDailyNsoDeathsByDeathDate": 53431,
 "hospitalCases": 6842,
-"newCasesBySpecimenDate": 18105
+"newCasesBySpecimenDate": 18104
 },
 {
 "areaType": "nation",
@@ -3213,7 +3229,7 @@
 "date": "2020-10-22",
 "cumDailyNsoDeathsByDeathDate": 53248,
 "hospitalCases": 6345,
-"newCasesBySpecimenDate": 19607
+"newCasesBySpecimenDate": 19605
 },
 {
 "areaType": "nation",
@@ -3221,7 +3237,7 @@
 "date": "2020-10-21",
 "cumDailyNsoDeathsByDeathDate": 53062,
 "hospitalCases": 6271,
-"newCasesBySpecimenDate": 21478
+"newCasesBySpecimenDate": 21481
 },
 {
 "areaType": "nation",
@@ -3229,7 +3245,7 @@
 "date": "2020-10-20",
 "cumDailyNsoDeathsByDeathDate": 52866,
 "hospitalCases": 6072,
-"newCasesBySpecimenDate": 21330
+"newCasesBySpecimenDate": 21328
 },
 {
 "areaType": "nation",
@@ -3245,7 +3261,7 @@
 "date": "2020-10-18",
 "cumDailyNsoDeathsByDeathDate": 52534,
 "hospitalCases": 5202,
-"newCasesBySpecimenDate": 11856
+"newCasesBySpecimenDate": 11854
 },
 {
 "areaType": "nation",
@@ -3253,7 +3269,7 @@
 "date": "2020-10-17",
 "cumDailyNsoDeathsByDeathDate": 52410,
 "hospitalCases": 5029,
-"newCasesBySpecimenDate": 12355
+"newCasesBySpecimenDate": 12353
 },
 {
 "areaType": "nation",
@@ -3261,7 +3277,7 @@
 "date": "2020-10-16",
 "cumDailyNsoDeathsByDeathDate": 52242,
 "hospitalCases": 4854,
-"newCasesBySpecimenDate": 14547
+"newCasesBySpecimenDate": 14545
 },
 {
 "areaType": "nation",
@@ -3269,7 +3285,7 @@
 "date": "2020-10-15",
 "cumDailyNsoDeathsByDeathDate": 52117,
 "hospitalCases": 4569,
-"newCasesBySpecimenDate": 15235
+"newCasesBySpecimenDate": 15236
 },
 {
 "areaType": "nation",
@@ -3277,7 +3293,7 @@
 "date": "2020-10-14",
 "cumDailyNsoDeathsByDeathDate": 51993,
 "hospitalCases": 4313,
-"newCasesBySpecimenDate": 16441
+"newCasesBySpecimenDate": 16438
 },
 {
 "areaType": "nation",
@@ -3293,7 +3309,7 @@
 "date": "2020-10-12",
 "cumDailyNsoDeathsByDeathDate": 51795,
 "hospitalCases": 3827,
-"newCasesBySpecimenDate": 16196
+"newCasesBySpecimenDate": 16198
 },
 {
 "areaType": "nation",
@@ -3301,7 +3317,7 @@
 "date": "2020-10-11",
 "cumDailyNsoDeathsByDeathDate": 51701,
 "hospitalCases": 3604,
-"newCasesBySpecimenDate": 9655
+"newCasesBySpecimenDate": 9653
 },
 {
 "areaType": "nation",
@@ -3317,7 +3333,7 @@
 "date": "2020-10-09",
 "cumDailyNsoDeathsByDeathDate": 51508,
 "hospitalCases": 3238,
-"newCasesBySpecimenDate": 13009
+"newCasesBySpecimenDate": 13006
 },
 {
 "areaType": "nation",
@@ -3325,7 +3341,7 @@
 "date": "2020-10-08",
 "cumDailyNsoDeathsByDeathDate": 51426,
 "hospitalCases": 3179,
-"newCasesBySpecimenDate": 15263
+"newCasesBySpecimenDate": 15265
 },
 {
 "areaType": "nation",
@@ -3333,7 +3349,7 @@
 "date": "2020-10-07",
 "cumDailyNsoDeathsByDeathDate": 51346,
 "hospitalCases": 3066,
-"newCasesBySpecimenDate": 15185
+"newCasesBySpecimenDate": 15186
 },
 {
 "areaType": "nation",
@@ -3341,7 +3357,7 @@
 "date": "2020-10-06",
 "cumDailyNsoDeathsByDeathDate": 51258,
 "hospitalCases": 2903,
-"newCasesBySpecimenDate": 14290
+"newCasesBySpecimenDate": 14293
 },
 {
 "areaType": "nation",
@@ -3349,7 +3365,7 @@
 "date": "2020-10-05",
 "cumDailyNsoDeathsByDeathDate": 51189,
 "hospitalCases": 2705,
-"newCasesBySpecimenDate": 14034
+"newCasesBySpecimenDate": 14033
 },
 {
 "areaType": "nation",
@@ -3357,7 +3373,7 @@
 "date": "2020-10-04",
 "cumDailyNsoDeathsByDeathDate": 51135,
 "hospitalCases": 2435,
-"newCasesBySpecimenDate": 9832
+"newCasesBySpecimenDate": 9833
 },
 {
 "areaType": "nation",
@@ -3373,7 +3389,7 @@
 "date": "2020-10-02",
 "cumDailyNsoDeathsByDeathDate": 51024,
 "hospitalCases": 2180,
-"newCasesBySpecimenDate": 11574
+"newCasesBySpecimenDate": 11576
 },
 {
 "areaType": "nation",
@@ -3389,7 +3405,7 @@
 "date": "2020-09-30",
 "cumDailyNsoDeathsByDeathDate": 50899,
 "hospitalCases": 2036,
-"newCasesBySpecimenDate": 10522
+"newCasesBySpecimenDate": 10523
 },
 {
 "areaType": "nation",
@@ -3405,7 +3421,7 @@
 "date": "2020-09-28",
 "cumDailyNsoDeathsByDeathDate": 50804,
 "hospitalCases": 1955,
-"newCasesBySpecimenDate": 8575
+"newCasesBySpecimenDate": 8572
 },
 {
 "areaType": "nation",
@@ -3429,7 +3445,7 @@
 "date": "2020-09-25",
 "cumDailyNsoDeathsByDeathDate": 50665,
 "hospitalCases": 1686,
-"newCasesBySpecimenDate": 6030
+"newCasesBySpecimenDate": 6029
 },
 {
 "areaType": "nation",
@@ -3437,7 +3453,7 @@
 "date": "2020-09-24",
 "cumDailyNsoDeathsByDeathDate": 50630,
 "hospitalCases": 1546,
-"newCasesBySpecimenDate": 6292
+"newCasesBySpecimenDate": 6294
 },
 {
 "areaType": "nation",
@@ -3445,7 +3461,7 @@
 "date": "2020-09-23",
 "cumDailyNsoDeathsByDeathDate": 50597,
 "hospitalCases": 1439,
-"newCasesBySpecimenDate": 5883
+"newCasesBySpecimenDate": 5886
 },
 {
 "areaType": "nation",
@@ -3453,7 +3469,7 @@
 "date": "2020-09-22",
 "cumDailyNsoDeathsByDeathDate": 50545,
 "hospitalCases": 1378,
-"newCasesBySpecimenDate": 5354
+"newCasesBySpecimenDate": 5353
 },
 {
 "areaType": "nation",
@@ -3461,7 +3477,7 @@
 "date": "2020-09-21",
 "cumDailyNsoDeathsByDeathDate": 50513,
 "hospitalCases": 1299,
-"newCasesBySpecimenDate": 4697
+"newCasesBySpecimenDate": 4695
 },
 {
 "areaType": "nation",
@@ -3469,7 +3485,7 @@
 "date": "2020-09-20",
 "cumDailyNsoDeathsByDeathDate": 50487,
 "hospitalCases": 1174,
-"newCasesBySpecimenDate": 4626
+"newCasesBySpecimenDate": 4624
 },
 {
 "areaType": "nation",
@@ -3477,7 +3493,7 @@
 "date": "2020-09-19",
 "cumDailyNsoDeathsByDeathDate": 50453,
 "hospitalCases": 1081,
-"newCasesBySpecimenDate": 4175
+"newCasesBySpecimenDate": 4174
 },
 {
 "areaType": "nation",
@@ -3485,7 +3501,7 @@
 "date": "2020-09-18",
 "cumDailyNsoDeathsByDeathDate": 50431,
 "hospitalCases": 1020,
-"newCasesBySpecimenDate": 4273
+"newCasesBySpecimenDate": 4270
 },
 {
 "areaType": "nation",
@@ -3493,7 +3509,7 @@
 "date": "2020-09-17",
 "cumDailyNsoDeathsByDeathDate": 50406,
 "hospitalCases": 984,
-"newCasesBySpecimenDate": 3939
+"newCasesBySpecimenDate": 3937
 },
 {
 "areaType": "nation",
@@ -3509,7 +3525,7 @@
 "date": "2020-09-15",
 "cumDailyNsoDeathsByDeathDate": 50347,
 "hospitalCases": 891,
-"newCasesBySpecimenDate": 3036
+"newCasesBySpecimenDate": 3039
 },
 {
 "areaType": "nation",
@@ -3517,7 +3533,7 @@
 "date": "2020-09-14",
 "cumDailyNsoDeathsByDeathDate": 50325,
 "hospitalCases": 812,
-"newCasesBySpecimenDate": 2893
+"newCasesBySpecimenDate": 2894
 },
 {
 "areaType": "nation",
@@ -3541,7 +3557,7 @@
 "date": "2020-09-11",
 "cumDailyNsoDeathsByDeathDate": 50269,
 "hospitalCases": 622,
-"newCasesBySpecimenDate": 2857
+"newCasesBySpecimenDate": 2859
 },
 {
 "areaType": "nation",
@@ -3549,7 +3565,7 @@
 "date": "2020-09-10",
 "cumDailyNsoDeathsByDeathDate": 50254,
 "hospitalCases": 572,
-"newCasesBySpecimenDate": 3099
+"newCasesBySpecimenDate": 3095
 },
 {
 "areaType": "nation",
@@ -3565,7 +3581,7 @@
 "date": "2020-09-08",
 "cumDailyNsoDeathsByDeathDate": 50229,
 "hospitalCases": 535,
-"newCasesBySpecimenDate": 3000
+"newCasesBySpecimenDate": 3001
 },
 {
 "areaType": "nation",
@@ -3597,7 +3613,7 @@
 "date": "2020-09-04",
 "cumDailyNsoDeathsByDeathDate": 50169,
 "hospitalCases": 474,
-"newCasesBySpecimenDate": 2591
+"newCasesBySpecimenDate": 2590
 },
 {
 "areaType": "nation",
@@ -3613,7 +3629,7 @@
 "date": "2020-09-02",
 "cumDailyNsoDeathsByDeathDate": 50149,
 "hospitalCases": 451,
-"newCasesBySpecimenDate": 2617
+"newCasesBySpecimenDate": 2616
 },
 {
 "areaType": "nation",
@@ -3629,7 +3645,7 @@
 "date": "2020-08-31",
 "cumDailyNsoDeathsByDeathDate": 50127,
 "hospitalCases": 495,
-"newCasesBySpecimenDate": 1259
+"newCasesBySpecimenDate": 1260
 },
 {
 "areaType": "nation",
@@ -3637,7 +3653,7 @@
 "date": "2020-08-30",
 "cumDailyNsoDeathsByDeathDate": 50111,
 "hospitalCases": 479,
-"newCasesBySpecimenDate": 976
+"newCasesBySpecimenDate": 975
 },
 {
 "areaType": "nation",
@@ -3645,7 +3661,7 @@
 "date": "2020-08-29",
 "cumDailyNsoDeathsByDeathDate": 50103,
 "hospitalCases": 478,
-"newCasesBySpecimenDate": 1041
+"newCasesBySpecimenDate": 1040
 },
 {
 "areaType": "nation",
@@ -3653,7 +3669,7 @@
 "date": "2020-08-28",
 "cumDailyNsoDeathsByDeathDate": 50095,
 "hospitalCases": 469,
-"newCasesBySpecimenDate": 1381
+"newCasesBySpecimenDate": 1382
 },
 {
 "areaType": "nation",
@@ -3669,7 +3685,7 @@
 "date": "2020-08-26",
 "cumDailyNsoDeathsByDeathDate": 50073,
 "hospitalCases": 485,
-"newCasesBySpecimenDate": 1138
+"newCasesBySpecimenDate": 1139
 },
 {
 "areaType": "nation",
@@ -3685,7 +3701,7 @@
 "date": "2020-08-24",
 "cumDailyNsoDeathsByDeathDate": 50039,
 "hospitalCases": 522,
-"newCasesBySpecimenDate": 1131
+"newCasesBySpecimenDate": 1132
 },
 {
 "areaType": "nation",
@@ -3709,7 +3725,7 @@
 "date": "2020-08-21",
 "cumDailyNsoDeathsByDeathDate": 50004,
 "hospitalCases": 528,
-"newCasesBySpecimenDate": 1007
+"newCasesBySpecimenDate": 1006
 },
 {
 "areaType": "nation",
@@ -3717,7 +3733,7 @@
 "date": "2020-08-20",
 "cumDailyNsoDeathsByDeathDate": 49995,
 "hospitalCases": 551,
-"newCasesBySpecimenDate": 1219
+"newCasesBySpecimenDate": 1218
 },
 {
 "areaType": "nation",
@@ -3757,7 +3773,7 @@
 "date": "2020-08-15",
 "cumDailyNsoDeathsByDeathDate": 49927,
 "hospitalCases": 630,
-"newCasesBySpecimenDate": 643
+"newCasesBySpecimenDate": 642
 },
 {
 "areaType": "nation",
@@ -3773,7 +3789,7 @@
 "date": "2020-08-13",
 "cumDailyNsoDeathsByDeathDate": 49891,
 "hospitalCases": 652,
-"newCasesBySpecimenDate": 1019
+"newCasesBySpecimenDate": 1020
 },
 {
 "areaType": "nation",
@@ -3781,7 +3797,7 @@
 "date": "2020-08-12",
 "cumDailyNsoDeathsByDeathDate": 49873,
 "hospitalCases": 642,
-"newCasesBySpecimenDate": 1095
+"newCasesBySpecimenDate": 1094
 },
 {
 "areaType": "nation",
@@ -3797,7 +3813,7 @@
 "date": "2020-08-10",
 "cumDailyNsoDeathsByDeathDate": 49833,
 "hospitalCases": 714,
-"newCasesBySpecimenDate": 1349
+"newCasesBySpecimenDate": 1348
 },
 {
 "areaType": "nation",
@@ -3813,7 +3829,7 @@
 "date": "2020-08-08",
 "cumDailyNsoDeathsByDeathDate": 49792,
 "hospitalCases": 650,
-"newCasesBySpecimenDate": 637
+"newCasesBySpecimenDate": 636
 },
 {
 "areaType": "nation",
@@ -3893,7 +3909,7 @@
 "date": "2020-07-29",
 "cumDailyNsoDeathsByDeathDate": 49621,
 "hospitalCases": 927,
-"newCasesBySpecimenDate": 973
+"newCasesBySpecimenDate": 971
 },
 {
 "areaType": "nation",
@@ -3973,7 +3989,7 @@
 "date": "2020-07-19",
 "cumDailyNsoDeathsByDeathDate": 49373,
 "hospitalCases": 1301,
-"newCasesBySpecimenDate": 414
+"newCasesBySpecimenDate": 415
 },
 {
 "areaType": "nation",
@@ -3981,7 +3997,7 @@
 "date": "2020-07-18",
 "cumDailyNsoDeathsByDeathDate": 49351,
 "hospitalCases": 1321,
-"newCasesBySpecimenDate": 466
+"newCasesBySpecimenDate": 467
 },
 {
 "areaType": "nation",
@@ -4021,7 +4037,7 @@
 "date": "2020-07-13",
 "cumDailyNsoDeathsByDeathDate": 49197,
 "hospitalCases": 1612,
-"newCasesBySpecimenDate": 688
+"newCasesBySpecimenDate": 691
 },
 {
 "areaType": "nation",
@@ -4053,7 +4069,7 @@
 "date": "2020-07-09",
 "cumDailyNsoDeathsByDeathDate": 49051,
 "hospitalCases": 1801,
-"newCasesBySpecimenDate": 684
+"newCasesBySpecimenDate": 682
 },
 {
 "areaType": "nation",
@@ -4077,7 +4093,7 @@
 "date": "2020-07-06",
 "cumDailyNsoDeathsByDeathDate": 48910,
 "hospitalCases": 2099,
-"newCasesBySpecimenDate": 655
+"newCasesBySpecimenDate": 654
 },
 {
 "areaType": "nation",
@@ -4093,7 +4109,7 @@
 "date": "2020-07-04",
 "cumDailyNsoDeathsByDeathDate": 48818,
 "hospitalCases": 2152,
-"newCasesBySpecimenDate": 388
+"newCasesBySpecimenDate": 387
 },
 {
 "areaType": "nation",
@@ -4109,7 +4125,7 @@
 "date": "2020-07-02",
 "cumDailyNsoDeathsByDeathDate": 48727,
 "hospitalCases": 2410,
-"newCasesBySpecimenDate": 566
+"newCasesBySpecimenDate": 565
 },
 {
 "areaType": "nation",
@@ -4157,7 +4173,7 @@
 "date": "2020-06-26",
 "cumDailyNsoDeathsByDeathDate": 48371,
 "hospitalCases": 2859,
-"newCasesBySpecimenDate": 641
+"newCasesBySpecimenDate": 640
 },
 {
 "areaType": "nation",
@@ -4165,7 +4181,7 @@
 "date": "2020-06-25",
 "cumDailyNsoDeathsByDeathDate": 48301,
 "hospitalCases": 3066,
-"newCasesBySpecimenDate": 636
+"newCasesBySpecimenDate": 635
 },
 {
 "areaType": "nation",
@@ -4173,7 +4189,7 @@
 "date": "2020-06-24",
 "cumDailyNsoDeathsByDeathDate": 48204,
 "hospitalCases": 3223,
-"newCasesBySpecimenDate": 727
+"newCasesBySpecimenDate": 726
 },
 {
 "areaType": "nation",
@@ -4181,7 +4197,7 @@
 "date": "2020-06-23",
 "cumDailyNsoDeathsByDeathDate": 48111,
 "hospitalCases": 3288,
-"newCasesBySpecimenDate": 728
+"newCasesBySpecimenDate": 730
 },
 {
 "areaType": "nation",
@@ -4237,7 +4253,7 @@
 "date": "2020-06-16",
 "cumDailyNsoDeathsByDeathDate": 47559,
 "hospitalCases": 3934,
-"newCasesBySpecimenDate": 993
+"newCasesBySpecimenDate": 994
 },
 {
 "areaType": "nation",
@@ -4261,7 +4277,7 @@
 "date": "2020-06-13",
 "cumDailyNsoDeathsByDeathDate": 47245,
 "hospitalCases": 4000,
-"newCasesBySpecimenDate": 788
+"newCasesBySpecimenDate": 789
 },
 {
 "areaType": "nation",
@@ -4293,7 +4309,7 @@
 "date": "2020-06-09",
 "cumDailyNsoDeathsByDeathDate": 46788,
 "hospitalCases": 4665,
-"newCasesBySpecimenDate": 1053
+"newCasesBySpecimenDate": 1054
 },
 {
 "areaType": "nation",
@@ -4317,7 +4333,7 @@
 "date": "2020-06-06",
 "cumDailyNsoDeathsByDeathDate": 46382,
 "hospitalCases": 5004,
-"newCasesBySpecimenDate": 725
+"newCasesBySpecimenDate": 726
 },
 {
 "areaType": "nation",
@@ -4325,7 +4341,7 @@
 "date": "2020-06-05",
 "cumDailyNsoDeathsByDeathDate": 46253,
 "hospitalCases": 5213,
-"newCasesBySpecimenDate": 1022
+"newCasesBySpecimenDate": 1023
 },
 {
 "areaType": "nation",
@@ -4341,7 +4357,7 @@
 "date": "2020-06-03",
 "cumDailyNsoDeathsByDeathDate": 45930,
 "hospitalCases": 5600,
-"newCasesBySpecimenDate": 1238
+"newCasesBySpecimenDate": 1239
 },
 {
 "areaType": "nation",
@@ -4365,7 +4381,7 @@
 "date": "2020-05-31",
 "cumDailyNsoDeathsByDeathDate": 45368,
 "hospitalCases": 5933,
-"newCasesBySpecimenDate": 988
+"newCasesBySpecimenDate": 987
 },
 {
 "areaType": "nation",
@@ -4381,7 +4397,7 @@
 "date": "2020-05-29",
 "cumDailyNsoDeathsByDeathDate": 45005,
 "hospitalCases": 6250,
-"newCasesBySpecimenDate": 1371
+"newCasesBySpecimenDate": 1372
 },
 {
 "areaType": "nation",
@@ -4389,7 +4405,7 @@
 "date": "2020-05-28",
 "cumDailyNsoDeathsByDeathDate": 44789,
 "hospitalCases": 6528,
-"newCasesBySpecimenDate": 1571
+"newCasesBySpecimenDate": 1570
 },
 {
 "areaType": "nation",
@@ -4397,7 +4413,7 @@
 "date": "2020-05-27",
 "cumDailyNsoDeathsByDeathDate": 44548,
 "hospitalCases": 6836,
-"newCasesBySpecimenDate": 1610
+"newCasesBySpecimenDate": 1608
 },
 {
 "areaType": "nation",
@@ -4405,7 +4421,7 @@
 "date": "2020-05-26",
 "cumDailyNsoDeathsByDeathDate": 44315,
 "hospitalCases": 7305,
-"newCasesBySpecimenDate": 1451
+"newCasesBySpecimenDate": 1449
 },
 {
 "areaType": "nation",
@@ -4413,7 +4429,7 @@
 "date": "2020-05-25",
 "cumDailyNsoDeathsByDeathDate": 44055,
 "hospitalCases": 7448,
-"newCasesBySpecimenDate": 1377
+"newCasesBySpecimenDate": 1375
 },
 {
 "areaType": "nation",
@@ -4445,7 +4461,7 @@
 "date": "2020-05-21",
 "cumDailyNsoDeathsByDeathDate": 43070,
 "hospitalCases": 7903,
-"newCasesBySpecimenDate": 2268
+"newCasesBySpecimenDate": 2266
 },
 {
 "areaType": "nation",
@@ -4453,7 +4469,7 @@
 "date": "2020-05-20",
 "cumDailyNsoDeathsByDeathDate": 42784,
 "hospitalCases": 8115,
-"newCasesBySpecimenDate": 2342
+"newCasesBySpecimenDate": 2341
 },
 {
 "areaType": "nation",
@@ -4485,7 +4501,7 @@
 "date": "2020-05-16",
 "cumDailyNsoDeathsByDeathDate": 41505,
 "hospitalCases": 8643,
-"newCasesBySpecimenDate": 1768
+"newCasesBySpecimenDate": 1767
 },
 {
 "areaType": "nation",
@@ -4493,7 +4509,7 @@
 "date": "2020-05-15",
 "cumDailyNsoDeathsByDeathDate": 41154,
 "hospitalCases": 9079,
-"newCasesBySpecimenDate": 2129
+"newCasesBySpecimenDate": 2130
 },
 {
 "areaType": "nation",
@@ -4501,7 +4517,7 @@
 "date": "2020-05-14",
 "cumDailyNsoDeathsByDeathDate": 40795,
 "hospitalCases": 9231,
-"newCasesBySpecimenDate": 2207
+"newCasesBySpecimenDate": 2208
 },
 {
 "areaType": "nation",
@@ -4509,7 +4525,7 @@
 "date": "2020-05-13",
 "cumDailyNsoDeathsByDeathDate": 40422,
 "hospitalCases": 9602,
-"newCasesBySpecimenDate": 2884
+"newCasesBySpecimenDate": 2883
 },
 {
 "areaType": "nation",
@@ -4517,7 +4533,7 @@
 "date": "2020-05-12",
 "cumDailyNsoDeathsByDeathDate": 40049,
 "hospitalCases": 9791,
-"newCasesBySpecimenDate": 2920
+"newCasesBySpecimenDate": 2918
 },
 {
 "areaType": "nation",
@@ -4525,7 +4541,7 @@
 "date": "2020-05-11",
 "cumDailyNsoDeathsByDeathDate": 39669,
 "hospitalCases": 10109,
-"newCasesBySpecimenDate": 3060
+"newCasesBySpecimenDate": 3058
 },
 {
 "areaType": "nation",
@@ -4549,7 +4565,7 @@
 "date": "2020-05-08",
 "cumDailyNsoDeathsByDeathDate": 38428,
 "hospitalCases": 10249,
-"newCasesBySpecimenDate": 2620
+"newCasesBySpecimenDate": 2618
 },
 {
 "areaType": "nation",
@@ -4557,7 +4573,7 @@
 "date": "2020-05-07",
 "cumDailyNsoDeathsByDeathDate": 37946,
 "hospitalCases": 10726,
-"newCasesBySpecimenDate": 3201
+"newCasesBySpecimenDate": 3202
 },
 {
 "areaType": "nation",
@@ -4565,7 +4581,7 @@
 "date": "2020-05-06",
 "cumDailyNsoDeathsByDeathDate": 37411,
 "hospitalCases": 11227,
-"newCasesBySpecimenDate": 3260
+"newCasesBySpecimenDate": 3258
 },
 {
 "areaType": "nation",
@@ -4573,7 +4589,7 @@
 "date": "2020-05-05",
 "cumDailyNsoDeathsByDeathDate": 36887,
 "hospitalCases": 11754,
-"newCasesBySpecimenDate": 3137
+"newCasesBySpecimenDate": 3136
 },
 {
 "areaType": "nation",
@@ -4581,7 +4597,7 @@
 "date": "2020-05-04",
 "cumDailyNsoDeathsByDeathDate": 36350,
 "hospitalCases": 12020,
-"newCasesBySpecimenDate": 2842
+"newCasesBySpecimenDate": 2845
 },
 {
 "areaType": "nation",
@@ -4589,7 +4605,7 @@
 "date": "2020-05-03",
 "cumDailyNsoDeathsByDeathDate": 35788,
 "hospitalCases": 12119,
-"newCasesBySpecimenDate": 2631
+"newCasesBySpecimenDate": 2630
 },
 {
 "areaType": "nation",
@@ -4597,7 +4613,7 @@
 "date": "2020-05-02",
 "cumDailyNsoDeathsByDeathDate": 35232,
 "hospitalCases": 12314,
-"newCasesBySpecimenDate": 2742
+"newCasesBySpecimenDate": 2744
 },
 {
 "areaType": "nation",
@@ -4613,7 +4629,7 @@
 "date": "2020-04-30",
 "cumDailyNsoDeathsByDeathDate": 33981,
 "hospitalCases": 12922,
-"newCasesBySpecimenDate": 4305
+"newCasesBySpecimenDate": 4308
 },
 {
 "areaType": "nation",
@@ -4629,7 +4645,7 @@
 "date": "2020-04-28",
 "cumDailyNsoDeathsByDeathDate": 32622,
 "hospitalCases": 13565,
-"newCasesBySpecimenDate": 4105
+"newCasesBySpecimenDate": 4104
 },
 {
 "areaType": "nation",
@@ -4637,7 +4653,7 @@
 "date": "2020-04-27",
 "cumDailyNsoDeathsByDeathDate": 31921,
 "hospitalCases": 14255,
-"newCasesBySpecimenDate": 4025
+"newCasesBySpecimenDate": 4027
 },
 {
 "areaType": "nation",
@@ -4645,7 +4661,7 @@
 "date": "2020-04-26",
 "cumDailyNsoDeathsByDeathDate": 31197,
 "hospitalCases": 14174,
-"newCasesBySpecimenDate": 3132
+"newCasesBySpecimenDate": 3131
 },
 {
 "areaType": "nation",
@@ -4661,7 +4677,7 @@
 "date": "2020-04-24",
 "cumDailyNsoDeathsByDeathDate": 29663,
 "hospitalCases": 14642,
-"newCasesBySpecimenDate": 4341
+"newCasesBySpecimenDate": 4347
 },
 {
 "areaType": "nation",
@@ -4669,7 +4685,7 @@
 "date": "2020-04-23",
 "cumDailyNsoDeathsByDeathDate": 28789,
 "hospitalCases": 15402,
-"newCasesBySpecimenDate": 4552
+"newCasesBySpecimenDate": 4553
 },
 {
 "areaType": "nation",
@@ -4677,7 +4693,7 @@
 "date": "2020-04-22",
 "cumDailyNsoDeathsByDeathDate": 27896,
 "hospitalCases": 16018,
-"newCasesBySpecimenDate": 4792
+"newCasesBySpecimenDate": 4793
 },
 {
 "areaType": "nation",
@@ -4693,7 +4709,7 @@
 "date": "2020-04-20",
 "cumDailyNsoDeathsByDeathDate": 26041,
 "hospitalCases": 16654,
-"newCasesBySpecimenDate": 3672
+"newCasesBySpecimenDate": 3674
 },
 {
 "areaType": "nation",
@@ -4701,7 +4717,7 @@
 "date": "2020-04-19",
 "cumDailyNsoDeathsByDeathDate": 25049,
 "hospitalCases": 16928,
-"newCasesBySpecimenDate": 3471
+"newCasesBySpecimenDate": 3473
 },
 {
 "areaType": "nation",
@@ -4709,7 +4725,7 @@
 "date": "2020-04-18",
 "cumDailyNsoDeathsByDeathDate": 24082,
 "hospitalCases": 16850,
-"newCasesBySpecimenDate": 4106
+"newCasesBySpecimenDate": 4105
 },
 {
 "areaType": "nation",
@@ -4717,7 +4733,7 @@
 "date": "2020-04-17",
 "cumDailyNsoDeathsByDeathDate": 23052,
 "hospitalCases": 16728,
-"newCasesBySpecimenDate": 4062
+"newCasesBySpecimenDate": 4061
 },
 {
 "areaType": "nation",
@@ -4725,7 +4741,7 @@
 "date": "2020-04-16",
 "cumDailyNsoDeathsByDeathDate": 21945,
 "hospitalCases": 17783,
-"newCasesBySpecimenDate": 4341
+"newCasesBySpecimenDate": 4344
 },
 {
 "areaType": "nation",
@@ -4733,7 +4749,7 @@
 "date": "2020-04-15",
 "cumDailyNsoDeathsByDeathDate": 20798,
 "hospitalCases": 17934,
-"newCasesBySpecimenDate": 4217
+"newCasesBySpecimenDate": 4215
 },
 {
 "areaType": "nation",
@@ -4749,7 +4765,7 @@
 "date": "2020-04-13",
 "cumDailyNsoDeathsByDeathDate": 18618,
 "hospitalCases": 18621,
-"newCasesBySpecimenDate": 3425
+"newCasesBySpecimenDate": 3427
 },
 {
 "areaType": "nation",
@@ -4773,7 +4789,7 @@
 "date": "2020-04-10",
 "cumDailyNsoDeathsByDeathDate": 15131,
 "hospitalCases": 18669,
-"newCasesBySpecimenDate": 3579
+"newCasesBySpecimenDate": 3578
 },
 {
 "areaType": "nation",
@@ -4781,7 +4797,7 @@
 "date": "2020-04-09",
 "cumDailyNsoDeathsByDeathDate": 13968,
 "hospitalCases": 18423,
-"newCasesBySpecimenDate": 4057
+"newCasesBySpecimenDate": 4055
 },
 {
 "areaType": "nation",
@@ -4789,7 +4805,7 @@
 "date": "2020-04-08",
 "cumDailyNsoDeathsByDeathDate": 12791,
 "hospitalCases": 18152,
-"newCasesBySpecimenDate": 4279
+"newCasesBySpecimenDate": 4284
 },
 {
 "areaType": "nation",
@@ -4797,7 +4813,7 @@
 "date": "2020-04-07",
 "cumDailyNsoDeathsByDeathDate": 11505,
 "hospitalCases": 17814,
-"newCasesBySpecimenDate": 4562
+"newCasesBySpecimenDate": 4566
 },
 {
 "areaType": "nation",
@@ -4805,7 +4821,7 @@
 "date": "2020-04-06",
 "cumDailyNsoDeathsByDeathDate": 10360,
 "hospitalCases": 17154,
-"newCasesBySpecimenDate": 4372
+"newCasesBySpecimenDate": 4366
 },
 {
 "areaType": "nation",
@@ -4813,7 +4829,7 @@
 "date": "2020-04-05",
 "cumDailyNsoDeathsByDeathDate": 9335,
 "hospitalCases": 16657,
-"newCasesBySpecimenDate": 3074
+"newCasesBySpecimenDate": 3073
 },
 {
 "areaType": "nation",
@@ -4821,7 +4837,7 @@
 "date": "2020-04-04",
 "cumDailyNsoDeathsByDeathDate": 8272,
 "hospitalCases": 15469,
-"newCasesBySpecimenDate": 3380
+"newCasesBySpecimenDate": 3378
 },
 {
 "areaType": "nation",
@@ -4829,7 +4845,7 @@
 "date": "2020-04-03",
 "cumDailyNsoDeathsByDeathDate": 7249,
 "hospitalCases": 13635,
-"newCasesBySpecimenDate": 4075
+"newCasesBySpecimenDate": 4077
 },
 {
 "areaType": "nation",
@@ -4837,7 +4853,7 @@
 "date": "2020-04-02",
 "cumDailyNsoDeathsByDeathDate": 6322,
 "hospitalCases": 12135,
-"newCasesBySpecimenDate": 4065
+"newCasesBySpecimenDate": 4061
 },
 {
 "areaType": "nation",
@@ -4845,7 +4861,7 @@
 "date": "2020-04-01",
 "cumDailyNsoDeathsByDeathDate": 5430,
 "hospitalCases": 12059,
-"newCasesBySpecimenDate": 4116
+"newCasesBySpecimenDate": 4117
 },
 {
 "areaType": "nation",
@@ -4853,7 +4869,7 @@
 "date": "2020-03-31",
 "cumDailyNsoDeathsByDeathDate": 4604,
 "hospitalCases": 11154,
-"newCasesBySpecimenDate": 3779
+"newCasesBySpecimenDate": 3781
 },
 {
 "areaType": "nation",
@@ -4885,7 +4901,7 @@
 "date": "2020-03-27",
 "cumDailyNsoDeathsByDeathDate": 2252,
 "hospitalCases": 6462,
-"newCasesBySpecimenDate": 2647
+"newCasesBySpecimenDate": 2646
 },
 {
 "areaType": "nation",
@@ -4901,7 +4917,7 @@
 "date": "2020-03-25",
 "cumDailyNsoDeathsByDeathDate": 1466,
 "hospitalCases": 4402,
-"newCasesBySpecimenDate": 2254
+"newCasesBySpecimenDate": 2255
 },
 {
 "areaType": "nation",
@@ -4909,7 +4925,7 @@
 "date": "2020-03-24",
 "cumDailyNsoDeathsByDeathDate": 1167,
 "hospitalCases": 3598,
-"newCasesBySpecimenDate": 2024
+"newCasesBySpecimenDate": 2025
 },
 {
 "areaType": "nation",

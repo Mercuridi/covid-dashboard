@@ -7,13 +7,14 @@ from covid_data_handler import covid_API_request
 
 app = Flask(__name__)
 
-@app.route("/index")
+@app.route('/index')
 def website_update():
     covid_API_request ()
     deaths_total, hospital_cases, national_7day_infections = process_covid_json_data (parse_json_data("data_national.json"))
     local_7day_infections = process_covid_json_data (parse_json_data("data_local.json"))
     print (deaths_total, hospital_cases, national_7day_infections, local_7day_infections)
-    return render_template("index.html")
-#            local_7day_infections = local_7day_infections, national_7day_infections = national_7day_infections,
-#            deaths_total = deaths_total, hospital_cases = hospital_cases)
+    return render_template('index.html',
+            local_7day_infections = local_7day_infections, national_7day_infections = national_7day_infections,
+            deaths_total = ("Total deaths: " + str(deaths_total)), hospital_cases = ("Current national hospital cases: " + str(hospital_cases)))
+
 app.run()
