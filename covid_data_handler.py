@@ -98,9 +98,7 @@ def process_covid_csv_data(covid_csv_data):
     # if not, the for loop ends and this line will be printed
     print ("Error: not all functions in process_covid_csv_data completed")
 def dictionary_combiner (local_data, national_data):
-    """
-    Combines a pair of dictionaries into one so all data can be stored in one file
-    """
+    """Combines a pair of dictionaries into one so all data can be stored in one file"""
     # for each dictionary in the list:
     for i in (range(len(local_data))):
         # rename national key
@@ -187,14 +185,8 @@ def parse_json_data(json_filename = "data_all.json"):
     return covid_json_data
 def process_covid_json_data(covid_json_data):
     """Method to take a dictionary of COVID data and return all relevant information
-    
+
     Dependant on keynames assigned in other functions in this module
-
-    Args:
-        covid_json_data ([type]): [description]
-
-    Returns:
-        [type]: [description]
     """
     # define base state of variables
     national_days_summed = 0
@@ -232,7 +224,7 @@ def process_covid_json_data(covid_json_data):
                     national_first_date_passed = True
                 else:
                     # find new total cases and increment days
-                    national_last7days_cases = national_last7days_cases + int(current_line["national_newCasesBySpecimenDate"])
+                    national_last7days_cases = national_last7days_cases + current_line["national_newCasesBySpecimenDate"]
                     national_days_summed += 1
                     #print (("Current running total for last 7 days cases: ") + str(last7days_cases))
                     # switch latch if data summed for the past week
@@ -244,9 +236,8 @@ def process_covid_json_data(covid_json_data):
                     local_first_date_passed = True
                 else:
                     # find new total cases and increment days
-                    local_last7days_cases = local_last7days_cases + int(current_line["local_newCasesBySpecimenDate"])
+                    local_last7days_cases = local_last7days_cases + current_line["local_newCasesBySpecimenDate"]
                     local_days_summed += 1
-                    #print (("Current running total for last 7 days cases: ") + str(last7days_cases))
                     # switch latch if data summed for the past week
                     if local_days_summed == 7:
                         local_last7days_cases_assigned = True
@@ -259,6 +250,7 @@ def process_covid_json_data(covid_json_data):
             #print (("National last 7 days cases: ") + str(national_last7days_cases))
             #print (("Current hospital cases: ") + str(current_hospital_cases))
             #print (("Total deaths: ") + str(total_deaths))
+            #print ("Data returned")
             return (total_deaths, current_hospital_cases, national_last7days_cases, local_last7days_cases)
 
     # function should always complete the earlier check by the end of the given json
@@ -276,6 +268,6 @@ def get_covid_data_json():
     return deaths, hospital_cases, national_last_week_cases, local_last_week_cases
 
 # run functions with local test data for CSV
-process_covid_csv_data (parse_csv_data ("nation_2021-10-28.csv"))
-
+#process_covid_csv_data (parse_csv_data ("nation_2021-10-28.csv"))
+# run all functions to update data_all.json
 get_covid_data_json()
