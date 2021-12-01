@@ -97,18 +97,38 @@ def process_covid_csv_data(covid_csv_data):
     # function should always complete the earlier check by the end of the given csv
     # if not, the for loop ends and this line will be printed
     print ("Error: not all functions in process_covid_csv_data completed")
+def get_locations (covid_json_data):
+    """find location/nation from API request
+
+    Args:
+        json_filename (str, optional): file to read data from. Defaults to "data_all.json".
+    Returns:
+        national_areaType, national_areaName, local_areaType, local_areaName (str)
+    """
+    national_areaType = covid_json_data[0]["national_areaType"]
+    national_areaName = covid_json_data[0]["national_areaName"]
+    local_areaType = covid_json_data[0]["local_areaType"]
+    local_areaName = covid_json_data[0]["local_areaName"]
+    return national_areaType, national_areaName, local_areaType, local_areaName
 def dictionary_combiner (local_data, national_data):
     """Combines a pair of dictionaries into one so all data can be stored in one file"""
     # for each dictionary in the list:
     for i in (range(len(local_data))):
-        # rename national key
+        # combine last 7 days deaths data into one file
+        # rename national keys
         national_data[i-1]["national_newCasesBySpecimenDate"] = national_data[i-1]["newCasesBySpecimenDate"]
-        # add local infection data
+        national_data[i-1]["national_areaType"] = national_data[i-1]["areaType"]
+        national_data[i-1]["national_areaName"] = national_data[i-1]["areaName"]
+        # add local data
         national_data[i-1].update(local_data[i-1])
-        # rename local key
+        # rename local keys
         national_data[i-1]["local_newCasesBySpecimenDate"] = national_data[i-1]["newCasesBySpecimenDate"]
+        national_data[i-1]["local_areaType"] = national_data[i-1]["areaType"]
+        national_data[i-1]["local_areaName"] = national_data[i-1]["areaName"]
         # clean up bad data
         del national_data[i-1]["newCasesBySpecimenDate"]
+        del national_data[i-1]["areaType"]
+        del national_data[i-1]["areaName"]
     return national_data
 def covid_API_request (location = "Exeter", location_type = "ltla"):
     """Polls the public COVID API to request data and stores it in a pair of files.
@@ -143,6 +163,8 @@ def covid_API_request (location = "Exeter", location_type = "ltla"):
     }
 
     local_request = {
+        "areaType" : "areaType",
+        "areaName" : "areaName",
         "newCasesBySpecimenDate" : "newCasesBySpecimenDate",
     }
 
@@ -156,12 +178,12 @@ def covid_API_request (location = "Exeter", location_type = "ltla"):
     data_local = query_2["data"]
     #print (data_local, data_national)
     # prepare and send useful data to be cached in json - 2 files
-    # Commented out as 2 exports is unnecessary with the later method,
+    # Commented out as 2+ exports is unnecessary with the later method,
     # but keeping the code may be useful for debugging in the future
-    export_file = open('data_national.json', 'w', encoding="UTF-8")
-    json.dump(data_national, export_file, indent = "")
-    export_file = open('data_local.json', 'w', encoding="UTF-8")
-    json.dump(data_local, export_file, indent = "")
+    #export_file = open('data_national.json', 'w', encoding="UTF-8")
+    #json.dump(data_national, export_file, indent = "")
+    #export_file = open('data_local.json', 'w', encoding="UTF-8")
+    #json.dump(data_local, export_file, indent = "")
 
     data_all = dictionary_combiner(data_local, data_national)
 
@@ -205,7 +227,7 @@ def process_covid_json_data(covid_json_data):
     # loop through each dictionary of the given data until the return statement is triggered
     for current_line in covid_json_data:
         # make sure all expected keynames are present
-        if len(current_line) == 7:
+        if len(current_line) == 9:
             #print (current_line)
             # process data by checking if data is valid to use
             if current_line["cumDailyNsoDeathsByDeathDate"] is not None and not total_deaths_assigned:
@@ -271,3 +293,4 @@ def get_covid_data_json():
 #process_covid_csv_data (parse_csv_data ("nation_2021-10-28.csv"))
 # run all functions to update data_all.json
 get_covid_data_json()
+get_locations(parse_json_data())
