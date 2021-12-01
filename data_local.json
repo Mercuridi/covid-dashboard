@@ -1,1913 +1,3192 @@
 [
 {
-"newCasesBySpecimenDate": 56
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 55
 },
 {
-"newCasesBySpecimenDate": 82
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 117
 },
 {
-"newCasesBySpecimenDate": 83
-},
-{
-"newCasesBySpecimenDate": 109
-},
-{
-"newCasesBySpecimenDate": 108
-},
-{
-"newCasesBySpecimenDate": 127
-},
-{
-"newCasesBySpecimenDate": 103
-},
-{
-"newCasesBySpecimenDate": 72
-},
-{
-"newCasesBySpecimenDate": 100
-},
-{
-"newCasesBySpecimenDate": 86
-},
-{
-"newCasesBySpecimenDate": 90
-},
-{
-"newCasesBySpecimenDate": 130
-},
-{
-"newCasesBySpecimenDate": 126
-},
-{
-"newCasesBySpecimenDate": 96
-},
-{
-"newCasesBySpecimenDate": 97
-},
-{
-"newCasesBySpecimenDate": 70
-},
-{
-"newCasesBySpecimenDate": 85
-},
-{
-"newCasesBySpecimenDate": 104
-},
-{
-"newCasesBySpecimenDate": 86
-},
-{
-"newCasesBySpecimenDate": 97
-},
-{
-"newCasesBySpecimenDate": 106
-},
-{
-"newCasesBySpecimenDate": 66
-},
-{
-"newCasesBySpecimenDate": 81
-},
-{
-"newCasesBySpecimenDate": 68
-},
-{
-"newCasesBySpecimenDate": 59
-},
-{
-"newCasesBySpecimenDate": 81
-},
-{
-"newCasesBySpecimenDate": 68
-},
-{
-"newCasesBySpecimenDate": 83
-},
-{
-"newCasesBySpecimenDate": 63
-},
-{
-"newCasesBySpecimenDate": 52
-},
-{
-"newCasesBySpecimenDate": 97
-},
-{
-"newCasesBySpecimenDate": 93
-},
-{
-"newCasesBySpecimenDate": 88
-},
-{
-"newCasesBySpecimenDate": 85
-},
-{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 84
 },
 {
-"newCasesBySpecimenDate": 52
-},
-{
-"newCasesBySpecimenDate": 61
-},
-{
-"newCasesBySpecimenDate": 82
-},
-{
-"newCasesBySpecimenDate": 88
-},
-{
-"newCasesBySpecimenDate": 102
-},
-{
-"newCasesBySpecimenDate": 69
-},
-{
-"newCasesBySpecimenDate": 104
-},
-{
-"newCasesBySpecimenDate": 73
-},
-{
-"newCasesBySpecimenDate": 59
-},
-{
-"newCasesBySpecimenDate": 54
-},
-{
-"newCasesBySpecimenDate": 67
-},
-{
-"newCasesBySpecimenDate": 46
-},
-{
-"newCasesBySpecimenDate": 64
-},
-{
-"newCasesBySpecimenDate": 74
-},
-{
-"newCasesBySpecimenDate": 71
-},
-{
-"newCasesBySpecimenDate": 43
-},
-{
-"newCasesBySpecimenDate": 75
-},
-{
-"newCasesBySpecimenDate": 64
-},
-{
-"newCasesBySpecimenDate": 55
-},
-{
-"newCasesBySpecimenDate": 59
-},
-{
-"newCasesBySpecimenDate": 81
-},
-{
-"newCasesBySpecimenDate": 79
-},
-{
-"newCasesBySpecimenDate": 41
-},
-{
-"newCasesBySpecimenDate": 44
-},
-{
-"newCasesBySpecimenDate": 53
-},
-{
-"newCasesBySpecimenDate": 54
-},
-{
-"newCasesBySpecimenDate": 72
-},
-{
-"newCasesBySpecimenDate": 73
-},
-{
-"newCasesBySpecimenDate": 51
-},
-{
-"newCasesBySpecimenDate": 47
-},
-{
-"newCasesBySpecimenDate": 35
-},
-{
-"newCasesBySpecimenDate": 50
-},
-{
-"newCasesBySpecimenDate": 47
-},
-{
-"newCasesBySpecimenDate": 59
-},
-{
-"newCasesBySpecimenDate": 53
-},
-{
-"newCasesBySpecimenDate": 31
-},
-{
-"newCasesBySpecimenDate": 27
-},
-{
-"newCasesBySpecimenDate": 45
-},
-{
-"newCasesBySpecimenDate": 48
-},
-{
-"newCasesBySpecimenDate": 35
-},
-{
-"newCasesBySpecimenDate": 59
-},
-{
-"newCasesBySpecimenDate": 59
-},
-{
-"newCasesBySpecimenDate": 31
-},
-{
-"newCasesBySpecimenDate": 39
-},
-{
-"newCasesBySpecimenDate": 25
-},
-{
-"newCasesBySpecimenDate": 43
-},
-{
-"newCasesBySpecimenDate": 64
-},
-{
-"newCasesBySpecimenDate": 52
-},
-{
-"newCasesBySpecimenDate": 60
-},
-{
-"newCasesBySpecimenDate": 50
-},
-{
-"newCasesBySpecimenDate": 50
-},
-{
-"newCasesBySpecimenDate": 87
-},
-{
-"newCasesBySpecimenDate": 64
-},
-{
-"newCasesBySpecimenDate": 72
-},
-{
-"newCasesBySpecimenDate": 87
-},
-{
-"newCasesBySpecimenDate": 50
-},
-{
-"newCasesBySpecimenDate": 43
-},
-{
-"newCasesBySpecimenDate": 58
-},
-{
-"newCasesBySpecimenDate": 59
-},
-{
-"newCasesBySpecimenDate": 72
-},
-{
-"newCasesBySpecimenDate": 66
-},
-{
-"newCasesBySpecimenDate": 86
-},
-{
-"newCasesBySpecimenDate": 106
-},
-{
-"newCasesBySpecimenDate": 69
-},
-{
-"newCasesBySpecimenDate": 70
-},
-{
-"newCasesBySpecimenDate": 94
-},
-{
-"newCasesBySpecimenDate": 125
-},
-{
-"newCasesBySpecimenDate": 155
-},
-{
-"newCasesBySpecimenDate": 178
-},
-{
-"newCasesBySpecimenDate": 104
-},
-{
-"newCasesBySpecimenDate": 63
-},
-{
-"newCasesBySpecimenDate": 73
-},
-{
-"newCasesBySpecimenDate": 108
-},
-{
-"newCasesBySpecimenDate": 97
-},
-{
-"newCasesBySpecimenDate": 106
-},
-{
-"newCasesBySpecimenDate": 108
-},
-{
-"newCasesBySpecimenDate": 102
-},
-{
-"newCasesBySpecimenDate": 74
-},
-{
-"newCasesBySpecimenDate": 80
-},
-{
-"newCasesBySpecimenDate": 111
-},
-{
-"newCasesBySpecimenDate": 115
-},
-{
-"newCasesBySpecimenDate": 141
-},
-{
-"newCasesBySpecimenDate": 120
-},
-{
-"newCasesBySpecimenDate": 126
-},
-{
-"newCasesBySpecimenDate": 90
-},
-{
-"newCasesBySpecimenDate": 94
-},
-{
-"newCasesBySpecimenDate": 99
-},
-{
-"newCasesBySpecimenDate": 110
-},
-{
-"newCasesBySpecimenDate": 122
-},
-{
-"newCasesBySpecimenDate": 121
-},
-{
-"newCasesBySpecimenDate": 122
-},
-{
-"newCasesBySpecimenDate": 72
-},
-{
-"newCasesBySpecimenDate": 67
-},
-{
-"newCasesBySpecimenDate": 47
-},
-{
-"newCasesBySpecimenDate": 60
-},
-{
-"newCasesBySpecimenDate": 78
-},
-{
-"newCasesBySpecimenDate": 74
-},
-{
-"newCasesBySpecimenDate": 91
-},
-{
-"newCasesBySpecimenDate": 65
-},
-{
-"newCasesBySpecimenDate": 70
-},
-{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 83
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 109
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 108
 },
 {
-"newCasesBySpecimenDate": 93
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 127
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 103
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 72
 },
 {
-"newCasesBySpecimenDate": 69
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 100
 },
 {
-"newCasesBySpecimenDate": 54
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 86
 },
 {
-"newCasesBySpecimenDate": 46
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 90
 },
 {
-"newCasesBySpecimenDate": 47
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 130
 },
 {
-"newCasesBySpecimenDate": 46
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 126
 },
 {
-"newCasesBySpecimenDate": 55
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 96
 },
 {
-"newCasesBySpecimenDate": 71
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 97
 },
 {
-"newCasesBySpecimenDate": 44
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 70
 },
 {
-"newCasesBySpecimenDate": 32
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 85
 },
 {
-"newCasesBySpecimenDate": 57
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 104
 },
 {
-"newCasesBySpecimenDate": 47
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 86
 },
 {
-"newCasesBySpecimenDate": 45
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 97
 },
 {
-"newCasesBySpecimenDate": 51
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 106
 },
 {
-"newCasesBySpecimenDate": 69
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 66
 },
 {
-"newCasesBySpecimenDate": 55
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 81
 },
 {
-"newCasesBySpecimenDate": 41
-},
-{
-"newCasesBySpecimenDate": 38
-},
-{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 68
 },
 {
-"newCasesBySpecimenDate": 44
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 59
 },
 {
-"newCasesBySpecimenDate": 45
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 81
 },
 {
-"newCasesBySpecimenDate": 52
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 68
 },
 {
-"newCasesBySpecimenDate": 24
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 83
 },
 {
-"newCasesBySpecimenDate": 25
-},
-{
-"newCasesBySpecimenDate": 12
-},
-{
-"newCasesBySpecimenDate": 29
-},
-{
-"newCasesBySpecimenDate": 28
-},
-{
-"newCasesBySpecimenDate": 31
-},
-{
-"newCasesBySpecimenDate": 16
-},
-{
-"newCasesBySpecimenDate": 19
-},
-{
-"newCasesBySpecimenDate": 13
-},
-{
-"newCasesBySpecimenDate": 14
-},
-{
-"newCasesBySpecimenDate": 14
-},
-{
-"newCasesBySpecimenDate": 15
-},
-{
-"newCasesBySpecimenDate": 8
-},
-{
-"newCasesBySpecimenDate": 4
-},
-{
-"newCasesBySpecimenDate": 16
-},
-{
-"newCasesBySpecimenDate": 5
-},
-{
-"newCasesBySpecimenDate": 5
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 7
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 4
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 4
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 4
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 13
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 7
-},
-{
-"newCasesBySpecimenDate": 6
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 4
-},
-{
-"newCasesBySpecimenDate": 5
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 5
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 6
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 5
-},
-{
-"newCasesBySpecimenDate": 7
-},
-{
-"newCasesBySpecimenDate": 4
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 5
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 8
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 5
-},
-{
-"newCasesBySpecimenDate": 7
-},
-{
-"newCasesBySpecimenDate": 5
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 7
-},
-{
-"newCasesBySpecimenDate": 6
-},
-{
-"newCasesBySpecimenDate": 6
-},
-{
-"newCasesBySpecimenDate": 4
-},
-{
-"newCasesBySpecimenDate": 7
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 5
-},
-{
-"newCasesBySpecimenDate": 5
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 9
-},
-{
-"newCasesBySpecimenDate": 10
-},
-{
-"newCasesBySpecimenDate": 5
-},
-{
-"newCasesBySpecimenDate": 9
-},
-{
-"newCasesBySpecimenDate": 9
-},
-{
-"newCasesBySpecimenDate": 11
-},
-{
-"newCasesBySpecimenDate": 5
-},
-{
-"newCasesBySpecimenDate": 12
-},
-{
-"newCasesBySpecimenDate": 10
-},
-{
-"newCasesBySpecimenDate": 15
-},
-{
-"newCasesBySpecimenDate": 9
-},
-{
-"newCasesBySpecimenDate": 12
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 5
-},
-{
-"newCasesBySpecimenDate": 22
-},
-{
-"newCasesBySpecimenDate": 29
-},
-{
-"newCasesBySpecimenDate": 9
-},
-{
-"newCasesBySpecimenDate": 17
-},
-{
-"newCasesBySpecimenDate": 4
-},
-{
-"newCasesBySpecimenDate": 17
-},
-{
-"newCasesBySpecimenDate": 16
-},
-{
-"newCasesBySpecimenDate": 7
-},
-{
-"newCasesBySpecimenDate": 7
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 5
-},
-{
-"newCasesBySpecimenDate": 4
-},
-{
-"newCasesBySpecimenDate": 9
-},
-{
-"newCasesBySpecimenDate": 6
-},
-{
-"newCasesBySpecimenDate": 14
-},
-{
-"newCasesBySpecimenDate": 8
-},
-{
-"newCasesBySpecimenDate": 12
-},
-{
-"newCasesBySpecimenDate": 7
-},
-{
-"newCasesBySpecimenDate": 18
-},
-{
-"newCasesBySpecimenDate": 16
-},
-{
-"newCasesBySpecimenDate": 20
-},
-{
-"newCasesBySpecimenDate": 21
-},
-{
-"newCasesBySpecimenDate": 10
-},
-{
-"newCasesBySpecimenDate": 19
-},
-{
-"newCasesBySpecimenDate": 36
-},
-{
-"newCasesBySpecimenDate": 45
-},
-{
-"newCasesBySpecimenDate": 17
-},
-{
-"newCasesBySpecimenDate": 33
-},
-{
-"newCasesBySpecimenDate": 41
-},
-{
-"newCasesBySpecimenDate": 53
-},
-{
-"newCasesBySpecimenDate": 44
-},
-{
-"newCasesBySpecimenDate": 55
-},
-{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 63
 },
 {
-"newCasesBySpecimenDate": 28
-},
-{
-"newCasesBySpecimenDate": 46
-},
-{
-"newCasesBySpecimenDate": 48
-},
-{
-"newCasesBySpecimenDate": 69
-},
-{
-"newCasesBySpecimenDate": 69
-},
-{
-"newCasesBySpecimenDate": 67
-},
-{
-"newCasesBySpecimenDate": 78
-},
-{
-"newCasesBySpecimenDate": 28
-},
-{
-"newCasesBySpecimenDate": 33
-},
-{
-"newCasesBySpecimenDate": 47
-},
-{
-"newCasesBySpecimenDate": 34
-},
-{
-"newCasesBySpecimenDate": 50
-},
-{
-"newCasesBySpecimenDate": 95
-},
-{
-"newCasesBySpecimenDate": 41
-},
-{
-"newCasesBySpecimenDate": 31
-},
-{
-"newCasesBySpecimenDate": 30
-},
-{
-"newCasesBySpecimenDate": 5
-},
-{
-"newCasesBySpecimenDate": 29
-},
-{
-"newCasesBySpecimenDate": 25
-},
-{
-"newCasesBySpecimenDate": 34
-},
-{
-"newCasesBySpecimenDate": 42
-},
-{
-"newCasesBySpecimenDate": 31
-},
-{
-"newCasesBySpecimenDate": 19
-},
-{
-"newCasesBySpecimenDate": 38
-},
-{
-"newCasesBySpecimenDate": 30
-},
-{
-"newCasesBySpecimenDate": 24
-},
-{
-"newCasesBySpecimenDate": 28
-},
-{
-"newCasesBySpecimenDate": 21
-},
-{
-"newCasesBySpecimenDate": 19
-},
-{
-"newCasesBySpecimenDate": 16
-},
-{
-"newCasesBySpecimenDate": 19
-},
-{
-"newCasesBySpecimenDate": 22
-},
-{
-"newCasesBySpecimenDate": 14
-},
-{
-"newCasesBySpecimenDate": 16
-},
-{
-"newCasesBySpecimenDate": 28
-},
-{
-"newCasesBySpecimenDate": 7
-},
-{
-"newCasesBySpecimenDate": 12
-},
-{
-"newCasesBySpecimenDate": 16
-},
-{
-"newCasesBySpecimenDate": 17
-},
-{
-"newCasesBySpecimenDate": 15
-},
-{
-"newCasesBySpecimenDate": 22
-},
-{
-"newCasesBySpecimenDate": 19
-},
-{
-"newCasesBySpecimenDate": 25
-},
-{
-"newCasesBySpecimenDate": 10
-},
-{
-"newCasesBySpecimenDate": 22
-},
-{
-"newCasesBySpecimenDate": 18
-},
-{
-"newCasesBySpecimenDate": 19
-},
-{
-"newCasesBySpecimenDate": 21
-},
-{
-"newCasesBySpecimenDate": 31
-},
-{
-"newCasesBySpecimenDate": 10
-},
-{
-"newCasesBySpecimenDate": 12
-},
-{
-"newCasesBySpecimenDate": 19
-},
-{
-"newCasesBySpecimenDate": 27
-},
-{
-"newCasesBySpecimenDate": 30
-},
-{
-"newCasesBySpecimenDate": 26
-},
-{
-"newCasesBySpecimenDate": 30
-},
-{
-"newCasesBySpecimenDate": 27
-},
-{
-"newCasesBySpecimenDate": 23
-},
-{
-"newCasesBySpecimenDate": 32
-},
-{
-"newCasesBySpecimenDate": 38
-},
-{
-"newCasesBySpecimenDate": 27
-},
-{
-"newCasesBySpecimenDate": 44
-},
-{
-"newCasesBySpecimenDate": 36
-},
-{
-"newCasesBySpecimenDate": 24
-},
-{
-"newCasesBySpecimenDate": 22
-},
-{
-"newCasesBySpecimenDate": 28
-},
-{
-"newCasesBySpecimenDate": 24
-},
-{
-"newCasesBySpecimenDate": 32
-},
-{
-"newCasesBySpecimenDate": 24
-},
-{
-"newCasesBySpecimenDate": 31
-},
-{
-"newCasesBySpecimenDate": 17
-},
-{
-"newCasesBySpecimenDate": 18
-},
-{
-"newCasesBySpecimenDate": 23
-},
-{
-"newCasesBySpecimenDate": 24
-},
-{
-"newCasesBySpecimenDate": 25
-},
-{
-"newCasesBySpecimenDate": 28
-},
-{
-"newCasesBySpecimenDate": 23
-},
-{
-"newCasesBySpecimenDate": 15
-},
-{
-"newCasesBySpecimenDate": 12
-},
-{
-"newCasesBySpecimenDate": 28
-},
-{
-"newCasesBySpecimenDate": 31
-},
-{
-"newCasesBySpecimenDate": 28
-},
-{
-"newCasesBySpecimenDate": 35
-},
-{
-"newCasesBySpecimenDate": 33
-},
-{
-"newCasesBySpecimenDate": 28
-},
-{
-"newCasesBySpecimenDate": 24
-},
-{
-"newCasesBySpecimenDate": 30
-},
-{
-"newCasesBySpecimenDate": 23
-},
-{
-"newCasesBySpecimenDate": 43
-},
-{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 52
 },
 {
-"newCasesBySpecimenDate": 51
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 97
 },
 {
-"newCasesBySpecimenDate": 54
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 93
 },
 {
-"newCasesBySpecimenDate": 42
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 88
 },
 {
-"newCasesBySpecimenDate": 62
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 85
 },
 {
-"newCasesBySpecimenDate": 78
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 84
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 52
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 61
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 82
 },
 {
-"newCasesBySpecimenDate": 71
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 88
 },
 {
-"newCasesBySpecimenDate": 113
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 102
 },
 {
-"newCasesBySpecimenDate": 65
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 69
 },
 {
-"newCasesBySpecimenDate": 44
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 104
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 73
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 59
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 54
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 67
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 46
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 64
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 74
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 71
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 43
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 75
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 64
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 55
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 59
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 81
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 79
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 41
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 44
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 53
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 54
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 72
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 73
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 51
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 47
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 35
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 50
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 47
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 59
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 53
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 31
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 27
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 45
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 48
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 35
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 59
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 59
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 31
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 39
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 25
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 43
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 64
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 52
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 60
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 50
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 50
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 87
 },
 {
-"newCasesBySpecimenDate": 119
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 64
 },
 {
-"newCasesBySpecimenDate": 30
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 72
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 87
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 50
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 43
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 58
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 59
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 72
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 66
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 86
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 106
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 69
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 70
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 94
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 125
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 155
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 178
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 104
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 63
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 73
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 108
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 97
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 106
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 108
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 102
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 74
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 80
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 111
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 115
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 140
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 120
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 126
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 90
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 94
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 99
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 110
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 122
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 121
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 122
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 72
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 67
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 47
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 60
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 78
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 74
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 91
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 65
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 70
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 83
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 108
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 93
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 72
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 69
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 54
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 46
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 47
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 46
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 55
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 71
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 44
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 32
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 57
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 47
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 45
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 51
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 69
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 55
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 41
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 38
 },
 {
-"newCasesBySpecimenDate": 13
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 68
 },
 {
-"newCasesBySpecimenDate": 9
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 44
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 45
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 52
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 24
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 25
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 12
 },
 {
-"newCasesBySpecimenDate": 22
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 29
 },
 {
-"newCasesBySpecimenDate": 1
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 28
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 31
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 16
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 19
 },
 {
-"newCasesBySpecimenDate": 4
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 13
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 14
 },
 {
-"newCasesBySpecimenDate": 4
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 14
 },
 {
-"newCasesBySpecimenDate": 5
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 14
 },
 {
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 5
-},
-{
-"newCasesBySpecimenDate": 5
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 4
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 5
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 6
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 1
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 5
-},
-{
-"newCasesBySpecimenDate": 5
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 8
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 4
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 16
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 5
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 3
 },
 {
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
-"newCasesBySpecimenDate": 3
-},
-{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 7
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 1
 },
 {
-"newCasesBySpecimenDate": 6
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
 },
 {
-"newCasesBySpecimenDate": 5
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 4
 },
 {
-"newCasesBySpecimenDate": 5
-},
-{
-"newCasesBySpecimenDate": 5
-},
-{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 2
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 4
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 4
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 13
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 7
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 6
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 4
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 6
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 7
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 4
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 8
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 7
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 7
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 6
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 6
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 4
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 7
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 9
 },
 {
-"newCasesBySpecimenDate": 4
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 10
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 5
 },
 {
-"newCasesBySpecimenDate": 8
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 9
 },
 {
-"newCasesBySpecimenDate": 2
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 9
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 11
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 5
 },
 {
-"newCasesBySpecimenDate": 3
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 12
 },
 {
-"newCasesBySpecimenDate": 4
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 10
 },
 {
-"newCasesBySpecimenDate": 5
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 15
 },
 {
-"newCasesBySpecimenDate": 4
-},
-{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 9
 },
 {
-"newCasesBySpecimenDate": 4
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 12
 },
 {
-"newCasesBySpecimenDate": 5
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 4
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
-"newCasesBySpecimenDate": 2
-},
-{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 3
 },
 {
-"newCasesBySpecimenDate": 0
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 22
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 29
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 9
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 17
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 4
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 17
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 16
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 7
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 7
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 2
 },
 {
-"newCasesBySpecimenDate": 0
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
 },
 {
-"newCasesBySpecimenDate": 0
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 4
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 9
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 6
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 14
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 8
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 12
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 7
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 18
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 16
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 20
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 21
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 10
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 19
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 36
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 45
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 17
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 33
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 41
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 54
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 44
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 55
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 63
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 28
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 46
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 48
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 69
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 69
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 67
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 78
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 28
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 33
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 47
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 34
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 50
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 95
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 41
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 31
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 30
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 29
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 25
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 34
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 42
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 31
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 19
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 38
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 30
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 24
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 28
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 21
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 19
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 16
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 19
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 22
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 14
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 16
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 28
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 7
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 12
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 16
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 17
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 15
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 22
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 19
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 25
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 10
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 22
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 18
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 19
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 21
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 31
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 10
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 12
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 19
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 27
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 30
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 26
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 30
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 27
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 23
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 32
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 38
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 27
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 44
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 36
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 24
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 22
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 28
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 24
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 32
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 24
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 31
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 17
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 18
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 23
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 24
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 25
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 28
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 23
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 15
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 12
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 28
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 31
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 28
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 35
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 33
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 28
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 24
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 30
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 23
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 43
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 52
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 51
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 54
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 42
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 62
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 78
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 82
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 71
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 113
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 65
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 44
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 73
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 87
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 119
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 31
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 38
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 13
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 9
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 13
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 22
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 19
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 4
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 14
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 4
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 2
 },
 {
-"newCasesBySpecimenDate": 0
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
 },
 {
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 2
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 0
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 1
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 1
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 0
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 0
 },
 {
-"newCasesBySpecimenDate": 0
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
 },
 {
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
-"newCasesBySpecimenDate": 0
-},
-{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 1
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 0
 },
 {
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 4
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 6
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 8
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 7
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 6
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 7
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 9
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 4
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 8
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 11
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 4
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 4
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 9
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 4
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 5
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 4
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 3
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 2
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 1
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
+"newCasesBySpecimenDate": 0
+},
+{
+"areaType": "ltla",
+"areaName": "Exeter",
 "newCasesBySpecimenDate": 1
 }
 ]

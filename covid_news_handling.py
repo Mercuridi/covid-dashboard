@@ -1,7 +1,7 @@
 import requests
 import datetime
 
-def news_api_request (covid_terms = "Covid COVID-19 coronavirus"):
+def news_API_request (covid_terms = "Covid COVID-19 coronavirus"):
     url = ('https://newsapi.org/v2/everything?'
        f'q={covid_terms}&'
        f'from={datetime.date}&'
@@ -13,5 +13,5 @@ def news_api_request (covid_terms = "Covid COVID-19 coronavirus"):
     print (response)
     print (news_data)
     
-news_api_request()
+news_API_request()
     
