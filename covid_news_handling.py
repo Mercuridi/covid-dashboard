@@ -1,5 +1,5 @@
-import requests
 import datetime
+import requests
 
 def news_API_request (covid_terms = "Covid COVID-19 coronavirus"):
     url = ('https://newsapi.org/v2/everything?'
@@ -10,8 +10,20 @@ def news_API_request (covid_terms = "Covid COVID-19 coronavirus"):
 
     response = requests.get(url)
     news_data = response.json()
-    print (response)
-    print (news_data)
-    
-news_API_request()
+    news_articles = news_data["articles"]
+    #print (news_articles)
+    # remove extra unused data
+    for article in news_articles:
+        #print (article)
+        del article["source"]
+        del article["author"]
+        del article["publishedAt"]
+        del article["urlToImage"]
+        article["content"] = article["description"]
+        del article["description"]
+    #print(news_articles)
+    return news_articles
+
+
+print (news_API_request())
     

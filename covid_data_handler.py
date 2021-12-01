@@ -5,7 +5,7 @@ Health England API, processing to JSON, saving as files,
 parsing the JSON so it is usable in the written code, and finding the values for
 the last 7 days' cases, current hospital cases, and total deaths.
 """
-
+import sched, time
 import json
 from uk_covid19 import Cov19API
 
@@ -16,6 +16,7 @@ def parse_csv_data(csv_filename):
     for line in data:
         line = line.strip('\n')
         covid_csv_data.append(line)
+    data.close()
     return covid_csv_data
 def construct_csv_dictionary(covid_csv_data):
     """
@@ -188,8 +189,8 @@ def covid_API_request (location = "Exeter", location_type = "ltla"):
     data_all = dictionary_combiner(data_local, data_national)
 
     # export master dictionary to json file
-    export_file = open('data_all.json', 'w', encoding="UTF-8")
-    json.dump(data_all, export_file, indent = "")
+    with open('data_all.json', 'w', encoding="UTF-8") as export_file:
+        json.dump(data_all, export_file, indent = "")
     # return all data
     return data_all
 def parse_json_data(json_filename = "data_all.json"):
@@ -288,9 +289,13 @@ def get_covid_data_json():
     covid_API_request ()
     deaths, hospital_cases, national_last_week_cases, local_last_week_cases = process_covid_json_data (parse_json_data())
     return deaths, hospital_cases, national_last_week_cases, local_last_week_cases
-
+def schedule_covid_updates(update_interval, update_name):
+    update = sched.scheduler(timefunc = time.monotonic)
+    new_event = update.enter(delay = 5, action = get_covid_data_json, priority = 0)
+    print ("executed: ", new_event)
 # run functions with local test data for CSV
 #process_covid_csv_data (parse_csv_data ("nation_2021-10-28.csv"))
 # run all functions to update data_all.json
-get_covid_data_json()
-get_locations(parse_json_data())
+#get_covid_data_json()
+#get_locations(parse_json_data())
+schedule_covid_updates(5, "test")
