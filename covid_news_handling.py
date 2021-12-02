@@ -24,6 +24,6 @@ def news_API_request (covid_terms = "Covid COVID-19 coronavirus"):
     #print(news_articles)
     return news_articles
 
-
-print (news_API_request())
+#def trim_news()
+news_API_request()
     
