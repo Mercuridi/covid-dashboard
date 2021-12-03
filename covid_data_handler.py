@@ -6,7 +6,6 @@ the last 7 days' cases, current hospital cases, and total deaths.
 """
 import sched
 import time
-import json
 from uk_covid19 import Cov19API
 
 def parse_csv_data(csv_filename):
@@ -120,7 +119,7 @@ def get_locations (covid_data):
 
 
 def dictionary_combiner (local_data, national_data):
-    """Combines a pair of dictionaries into one so all data can be stored in one file"""
+    """Combines a pair of dictionaries into one so all data can be stored in one variable"""
     # for each dictionary in the list:
     for i in (range(len(local_data))):
         # combine last 7 days deaths data into one file
@@ -324,4 +323,4 @@ def schedule_covid_updates(update_interval, update_name):
 #process_covid_csv_data (parse_csv_data ("nation_2021-10-28.csv"))
 #get_covid_data_json()
 #get_locations(parse_json_data())
-schedule_covid_updates(5, "test")
+#schedule_covid_updates(5, "test")

@@ -1,8 +1,551 @@
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:31:53] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:31:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:31:54] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:31:59] "[32mGET /index?notif=All+53%2C000+attendees+of+Anime+NYC+urged+to+get+tested+after+one+got+Omicron HTTP/1.1[0m" 302 -
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 69, in website_update
+    trimmed_news = trim_news(news, removed_articles)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\covid_news_handling.py", line 31, in trim_news
+    print ("Checking article " + article_count)
+TypeError: can only concatenate str (not "int") to str
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:31:59] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:32:51] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:32:51] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:33:51] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:33:51] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:34:51] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:34:52] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:35:52] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:35:52] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:36:05] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:36:05] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:36:23] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:36:23] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 65, in website_update
+    json.dump(articles_file, ensure_ascii=False, indent="")
+TypeError: dump() missing 1 required positional argument: 'fp'
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:36:24] "[35m[1mGET /index?notif=All+53%2C000+attendees+of+Anime+NYC+urged+to+get+tested+after+one+got+Omicron HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:37:01] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:37:01] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 65, in website_update
+    json.dump(articles_file, f, ensure_ascii=False, indent="")
+NameError: name 'f' is not defined
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:37:03] "[35m[1mGET /index?notif=All+53%2C000+attendees+of+Anime+NYC+urged+to+get+tested+after+one+got+Omicron HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 65, in website_update
+    json.dump(articles_file, removed_articles, ensure_ascii=False, indent="")
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TextIOWrapper is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:39:04] "[35m[1mGET /index?notif=All+53%2C000+attendees+of+Anime+NYC+urged+to+get+tested+after+one+got+Omicron HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:39:07] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:39:08] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 65, in website_update
+    json.dump(articles_file, removed_articles, ensure_ascii=False, indent="")
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TextIOWrapper is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:39:10] "[35m[1mGET /index?notif=Tim+Pool+Got+Covid-19+After+Railing+Against+Vaccine+Mandates HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:40:59] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:40:59] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 65, in website_update
+    json.dump(removed_articles, article, ensure_ascii=False, indent="")
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 180, in dump
+    fp.write(chunk)
+AttributeError: 'dict' object has no attribute 'write'
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:41:02] "[35m[1mGET /index?notif=All+53%2C000+attendees+of+Anime+NYC+urged+to+get+tested+after+one+got+Omicron HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:42:29] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:42:29] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 65, in website_update
+    json.dump(removed_articles, str(article), ensure_ascii=False, indent="")
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 180, in dump
+    fp.write(chunk)
+AttributeError: 'str' object has no attribute 'write'
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:42:30] "[35m[1mGET /index?notif=All+53%2C000+attendees+of+Anime+NYC+urged+to+get+tested+after+one+got+Omicron HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 69, in website_update
+    trimmed_news = trim_news(news, removed_articles)
+UnboundLocalError: local variable 'removed_articles' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:43:22] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:44:03] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:44:03] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:44:04] "[32mGET /index?notif=All+53%2C000+attendees+of+Anime+NYC+urged+to+get+tested+after+one+got+Omicron HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:44:04] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:44:04] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:44:08] "[32mGET /index?notif=Tim+Pool+Got+Covid-19+After+Railing+Against+Vaccine+Mandates HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:44:08] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:44:08] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:44:26] "[32mGET /index?notif=Covid-19+Boosters+for+All+Are+On+the+Way HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:44:26] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:44:26] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:45:26] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:45:26] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:46:26] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:46:26] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:47:26] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:47:26] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:48:26] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:48:26] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:49:26] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:49:26] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:50:15] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:50:15] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:50:17] "[32mGET /index?notif=All+53%2C000+attendees+of+Anime+NYC+urged+to+get+tested+after+one+got+Omicron HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:50:17] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:50:17] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:50:21] "[32mGET /index?notif=Tim+Pool+Got+Covid-19+After+Railing+Against+Vaccine+Mandates HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:50:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:50:21] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:51:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:51:21] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:52:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:52:21] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:53:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:53:21] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:54:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:54:22] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:55:22] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:55:22] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:56:22] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:56:22] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:57:13] "[32mGET /index?notif=Covid-19+Boosters+for+All+Are+On+the+Way HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:57:13] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:57:13] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:57:14] "[32mGET /index?notif=Emerging+Omicron+Coronavirus+Variant+Has+Officials+Worldwide+on+the+Defensive HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:57:14] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:57:14] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:57:14] "[32mGET /index?notif=NFL+Adds+Mask+Requirement%2C+Increases+Covid+Testing HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:57:14] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:57:14] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:57:15] "[32mGET /index?notif=Appeals+Court+Upholds+Block+on+Biden’s+Vaccine+Mandate+for+Employers HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:57:15] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:57:15] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:57:15] "[32mGET /index?notif=Singapore+to+End+Free+Covid+Care+for+Those+‘Unvaccinated+by+Choice’ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:57:15] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:57:15] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:58:15] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:58:15] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:58:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:58:45] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:59:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 20:59:45] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:00:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:00:45] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:01:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:01:45] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:02:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:02:45] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:03:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:03:45] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:04:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:04:46] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:05:46] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:05:46] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:06:46] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:06:46] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:07:46] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:07:46] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:08:46] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:08:46] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:09:46] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:09:46] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:10:46] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:10:46] "GET /static/images/image.jpg HTTP/1.1" 200 -
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 28, in website_update
+    if len(news) == 0:
+UnboundLocalError: local variable 'news' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:11:38] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 28, in website_update
+    if len(news) == 0:
+UnboundLocalError: local variable 'news' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:11:40] "[35m[1mGET /index HTTP/1.1[0m" 500 -
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:12:34] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:12:56] "GET /static/images/image.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:13:14] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:13:35] "GET /static/images/image.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:13:59] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:13:59] "GET /static/images/image.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:14:03] "[32mGET /index?notif=All+53%2C000+attendees+of+Anime+NYC+urged+to+get+tested+after+one+got+Omicron HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:14:03] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:14:03] "GET /static/images/image.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:14:13] "[32mGET /index?notif=Tim+Pool+Got+Covid-19+After+Railing+Against+Vaccine+Mandates HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:14:13] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:14:13] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:15:03] "[32mGET /index?notif=Covid-19+Boosters+for+All+Are+On+the+Way HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:15:03] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:15:03] "GET /static/images/image.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:15:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:15:04] "[32mGET /index?notif=Emerging+Omicron+Coronavirus+Variant+Has+Officials+Worldwide+on+the+Defensive HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:15:04] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:15:04] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:15:04] "[32mGET /index?notif=NFL+Adds+Mask+Requirement%2C+Increases+Covid+Testing HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:15:04] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:15:04] "GET /static/images/image.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:15:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:15:05] "[32mGET /index?notif=Appeals+Court+Upholds+Block+on+Biden’s+Vaccine+Mandate+for+Employers HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:15:05] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:15:05] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:15:05] "[32mGET /index?notif=Singapore+to+End+Free+Covid+Care+for+Those+‘Unvaccinated+by+Choice’ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:15:05] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:15:05] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:16:05] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:16:06] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:17:06] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:17:06] "GET /static/images/image.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:18:06] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:18:06] "GET /static/images/image.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:19:06] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:19:06] "GET /static/images/image.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:19:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:20:03] "[32mGET /index?notif=Florida+Curtails+Coronavirus+Mandates%2C+Reflecting+Wishes+of+Vaccine+Skeptics HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:20:03] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:20:03] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:21:03] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:21:03] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 69, in website_update
+    trimmed_news = trim_news(news, removed_articles)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\covid_news_handling.py", line 32, in trim_news
+    if news_articles[article_count] in removed_articles:
+NameError: name 'article_count' is not defined
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:21:30] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 69, in website_update
+    trimmed_news = trim_news(news, removed_articles)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\covid_news_handling.py", line 32, in trim_news
+    if news_articles[article_count] in removed_articles:
+NameError: name 'article_count' is not defined
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:21:31] "[35m[1mGET /index HTTP/1.1[0m" 500 -
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:35:52] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:35:52] "GET /static/images/image.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:36:08] "[32mGET /index?notif=Military+Grants+Few+Vaccine+Exemptions+as+Deadlines+Loom HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:36:08] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:36:08] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:37:08] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:37:09] "GET /static/images/image.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:38:09] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:38:09] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 55, in website_update
+    if remove_article:
+NameError: name 'remove_article' is not defined
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:38:51] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 55, in website_update
+    if remove_article:
+NameError: name 'remove_article' is not defined
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:38:52] "[35m[1mGET /index HTTP/1.1[0m" 500 -
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 55, in website_update
+    if remove_article:
+NameError: name 'remove_article' is not defined
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:40:21] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:40:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 55, in website_update
+    if remove_article:
+NameError: name 'remove_article' is not defined
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:40:22] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 55, in website_update
+    if remove_article:
+NameError: name 'remove_article' is not defined
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:40:23] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 55, in website_update
+    if remove_article:
+NameError: name 'remove_article' is not defined
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:40:23] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 55, in website_update
+    if remove_article:
+NameError: name 'remove_article' is not defined
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:40:23] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 55, in website_update
+    if remove_article:
+NameError: name 'remove_article' is not defined
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:40:23] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 55, in website_update
+    if remove_article:
+NameError: name 'remove_article' is not defined
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:40:23] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:41:09] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:41:09] "GET /static/images/image.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:42:10] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:42:10] "GET /static/images/image.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:43:10] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:43:10] "GET /static/images/image.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:44:10] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:44:10] "GET /static/images/image.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:45:10] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:45:10] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:46:10] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:46:11] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:47:11] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:47:11] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:48:11] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:48:11] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:48:59] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:48:59] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:49:01] "[32mGET /index?notif=Covid-19+Boosters+for+All+Are+On+the+Way HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:49:01] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:49:01] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:49:02] "[32mGET /index?notif=Emerging+Omicron+Coronavirus+Variant+Has+Officials+Worldwide+on+the+Defensive HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:49:02] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:49:02] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:49:59] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:49:59] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:50:59] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:50:59] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:51:59] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:51:59] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 69, in website_update
+    trimmed_news = trim_news(news, removed_articles, remove_article_title)
+TypeError: trim_news() takes 2 positional arguments but 3 were given
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:52:56] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:53:24] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:53:25] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:53:28] "[32mGET /index?notif=CV+brfg+hed+TK HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:53:28] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:53:28] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:53:29] "[32mGET /index?notif=Fire+in+Covid+intensive+care+ward+kills+11+people+in+India. HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:53:29] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2021 21:53:29] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -

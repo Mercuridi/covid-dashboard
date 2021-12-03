@@ -24,6 +24,26 @@ def news_API_request (covid_terms = "Covid COVID-19 coronavirus"):
     #print(news_articles)
     return news_articles
 
-#def trim_news()
+def trim_news(news_articles, removed_articles, ):
+    print ("Trimming news: ")
+    print ("Checking for removed articles...")
+    for article_count in range(len(removed_articles)):
+        print ("Checking for deleted article " + str(article_count))
+        if removed_articles[article_count] in news_articles:
+            print ("Article match found; deleting...")
+            for i in range(len(news_articles)):
+                if removed_articles[article_count] == news_articles[i]:
+                    del news_articles[i]
+                    break
+        else:
+            print ("No articles found to be removed")
+    print ("Trimming returned news down to 5 articles...")
+    trimmed_news = []
+    for i in range (0,5):
+        trimmed_news.append(news_articles[i])
+    print ("Trimming complete")
+    return trimmed_news
+
+
 news_API_request()
     
