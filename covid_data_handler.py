@@ -6,7 +6,9 @@ the last 7 days' cases, current hospital cases, and total deaths.
 """
 import sched
 import time
+import logging
 from uk_covid19 import Cov19API
+logging.basicConfig(filename='sys.log', encoding='utf-8', level = logging.INFO)
 
 def parse_csv_data(csv_filename):
     """Method to open CSV files and return the data as a list of lists"""
@@ -64,7 +66,7 @@ def process_covid_csv_data(covid_csv_data):
             # this if statement only assigns the first satisfactory value for deaths, as
             # total_deaths is cumulative
             total_deaths = current_line["cumDailyNsoDeathsByDeathDate"]
-            print (("Total deaths: ") + total_deaths)
+            logging.info (("Total deaths: ") + total_deaths)
 
             # switch latch post assignment to prevent reassigning a wrong number in future loops
             total_deaths_assigned = True
@@ -73,7 +75,7 @@ def process_covid_csv_data(covid_csv_data):
             current_hospital_cases = current_line["hospitalCases"]
             # switch latch post assignment to prevent reassigning a wrong number in future loops
             current_hospital_cases_assigned = True
-            print (("Current hospital cases: ") + current_hospital_cases)
+            logging.info (("Current hospital cases: ") + current_hospital_cases)
 
         if current_line["newCasesBySpecimenDate"].isnumeric() and not last7days_cases_complete:
             if not first_date_passed:
@@ -85,22 +87,22 @@ def process_covid_csv_data(covid_csv_data):
                 last7days_cases = last7days_cases + int(current_line["newCasesBySpecimenDate"])
                 days_summed += 1
 
-                #print (("Current running total for last 7 days cases: ") + str(last7days_cases))
+                logging.info (("Current running total for last 7 days cases: ") + str(last7days_cases))
                 # switch latch if data summed for the past week
                 if days_summed == 7:
-                    print (("Last 7 days cases: ") + str(last7days_cases))
+                    logging.info (("Last 7 days cases: ") + str(last7days_cases))
                     last7days_cases_complete = True
 
         # check all tasks complete; if so, end function and return variables
         # logic here checks if all 3 values are False ie. have the related variables been assigned
         # checked in order of least likely to complete quickly to most likely to complete quickly
         if total_deaths_assigned and current_hospital_cases_assigned and last7days_cases_complete:
-            print ("All tasks in process_covid_csv_data complete")
+            logging.info ("All tasks in process_covid_csv_data complete")
             return(total_deaths, current_hospital_cases, last7days_cases)
 
     # function should always complete the earlier check by the end of the given csv
     # if not, the for loop ends and this line will be printed
-    print ("Error: not all functions in process_covid_csv_data completed")
+    logging.warning("Error: not all functions in process_covid_csv_data completed")
 
 
 def get_locations (covid_data):
@@ -223,7 +225,7 @@ def process_covid_data(covid_data):
     for current_line in covid_data:
         # make sure all expected keynames are present
         if len(current_line) == 9:
-            #print (current_line)
+            logging.info("Current line in covid data: " + str(current_line))
             # process data by checking if data is valid to use
 
             if current_line["cumDailyNsoDeathsByDeathDate"] \
@@ -285,18 +287,18 @@ def process_covid_data(covid_data):
             current_hospital_cases_assigned and \
                 national_last7days_cases_assigned and \
                     local_last7days_cases_assigned:
-            #print ("All tasks in process_covid_json_data complete")
-            #print (("Local last 7 days cases: ") + str(local_last7days_cases))
-            #print (("National last 7 days cases: ") + str(national_last7days_cases))
-            #print (("Current hospital cases: ") + str(current_hospital_cases))
-            #print (("Total deaths: ") + str(total_deaths))
-            #print ("Data returned")
+            logging.info ("All tasks in process_covid_data complete")
+            logging.info (("Local last 7 days cases: ") + str(local_last7days_cases))
+            logging.info (("National last 7 days cases: ") + str(national_last7days_cases))
+            logging.info (("Current hospital cases: ") + str(current_hospital_cases))
+            logging.info (("Total deaths: ") + str(total_deaths))
+            logging.info ("Data returned")
             return (total_deaths, current_hospital_cases, \
                 national_last7days_cases, local_last7days_cases)
 
     # function should always complete the earlier check by the end of the given json
     # if not, the for loop ends and this line will be printed
-    print ("Error: not all functions in process_covid_json_data completed")
+    logging.warning ("Error: not all functions in process_covid_data completed")
 
 
 def get_covid_data():
@@ -315,7 +317,7 @@ def get_covid_data():
 def schedule_covid_updates(update_interval, update_name):
     update = sched.scheduler(timefunc = time.monotonic)
     new_event = update.enter(delay = 5, action = get_covid_data, priority = 0)
-    print ("executed: ", new_event)
+    #print ("executed: ", new_event)
     update.run()
 
 

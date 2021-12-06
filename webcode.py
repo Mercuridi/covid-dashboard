@@ -11,13 +11,13 @@ from covid_data_handler import get_locations
 from covid_news_handling import news_API_request
 from covid_news_handling import trim_news
 
-logging.basicConfig(filename='sys.log', encoding='utf-8')
+logging.basicConfig(filename='sys.log', encoding='utf-8', level = logging.INFO, filemode = "a")
 
 app = Flask(__name__)
 
 @app.route('/index')
 def website_update():
-    """Start flask server and get most up to date information"""
+    """Start flask server and get most up to date information, check for website queries"""
     remove_article_title = request.args.get('notif')
     update_time = request.args.get('update')
     update_name = request.args.get('two')
@@ -25,40 +25,41 @@ def website_update():
     repeat_toggle = request.args.get('repeat')
     covid_toggle = request.args.get('covid-data')
     remove_update = request.args.get('update_item')
-    print ("PRINTING TEST BEGIN:")
-    print ("Article to remove: " + str(remove_article_title))
-    print ("Time for update: " + str(update_time))
-    print ("Name of update: " + str(update_name))
-    print ("News toggle checked? " + str(news_toggle))
-    print ("Repeat toggle checked? " + str(repeat_toggle))
-    print ("Data update toggle checked? " + str(covid_toggle))
-    print ("Update removed? Name: " + str(remove_update))
-    print ("PRINTING TEST END")
+    logging.info("Data from site:")
+    logging.info("Time for update: " + str(update_time))
+    logging.info("Name of update: " + str(update_name))
+    logging.info("News toggle checked? " + str(news_toggle))
+    logging.info("Repeat toggle checked? " + str(repeat_toggle))
+    logging.info("Data update toggle checked? " + str(covid_toggle))
+    logging.info("Update removed? Name: " + str(remove_update))
+    logging.info("Article to remove: " + str(remove_article_title))
     if update_name:
-        print ("Update request found:")
+        logging.info("Update request found:")
         new_update = {"title" : update_name, "content" : update_time}
         updates.append(new_update)
-        print (updates)
+        logging.info(updates)
         with open ("updates.json", "w", encoding = "UTF-8") as updates_file:
-            updates_file.write (str(updates))
+            json.dump (str(updates), updates_file, ensure_ascii=False, indent="")
         return redirect ("/index")
     if remove_update:
-        print ("Update remove request found:")
+        logging.info ("Update remove request found:")
         update_count = 0
         for update in updates:
-            print ("Checking update:" + str(update))
+            logging.info ("Checking update:" + str(update))
             if update["title"] == remove_update:
-                print ("Update found; deleting")
+                logging.info ("Update found; deleting")
                 del updates[update_count]
+                with open ("updates.json", "w", encoding = "UTF-8") as updates_file:
+                    json.dump (str(updates), updates_file, ensure_ascii=False, indent="")
                 return redirect ("/index")
             update_count += 1
     if remove_article_title:
-        print ("News remove request found:")
+        logging.info ("News remove request found:")
         article_count = 0
         for article in news:
-            print ("Checking for article " + str(article))
+            logging.info ("Checking for article " + str(article))
             if article["title"] == remove_article_title:
-                print ("Article found; deleting")
+                logging.info ("Article found; deleting")
                 del news[article_count]
                 removed_articles.append(article)
                 with open ("removed_articles.json", "w", encoding = "UTF-8") as deleted_articles:
@@ -68,7 +69,7 @@ def website_update():
     deaths_total, hospital_cases, national_7day_infections, local_7day_infections = process_covid_data(data_all)
     trimmed_news = trim_news(news, removed_articles)
     national_areaType, national_areaName, local_areaType, local_areaName = get_locations(data_all)
-    #print (deaths_total, hospital_cases, national_7day_infections, local_7day_infections)
+    #logging.info (deaths_total, hospital_cases, national_7day_infections, local_7day_infections)
     return render_template('index.html',
             local_7day_infections = local_7day_infections,
             national_7day_infections = national_7day_infections,
@@ -83,13 +84,18 @@ def website_update():
 
 
 news = []
-updates = []
 with open('removed_articles.json', 'r', encoding = "UTF-8") as removed_articles_file:
     try:        
         removed_articles = json.load(removed_articles_file)
     except JSONDecodeError:
         pass
         removed_articles = []
+with open('updates.json', 'r', encoding = "UTF-8") as updates_file:
+    try:        
+        updates = json.load(updates_file)
+    except JSONDecodeError:
+        pass
+        updates = []
 
 data_all = covid_API_request()
 news = news_API_request()

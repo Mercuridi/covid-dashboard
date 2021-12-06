@@ -1,5 +1,7 @@
 import datetime
 import requests
+import logging
+logging.basicConfig(filename='sys.log', encoding='utf-8', level = logging.DEBUG)
 
 def news_API_request (covid_terms = "Covid COVID-19 coronavirus"):
     url = ('https://newsapi.org/v2/everything?'
@@ -25,23 +27,23 @@ def news_API_request (covid_terms = "Covid COVID-19 coronavirus"):
     return news_articles
 
 def trim_news(news_articles, removed_articles, ):
-    print ("Trimming news: ")
-    print ("Checking for removed articles...")
+    logging.info ("Trimming news: ")
+    logging.info ("Checking for removed articles...")
     for article_count in range(len(removed_articles)):
-        print ("Checking for deleted article " + str(article_count))
+        logging.info ("Checking for deleted article " + str(article_count))
         if removed_articles[article_count] in news_articles:
-            print ("Article match found; deleting...")
+            logging.info ("Article match found; deleting...")
             for i in range(len(news_articles)):
                 if removed_articles[article_count] == news_articles[i]:
                     del news_articles[i]
                     break
         else:
-            print ("No articles found to be removed")
-    print ("Trimming returned news down to 5 articles...")
+            logging.info ("No articles found to be removed")
+    logging.info ("Trimming returned news down to 5 articles...")
     trimmed_news = []
     for i in range (0,5):
         trimmed_news.append(news_articles[i])
-    print ("Trimming complete")
+    logging.info ("Trimming complete")
     return trimmed_news
 
 
