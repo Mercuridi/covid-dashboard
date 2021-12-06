@@ -4,11 +4,16 @@ Module that handles all data, including importing from the Public
 Health England API and finding the values for
 the last 7 days' cases, current hospital cases, and total deaths.
 """
+import json
 import sched
 import time
 import logging
 from uk_covid19 import Cov19API
-logging.basicConfig(filename='sys.log', encoding='utf-8', level = logging.INFO)
+
+#import configuration file for logging
+with open ("config.json", "r", encoding = "UTF-8") as config_file:
+    configuration = json.load (config_file)
+logging.basicConfig(filename='sys.log', encoding='utf-8', level = eval(f'{configuration["logging_mode"]}'))
 
 def parse_csv_data(csv_filename):
     """Method to open CSV files and return the data as a list of lists"""
@@ -87,7 +92,7 @@ def process_covid_csv_data(covid_csv_data):
                 last7days_cases = last7days_cases + int(current_line["newCasesBySpecimenDate"])
                 days_summed += 1
 
-                logging.info (("Current running total for last 7 days cases: ") + str(last7days_cases))
+                logging.debug (("Current running total for last 7 days cases: ") + str(last7days_cases))
                 # switch latch if data summed for the past week
                 if days_summed == 7:
                     logging.info (("Last 7 days cases: ") + str(last7days_cases))
@@ -225,7 +230,7 @@ def process_covid_data(covid_data):
     for current_line in covid_data:
         # make sure all expected keynames are present
         if len(current_line) == 9:
-            logging.info("Current line in covid data: " + str(current_line))
+            logging.debug("Current line in covid data: " + str(current_line))
             # process data by checking if data is valid to use
 
             if current_line["cumDailyNsoDeathsByDeathDate"] \
@@ -288,10 +293,10 @@ def process_covid_data(covid_data):
                 national_last7days_cases_assigned and \
                     local_last7days_cases_assigned:
             logging.info ("All tasks in process_covid_data complete")
-            logging.info (("Local last 7 days cases: ") + str(local_last7days_cases))
-            logging.info (("National last 7 days cases: ") + str(national_last7days_cases))
-            logging.info (("Current hospital cases: ") + str(current_hospital_cases))
-            logging.info (("Total deaths: ") + str(total_deaths))
+            logging.debug (("Local last 7 days cases: ") + str(local_last7days_cases))
+            logging.debug (("National last 7 days cases: ") + str(national_last7days_cases))
+            logging.debug (("Current hospital cases: ") + str(current_hospital_cases))
+            logging.debug (("Total deaths: ") + str(total_deaths))
             logging.info ("Data returned")
             return (total_deaths, current_hospital_cases, \
                 national_last7days_cases, local_last7days_cases)

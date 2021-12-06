@@ -21,6 +21,7 @@ updates.json
 sys.log
 
 If these files are not present, create them. They should be present by default; check that they are empty.
+Open config.py and enter your news API key.
 
 To get started, run the module webcode.py. This will launch the flask website, and this can be accessed by default at the web address 127.0.0.1:5000/index.
 To schedule an update to the news, data, or both, input the desired update time and whether it repeats under the central data column.
