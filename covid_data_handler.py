@@ -10,10 +10,14 @@ import time
 import logging
 from uk_covid19 import Cov19API
 
-#import configuration file for logging
+# import configuration file for logging
+# use of eval is a little hacky but I really wanted logging mode to be contained in the config,
+# and this is the best I could come up with
 with open ("config.json", "r", encoding = "UTF-8") as config_file:
     configuration = json.load (config_file)
-logging.basicConfig(filename='sys.log', encoding='utf-8', level = eval(f'{configuration["logging_mode"]}'))
+logging.basicConfig(filename='sys.log',
+                    encoding='utf-8',
+                    level = eval(f'{configuration["logging_mode"]}'))
 
 def parse_csv_data(csv_filename):
     """Method to open CSV files and return the data as a list of lists"""
@@ -71,7 +75,7 @@ def process_covid_csv_data(covid_csv_data):
             # this if statement only assigns the first satisfactory value for deaths, as
             # total_deaths is cumulative
             total_deaths = current_line["cumDailyNsoDeathsByDeathDate"]
-            logging.info (("Total deaths: ") + total_deaths)
+            logging.info ("Total deaths: %d" % total_deaths)
 
             # switch latch post assignment to prevent reassigning a wrong number in future loops
             total_deaths_assigned = True
@@ -80,7 +84,7 @@ def process_covid_csv_data(covid_csv_data):
             current_hospital_cases = current_line["hospitalCases"]
             # switch latch post assignment to prevent reassigning a wrong number in future loops
             current_hospital_cases_assigned = True
-            logging.info (("Current hospital cases: ") + current_hospital_cases)
+            logging.info ("Current hospital cases: %d" % current_hospital_cases)
 
         if current_line["newCasesBySpecimenDate"].isnumeric() and not last7days_cases_complete:
             if not first_date_passed:
@@ -92,10 +96,11 @@ def process_covid_csv_data(covid_csv_data):
                 last7days_cases = last7days_cases + int(current_line["newCasesBySpecimenDate"])
                 days_summed += 1
 
-                logging.debug (("Current running total for last 7 days cases: ") + str(last7days_cases))
+                logging.debug \
+                    ("Current running total for last 7 days cases: %d" % last7days_cases)
                 # switch latch if data summed for the past week
                 if days_summed == 7:
-                    logging.info (("Last 7 days cases: ") + str(last7days_cases))
+                    logging.info ("Last 7 days cases: %d" % last7days_cases)
                     last7days_cases_complete = True
 
         # check all tasks complete; if so, end function and return variables
@@ -118,11 +123,11 @@ def get_locations (covid_data):
     Returns:
         national_areaType, national_areaName, local_areaType, local_areaName (str)
     """
-    national_areaType = covid_data[0]["national_areaType"]
-    national_areaName = covid_data[0]["national_areaName"]
-    local_areaType = covid_data[0]["local_areaType"]
-    local_areaName = covid_data[0]["local_areaName"]
-    return national_areaType, national_areaName, local_areaType, local_areaName
+    #national_area_type = covid_data[0]["national_areaType"]
+    national_area_name = covid_data[0]["national_areaName"]
+    #local_area_type = covid_data[0]["local_areaType"]
+    local_area_name = covid_data[0]["local_areaName"]
+    return national_area_name, local_area_name
 
 
 def dictionary_combiner (local_data, national_data):
@@ -230,7 +235,7 @@ def process_covid_data(covid_data):
     for current_line in covid_data:
         # make sure all expected keynames are present
         if len(current_line) == 9:
-            logging.debug("Current line in covid data: " + str(current_line))
+            logging.debug("Current line in covid data: %s" % current_line)
             # process data by checking if data is valid to use
 
             if current_line["cumDailyNsoDeathsByDeathDate"] \
@@ -293,10 +298,10 @@ def process_covid_data(covid_data):
                 national_last7days_cases_assigned and \
                     local_last7days_cases_assigned:
             logging.info ("All tasks in process_covid_data complete")
-            logging.debug (("Local last 7 days cases: ") + str(local_last7days_cases))
-            logging.debug (("National last 7 days cases: ") + str(national_last7days_cases))
-            logging.debug (("Current hospital cases: ") + str(current_hospital_cases))
-            logging.debug (("Total deaths: ") + str(total_deaths))
+            logging.debug ("Local last 7 days cases: %s" % local_last7days_cases)
+            logging.debug ("National last 7 days cases: %s" % national_last7days_cases)
+            logging.debug ("Current hospital cases: %s" % current_hospital_cases)
+            logging.debug ("Total deaths: %s" % total_deaths)
             logging.info ("Data returned")
             return (total_deaths, current_hospital_cases, \
                 national_last7days_cases, local_last7days_cases)

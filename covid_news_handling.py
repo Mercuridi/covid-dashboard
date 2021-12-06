@@ -1,17 +1,21 @@
-import datetime
-from flask import config
-import requests
 import logging
 import json
+import datetime
+import requests
+from flask import Markup
 
-#import configuration file for logging
+# import configuration file for logging
+# use of eval is a little hacky but I really wanted logging mode to be contained in the config,
+# and this is the best I could come up with
 with open ("config.json", "r", encoding = "UTF-8") as config_file:
     configuration = json.load (config_file)
-logging.basicConfig(filename='sys.log', encoding='utf-8', level = eval(f'{configuration["logging_mode"]}'))
+logging.basicConfig(filename='sys.log', 
+                    encoding='utf-8', 
+                    level = eval(f'{configuration["logging_mode"]}'))
 
 def news_API_request (covid_terms = "Covid COVID-19 coronavirus"):
     logging.info("News API request acknowledged...")
-    logging.info("API key imported as: " + configuration["api_key"])
+    logging.info("API key imported as: %s" % configuration["api_key"])
     url = (
         'https://newsapi.org/v2/everything?'
        f'q={covid_terms}&'
@@ -33,30 +37,42 @@ def news_API_request (covid_terms = "Covid COVID-19 coronavirus"):
             del article["urlToImage"]
             article["content"] = article["description"]
             del article["description"]
-        #print(news_articles)
         logging.info("Returning news articles")
         return news_articles
-    except:
-        pass
+    except TimeoutError:
         logging.error("News API request failed - is the News API down?")
     #print (news_articles)
 
-def trim_news(news_articles, removed_articles, ):
-    logging.info ("Trimming news: ")
-    logging.info ("Checking for removed articles...")
-    for article_count in range(len(removed_articles)):
-        logging.debug ("Checking for deleted article " + str(article_count))
-        if removed_articles[article_count] in news_articles:
-            logging.info ("Article match found; deleting...")
-            for i in range(len(news_articles)):
-                if removed_articles[article_count] == news_articles[i]:
-                    del news_articles[i]
+def trim_news(news_articles):
+    logging.info ("Trimming display news down to 5 articles...")
+    trimmed_news = []
+    try:
+        for i in range (0,5):
+            trimmed_news.append(news_articles[i])
+        logging.info ("Trimming complete, returning data")
+    except IndexError:
+        logging.critical ("News data exhausted; clean removed_articles.json or continue waiting for new news")
+    return trimmed_news
+
+def article_remover(news_articles, removed_articles):
+    logging.info("Performing startup news deletion...")
+    for removed_article_count, current_removed_article in enumerate(removed_articles):
+        logging.debug ("Checking for expected deleted article %s" % removed_article_count)
+        if current_removed_article in news_articles:
+            logging.info ("Article %s match found" % removed_article_count)
+            for current_article_count, current_article in enumerate(news_articles):
+                if current_removed_article == news_articles[current_article_count]:
+                    logging.info ("Deleting matched article %s" % current_article)
+                    del news_articles[current_article_count]
                     break
         else:
-            logging.info ("No articles found to be removed")
-    logging.info ("Trimming returned news down to 5 articles...")
-    trimmed_news = []
-    for i in range (0,5):
-        trimmed_news.append(news_articles[i])
-    logging.info ("Trimming complete")
-    return trimmed_news
+            logging.error ("Expected article %s was not found to be removed" % removed_article_count)
+            logging.error ("Article title: %s" % current_removed_article)
+    return news_articles
+
+def url_appender(news_articles):
+    logging.info ("Appending urls to news content...")
+    for current_article in news_articles:
+        current_article["content"] = (current_article["content"] + " " + \
+            Markup('<a href="'+current_article["url"] +'">'+ "Click for full article..." + "</a>"))
+    return news_articles
