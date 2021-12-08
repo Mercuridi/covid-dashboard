@@ -1,68 +1,4 @@
-INFO:root:News API request acknowledged...
-INFO:root:API key imported as: d94f92a7e85348be8a233f2740d33a8f
-INFO:root:Deleting extra information from NewsAPI request...
-INFO:root:Returning news articles
-INFO:root:News API request acknowledged...
-INFO:root:API key imported as: d94f92a7e85348be8a233f2740d33a8f
-INFO:root:Deleting extra information from NewsAPI request...
-INFO:root:Returning news articles
-INFO:root:Appending urls to news content...
-INFO:root:Performing startup news deletion...
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:root:Updates loaded
-INFO:root:All tasks in process_covid_data complete
-INFO:root:Data returned
-INFO:root:Trimming display news down to 5 articles...
-INFO:root:Trimming complete, returning data
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:12:30] "GET /index HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:12:30] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
-INFO:root:Updates loaded
-INFO:root:News remove request found:
-INFO:root:Article found; deleting
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:12:32] "[32mGET /index?notif=All+53%2C000+attendees+of+Anime+NYC+urged+to+get+tested+after+one+got+Omicron HTTP/1.1[0m" 302 -
-INFO:root:Updates loaded
-INFO:root:All tasks in process_covid_data complete
-INFO:root:Data returned
-INFO:root:Trimming display news down to 5 articles...
-INFO:root:Trimming complete, returning data
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:12:32] "GET /index HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:12:32] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
-INFO:root:Updates loaded
-INFO:root:News remove request found:
-INFO:root:Article found; deleting
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:12:33] "[32mGET /index?notif=Covid-19+Boosters+for+All+Are+On+the+Way HTTP/1.1[0m" 302 -
-INFO:root:Updates loaded
-INFO:root:All tasks in process_covid_data complete
-INFO:root:Data returned
-INFO:root:Trimming display news down to 5 articles...
-INFO:root:Trimming complete, returning data
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:12:33] "GET /index HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:12:33] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
-INFO:root:Updates loaded
-INFO:root:News remove request found:
-INFO:root:Article found; deleting
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:12:34] "[32mGET /index?notif=Emerging+Omicron+Coronavirus+Variant+Has+Officials+Worldwide+on+the+Defensive HTTP/1.1[0m" 302 -
-INFO:root:Updates loaded
-INFO:root:All tasks in process_covid_data complete
-INFO:root:Data returned
-INFO:root:Trimming display news down to 5 articles...
-INFO:root:Trimming complete, returning data
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:12:34] "GET /index HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:12:34] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
-INFO:root:Updates loaded
-INFO:root:All tasks in process_covid_data complete
-INFO:root:Data returned
-INFO:root:Trimming display news down to 5 articles...
-INFO:root:Trimming complete, returning data
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:12:36] "GET /index HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:12:36] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
-INFO:root:Updates loaded
-INFO:root:All tasks in process_covid_data complete
-INFO:root:Data returned
-INFO:root:Trimming display news down to 5 articles...
-INFO:root:Trimming complete, returning data
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:13:36] "GET /index HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:13:36] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:root:Removed articles loaded
 INFO:root:News API request acknowledged...
 INFO:root:API key imported as: d94f92a7e85348be8a233f2740d33a8f
 INFO:root:Deleting extra information from NewsAPI request...
@@ -75,62 +11,31 @@ INFO:root:Article 1 match found
 INFO:root:Deleting matched article {'title': 'Covid-19 Boosters for All Are On the Way', 'url': 'https://gizmodo.com/covid-19-boosters-for-all-are-on-the-way-1848085296', 'content': Markup('Federal health officials are expected to sanction covid-19 boosters for most Americans this week—a decision that’s become well-supported by the science. While the original shots still provide plenty of protection, booster doses are clearly restoring or even s… <a href="https://gizmodo.com/covid-19-boosters-for-all-are-on-the-way-1848085296">Click for full article...</a>')}
 INFO:root:Article 2 match found
 INFO:root:Deleting matched article {'title': 'Emerging Omicron Coronavirus Variant Has Officials Worldwide on the Defensive', 'url': 'https://gizmodo.com/emerging-omicron-coronavirus-variant-has-officials-worl-1848127516', 'content': Markup('Authorities worldwide have started taking steps to contain the spread of the new coronavirus variant Omicron as the holiday season enters full swing. On Friday, the World Health Organization recognized the heavily mutated coronavirus variant, which was first … <a href="https://gizmodo.com/emerging-omicron-coronavirus-variant-has-officials-worl-1848127516">Click for full article...</a>')}
+INFO:root:Article 3 match found
+INFO:root:Deleting matched article {'title': 'NFL Adds Mask Requirement, Increases Covid Testing', 'url': 'https://www.nytimes.com/2021/11/17/sports/football/nfl-covid-testing-masks-thanksgiving.html', 'content': Markup('After N.F.L. cases more than doubled, the league strengthened its Covid-19 protocols and recommended teams help set up testing for families of players and team staff ahead of the holiday. <a href="https://www.nytimes.com/2021/11/17/sports/football/nfl-covid-testing-masks-thanksgiving.html">Click for full article...</a>')}
+INFO:root:Article 4 match found
+INFO:root:Deleting matched article {'title': 'Appeals Court Upholds Block on Biden’s Vaccine Mandate for Employers', 'url': 'https://www.nytimes.com/live/2021/11/13/world/covid-vaccine-boosters-mandate', 'content': Markup('A federal court declared that the rule “grossly exceeds” the authority of the occupational safety agency that issued it. Here’s the latest on Covid-19. <a href="https://www.nytimes.com/live/2021/11/13/world/covid-vaccine-boosters-mandate">Click for full article...</a>')}
+INFO:root:Article 5 match found
+INFO:root:Deleting matched article {'title': 'Singapore to End Free Covid Care for Those ‘Unvaccinated by Choice’', 'url': 'https://www.nytimes.com/live/2021/11/09/world/us-travel-restrictions-ban-covid-19', 'content': Markup('Charging Covid patients who had the option to be inoculated will “send this important signal,” the country’s health minister said. Officials at a Vermont college blame Halloween parties for a coronavirus outbreak. <a href="https://www.nytimes.com/live/2021/11/09/world/us-travel-restrictions-ban-covid-19">Click for full article...</a>')}
+INFO:root:Article 6 match found
+INFO:root:Deleting matched article {'title': 'Three Snow Leopards Died of Covid Complications at Nebraska Zoo', 'url': 'https://www.nytimes.com/2021/11/13/us/snow-leopards-covid-nebraska-zoo.html', 'content': Markup('The mountain cats had tested positive for the virus about a month ago. <a href="https://www.nytimes.com/2021/11/13/us/snow-leopards-covid-nebraska-zoo.html">Click for full article...</a>')}
+INFO:root:Trimming display news down to 5 articles...
+INFO:root:Trimming complete, returning data
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO:root:Updates loaded
 INFO:root:All tasks in process_covid_data complete
 INFO:root:Data returned
-INFO:root:Trimming display news down to 5 articles...
-INFO:root:Trimming complete, returning data
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:13:50] "GET /index HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:13:51] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
-INFO:root:Updates loaded
-INFO:root:News remove request found:
-INFO:root:Article found; deleting
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:13:56] "[32mGET /index?notif=NFL+Adds+Mask+Requirement%2C+Increases+Covid+Testing HTTP/1.1[0m" 302 -
-INFO:root:Updates loaded
-INFO:root:All tasks in process_covid_data complete
-INFO:root:Data returned
-INFO:root:Trimming display news down to 5 articles...
-INFO:root:Trimming complete, returning data
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:13:56] "GET /index HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:13:56] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
-INFO:root:Updates loaded
-INFO:root:News remove request found:
-INFO:root:Article found; deleting
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:13:56] "[32mGET /index?notif=Appeals+Court+Upholds+Block+on+Biden’s+Vaccine+Mandate+for+Employers HTTP/1.1[0m" 302 -
-INFO:root:Updates loaded
-INFO:root:All tasks in process_covid_data complete
-INFO:root:Data returned
-INFO:root:Trimming display news down to 5 articles...
-INFO:root:Trimming complete, returning data
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:13:56] "GET /index HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:13:56] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
-INFO:root:Updates loaded
-INFO:root:News remove request found:
-INFO:root:Article found; deleting
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:13:56] "[32mGET /index?notif=Singapore+to+End+Free+Covid+Care+for+Those+‘Unvaccinated+by+Choice’ HTTP/1.1[0m" 302 -
-INFO:root:Updates loaded
-INFO:root:All tasks in process_covid_data complete
-INFO:root:Data returned
-INFO:root:Trimming display news down to 5 articles...
-INFO:root:Trimming complete, returning data
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:13:56] "GET /index HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:13:56] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
-INFO:root:Updates loaded
-INFO:root:News remove request found:
-INFO:root:Article found; deleting
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:13:57] "[32mGET /index?notif=Three+Snow+Leopards+Died+of+Covid+Complications+at+Nebraska+Zoo HTTP/1.1[0m" 302 -
-INFO:root:Updates loaded
-INFO:root:All tasks in process_covid_data complete
-INFO:root:Data returned
-INFO:root:Trimming display news down to 5 articles...
-INFO:root:Trimming complete, returning data
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:13:57] "GET /index HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:13:57] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
-INFO:root:Updates loaded
-INFO:root:All tasks in process_covid_data complete
-INFO:root:Data returned
-INFO:root:Trimming display news down to 5 articles...
-INFO:root:Trimming complete, returning data
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:14:57] "GET /index HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Dec/2021 23:14:57] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+ERROR:webcode:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 106, in website_update
+    news_articles = trimmed_news,
+UnboundLocalError: local variable 'trimmed_news' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2021 11:26:00] "[35m[1mGET /index HTTP/1.1[0m" 500 -

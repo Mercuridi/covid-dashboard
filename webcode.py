@@ -1,3 +1,4 @@
+"""module that calls all other modules to successfully run the flask server and all functionality"""
 import json
 from json.decoder import JSONDecodeError
 import logging
@@ -12,13 +13,16 @@ from covid_news_handling import news_API_request
 from covid_news_handling import trim_news
 from covid_news_handling import article_remover
 from covid_news_handling import url_appender
+from covid_news_handling import update_news
 
 # import configuration file for logging
-# use of eval is a little hacky but I really wanted logging mode to be contained in the config, 
+# use of eval is a little hacky but I really wanted logging mode to be contained in the config,
 # and this is the best I could come up with
 with open ("config.json", "r", encoding = "UTF-8") as config_file:
     configuration = json.load (config_file)
-logging.basicConfig(filename='sys.log', encoding='utf-8', level = eval(f'{configuration["logging_mode"]}'))
+logging.basicConfig(filename='sys.log',
+                    encoding='utf-8',
+                    level = eval(f'{configuration["logging_mode"]}'))
 
 app = Flask(__name__)
 
@@ -34,16 +38,16 @@ def website_update():
     remove_update = request.args.get('update_item')
 
     logging.debug("Data from site:")
-    logging.debug("Time for update: %s" % update_time)
-    logging.debug("Name of update: %s" % update_name)
-    logging.debug("News toggle checked? %s" % news_toggle)
-    logging.debug("Repeat toggle checked? %s" % repeat_toggle)
-    logging.debug("Data update toggle checked? %s" % covid_toggle)
-    logging.debug("Update removed? Name: %s" % remove_update)
-    logging.debug("Article to remove: %s" % remove_article_title)
+    logging.debug("Time for update: %s" , update_time)
+    logging.debug("Name of update: %s" , update_name)
+    logging.debug("News toggle checked? %s" , news_toggle)
+    logging.debug("Repeat toggle checked? %s" , repeat_toggle)
+    logging.debug("Data update toggle checked? %s" , covid_toggle)
+    logging.debug("Update removed? Name: %s" , remove_update)
+    logging.debug("Article to remove: %s" , remove_article_title)
 
     with open('updates.json', 'r', encoding = "UTF-8") as updates_file:
-        try:        
+        try:
             updates = json.load(updates_file)
             logging.info("Updates loaded")
         except JSONDecodeError:
@@ -78,7 +82,8 @@ def website_update():
         for article in news:
             logging.debug ("Checking for article " + str(article))
             if article["title"] == remove_article_title:
-                logging.info ("Article found; deleting from live site and adding to removed-articles.json")
+                logging.info ("Article found; \
+                    deleting from live site and adding to removed-articles.json")
                 del news[article_count]
                 removed_articles.append(article)
                 with open ("removed_articles.json", "w", encoding = "UTF-8") as deleted_articles:
@@ -86,10 +91,11 @@ def website_update():
                 return redirect ("/index")
             article_count += 1
 
-    deaths_total, hospital_cases, national_7day_infections, local_7day_infections = process_covid_data(data_all)
     trimmed_news = trim_news(news)
+    deaths_total, hospital_cases, national_7day_infections, local_7day_infections \
+        = process_covid_data(data_all)
     national_area_name, local_area_name = get_locations(data_all)
-    #logging.info (deaths_total, hospital_cases, national_7day_infections, local_7day_infections)
+
     return render_template('index.html',
             local_7day_infections = local_7day_infections,
             national_7day_infections = national_7day_infections,
@@ -104,23 +110,13 @@ def website_update():
 
 #get removed news from file
 with open('removed_articles.json', 'r', encoding = "UTF-8") as removed_articles_file:
-    try:        
+    try:
         removed_articles = json.load(removed_articles_file)
     except JSONDecodeError:
         removed_articles = []
-"""
-# get updates from file
-with open('updates.json', 'r', encoding = "UTF-8") as updates_file:
-    try:        
-        updates = json.load(updates_file)
-        logging.info("Updates loaded")
-    except JSONDecodeError:
-        pass
-        updates = []
-        logging.warning("Updates file empty; setting empty list")
-"""
+
 data_all = covid_API_request()
 news = []
-news = article_remover(url_appender(news_API_request()), removed_articles)
+news = update_news()
 # known issue: if all news articles are removed, older ones cannot be pulled
 app.run()
