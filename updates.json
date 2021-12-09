@@ -1,10 +1,9 @@
 [
 {
-"title": "test1",
-"content": "11:11"
-},
-{
-"title": "test2",
-"content": "15:15"
+"title": "test repeat",
+"content": "16:55",
+"repeat": "repeat",
+"update_covid?": "covid-data",
+"update_news?": null
 }
 ]

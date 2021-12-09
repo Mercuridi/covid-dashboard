@@ -5,10 +5,15 @@ Health England API and finding the values for
 the last 7 days' cases, current hospital cases, and total deaths.
 """
 import json
+from json.decoder import JSONDecodeError
 import sched
 import time
 import logging
 from uk_covid19 import Cov19API
+from werkzeug.utils import redirect
+from covid_news_handling import update_news
+
+flask_update = sched.scheduler(timefunc = time.time, delayfunc = time.sleep)
 
 # import configuration file for logging
 # use of eval is a little hacky but I really wanted logging mode to be contained in the config,
@@ -18,6 +23,8 @@ with open ("config.json", "r", encoding = "UTF-8") as config_file:
 logging.basicConfig(filename='sys.log',
                     encoding='utf-8',
                     level = eval(f'{configuration["logging_mode"]}'))
+
+# CONVERT MODULE TO USE LOCATION FROM CONFIG
 
 def parse_csv_data(csv_filename):
     """Method to open CSV files and return the data as a list of lists"""
@@ -154,7 +161,7 @@ def dictionary_combiner (local_data, national_data):
     return national_data
 
 
-def covid_API_request (location = "Exeter", location_type = "ltla"):
+def covid_API_request (location = configuration["location"], location_type = "ltla"):
     """Polls the public COVID API to request data and stores it in a pair of files.
 
     Args:
@@ -311,24 +318,152 @@ def process_covid_data(covid_data):
     logging.warning ("Error: not all functions in process_covid_data completed")
 
 
-def get_covid_data():
+def get_covid_data(update_name = None):
     """Function to call all live functions to get up-to-date COVID data
 
     Returns:
         int: all useful COVID data for display in dashboard
         deaths, hospital_cases, national_last_week_cases, local_last_week_cases
     """
+    logging.info("get_covid_data request acknowledged...")
     deaths, hospital_cases, \
         national_last_week_cases, local_last_week_cases = \
             process_covid_data (covid_API_request())
+    """
+    if update_name:
+        with open('updates.json', 'r', encoding = "UTF-8") as updates_file:
+            try:
+                updates = json.load(updates_file)
+                logging.info("Updates loaded")
+            except JSONDecodeError:
+                updates = []
+                logging.error("Updates file empty; should contain update to cancel")
+        logging.info ("Update remove request found:")
+        update_count = 0
+        for update in updates:
+            logging.debug ("Checking update: %s", str(update))
+            if update["title"] == update_name:
+                logging.info ("Update found; deleting")
+                del updates[update_count]
+                with open ("updates.json", "w", encoding = "UTF-8") as updates_file:
+                    json.dump (updates, updates_file, ensure_ascii=False, indent="")
+                #yield redirect ("/index")
+            update_count += 1
+    """
     return deaths, hospital_cases, national_last_week_cases, local_last_week_cases
 
 
 def schedule_covid_updates(update_interval, update_name):
-    update = sched.scheduler(timefunc = time.monotonic)
-    new_event = update.enter(delay = 5, action = get_covid_data, priority = 0)
+    # error in logic: the same updates can be scheduled more than once; they will run
+    # at the same time, so this will not affect functionality, but may become performance-heavy
+    logging.info("function schedule_covid_updates called...")
+    with open('updates.json', 'r', encoding = "UTF-8") as updates_file:
+        try:
+            updates = json.load(updates_file)
+            logging.info("Updates loaded for scheduler")
+        except JSONDecodeError:
+            logging.critical("Updates failed to load")
+
+    for update in updates:
+        logging.debug("Checking update %s", update)
+        if update["title"] == update_name:
+            logging.debug("Update match found, scheduling: %s", update)
+            sched_update = update
+
+            if sched_update["repeat"]:
+                logging.debug("Repeat marker identified")
+                #repeat_update = sched.scheduler(timefunc = time.monotonic)
+                flask_update.enter (update_interval,
+                                    0,
+                                    schedule_covid_updates,
+                                    argument = (86400, update_name)
+                                    )
+                #repeat_update.run()
+                logging.info ("Repeated update scheduled")
+                # these lines do not pass the variable to delete the update; this allows
+                # events to repeat more than once
+                if sched_update["update_covid?"] and sched_update["update_news?"]:
+                    logging.debug("Repeat combined update found to schedule")
+                    #news_update = sched.scheduler(timefunc = time.monotonic)
+                    #covid_update = sched.scheduler(timefunc = time.monotonic)
+                    flask_update.enter(update_interval,
+                                    1,
+                                    update_news
+                                    )
+                    flask_update.enter(update_interval,
+                                    2,
+                                    get_covid_data
+                                    )
+                    #news_update.run()
+                    #covid_update.run()
+                    logging.info("Repeat combined update scheduled: %s", update_name)
+                elif sched_update["update_covid?"] and not sched_update["update_news?"]:
+                    logging.debug("Repeat COVID update found to schedule")
+                    #covid_update = sched.scheduler(timefunc = time.monotonic)
+                    flask_update.enter(update_interval,
+                                    1,
+                                    get_covid_data,
+                                    )
+                    #covid_update.run()
+                    logging.info("Repeat COVID update scheduled: %s", update_name)
+                elif not sched_update["update_covid?"] and sched_update["update_news?"]:
+                    logging.debug("Repeat news update found to schedule")
+                    #news_update = sched.scheduler(timefunc = time.monotonic)
+                    flask_update.enter(update_interval,
+                                    2,
+                                    update_news
+                                    )
+                    #news_update.run()
+                    logging.info("Repeat news update scheduled: %s", update_name)
+                else:
+                    logging.error("Error in scheduling repeat update: no action selected")
+            else:
+                # passing update_name to the functions allows them to remove the update at runtime
+                if sched_update["update_covid?"] and sched_update["update_news?"]:
+                    logging.debug("Combined update found to schedule")
+                    #news_update = sched.scheduler(timefunc = time.monotonic)
+                    #covid_update = sched.scheduler(timefunc = time.monotonic)
+                    flask_update.enter(update_interval,
+                                    1,
+                                    update_news,
+                                    argument = (update_name)
+                                    )
+                    flask_update.enter(update_interval,
+                                    2,
+                                    get_covid_data,
+                                    argument = (update_name)
+                                    )
+                    #news_update.run()
+                    #covid_update.run()
+                    logging.info("Combined update scheduled: %s", update_name)
+                elif sched_update["update_covid?"] and not sched_update["update_news?"]:
+                    logging.debug("COVID update found to schedule")
+                    #covid_update = sched.scheduler(timefunc = time.monotonic)
+                    flask_update.enter(update_interval,
+                                    1,
+                                    get_covid_data,
+                                    argument = (update_name)
+                                    )
+                    #covid_update.run()
+                    logging.info("COVID update scheduled: %s", update_name)
+                elif not sched_update["update_covid?"] and sched_update["update_news?"]:
+                    logging.debug("News update found to schedule")
+                    #news_update = sched.scheduler(timefunc = time.monotonic)
+                    flask_update.enter(update_interval,
+                                    2,
+                                    update_news,
+                                    argument = (update_name)
+                                    )
+                    #news_update.run()
+                    logging.info("News update scheduled: %s", update_name)
+                else:
+                    logging.critical("Error in scheduling updates: no action selected")
+    logging.info ("Update scheduling complete")
+    logging.info ("Updates run")
+    logging.info ("Update queue: %s", flask_update.queue)
+    return redirect ("/index")
     #print ("executed: ", new_event)
-    update.run()
+
 
 
 # run functions with local test data for CSV

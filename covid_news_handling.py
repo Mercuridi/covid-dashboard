@@ -81,7 +81,8 @@ def url_appender(news_articles):
             Markup('<a href="'+current_article["url"] +'">'+ "Click for full article..." + "</a>"))
     return news_articles
 
-def update_news():
+def update_news(update_name = None):
+    logging.info("update_news request acknowledged...")
     with open('removed_articles.json', 'r', encoding = "UTF-8") as removed_articles_file:
         try:
             removed_articles = json.load(removed_articles_file)
@@ -90,8 +91,30 @@ def update_news():
             removed_articles = []
             logging.warning("Removed articles not loaded, is the file empty?")
 
-        # trim_news is not called as trim_news must run every time the website's news
-        news = article_remover(\
-                url_appender(news_API_request()), removed_articles)
-        
-        return news
+    if update_name:
+        logging.info ("Update remove request found in update_news:")
+        with open('updates.json', 'r', encoding = "UTF-8") as updates_file:
+            try:
+                updates = json.load(updates_file)
+                logging.info("Updates loaded")
+            except JSONDecodeError:
+                updates = []
+                logging.error("Updates file empty; should contain update to cancel")
+
+        update_count = 0
+        for update in updates:
+            logging.debug ("Checking update: %s ", str(update))
+            if update["title"] == update_name:
+                logging.info ("Update found; deleting")
+                del updates[update_count]
+                with open ("updates.json", "w", encoding = "UTF-8") as updates_file:
+                    json.dump (updates, updates_file, ensure_ascii=False, indent="")
+                #yield redirect ("/index")
+            update_count += 1
+
+    # trim_news is not called as trim_news must run every time the website is refreshed
+    news = article_remover(\
+            url_appender(news_API_request()), removed_articles)
+    
+
+    return news

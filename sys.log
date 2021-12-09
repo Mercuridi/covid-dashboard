@@ -1,41 +1,304 @@
+INFO:root:Global variable removed_articles loaded
+WARNING:root:Updates file empty; setting empty list
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22areaType%22%3A%22areaType%22%2C%22areaName%22%3A%22areaName%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22areaType%22%3A%22areaType%22%2C%22areaName%22%3A%22areaName%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaType%22%3A%22areaType%22%2C%22areaName%22%3A%22areaName%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaType%22%3A%22areaType%22%2C%22areaName%22%3A%22areaName%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+INFO:root:update_news request acknowledged...
 INFO:root:Removed articles loaded
 INFO:root:News API request acknowledged...
 INFO:root:API key imported as: d94f92a7e85348be8a233f2740d33a8f
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?q=Covid%20COVID-19%20coronavirus&from=%3Cclass%20'datetime.date'%3E&sortBy=popularity&apiKey=d94f92a7e85348be8a233f2740d33a8f HTTP/1.1" 200 None
 INFO:root:Deleting extra information from NewsAPI request...
 INFO:root:Returning news articles
 INFO:root:Appending urls to news content...
 INFO:root:Performing startup news deletion...
+DEBUG:root:Checking for expected deleted article 0
 INFO:root:Article 0 match found
 INFO:root:Deleting matched article {'title': 'All 53,000 attendees of Anime NYC urged to get tested after one got Omicron', 'url': 'https://www.theverge.com/22814974/anime-nyc-omicron-case-coronavirus-covid-19-superspreader', 'content': Markup('Were you one of the 53,000 attendees of the Anime NYC 2021 convention in New York City, or know someone who did? New York City authorities and Anime NYC organizers are urging them to get tested for Omicron. <a href="https://www.theverge.com/22814974/anime-nyc-omicron-case-coronavirus-covid-19-superspreader">Click for full article...</a>')}
+DEBUG:root:Checking for expected deleted article 1
 INFO:root:Article 1 match found
 INFO:root:Deleting matched article {'title': 'Covid-19 Boosters for All Are On the Way', 'url': 'https://gizmodo.com/covid-19-boosters-for-all-are-on-the-way-1848085296', 'content': Markup('Federal health officials are expected to sanction covid-19 boosters for most Americans this week—a decision that’s become well-supported by the science. While the original shots still provide plenty of protection, booster doses are clearly restoring or even s… <a href="https://gizmodo.com/covid-19-boosters-for-all-are-on-the-way-1848085296">Click for full article...</a>')}
+DEBUG:root:Checking for expected deleted article 2
 INFO:root:Article 2 match found
 INFO:root:Deleting matched article {'title': 'Emerging Omicron Coronavirus Variant Has Officials Worldwide on the Defensive', 'url': 'https://gizmodo.com/emerging-omicron-coronavirus-variant-has-officials-worl-1848127516', 'content': Markup('Authorities worldwide have started taking steps to contain the spread of the new coronavirus variant Omicron as the holiday season enters full swing. On Friday, the World Health Organization recognized the heavily mutated coronavirus variant, which was first … <a href="https://gizmodo.com/emerging-omicron-coronavirus-variant-has-officials-worl-1848127516">Click for full article...</a>')}
+DEBUG:root:Checking for expected deleted article 3
 INFO:root:Article 3 match found
 INFO:root:Deleting matched article {'title': 'NFL Adds Mask Requirement, Increases Covid Testing', 'url': 'https://www.nytimes.com/2021/11/17/sports/football/nfl-covid-testing-masks-thanksgiving.html', 'content': Markup('After N.F.L. cases more than doubled, the league strengthened its Covid-19 protocols and recommended teams help set up testing for families of players and team staff ahead of the holiday. <a href="https://www.nytimes.com/2021/11/17/sports/football/nfl-covid-testing-masks-thanksgiving.html">Click for full article...</a>')}
+DEBUG:root:Checking for expected deleted article 4
 INFO:root:Article 4 match found
 INFO:root:Deleting matched article {'title': 'Appeals Court Upholds Block on Biden’s Vaccine Mandate for Employers', 'url': 'https://www.nytimes.com/live/2021/11/13/world/covid-vaccine-boosters-mandate', 'content': Markup('A federal court declared that the rule “grossly exceeds” the authority of the occupational safety agency that issued it. Here’s the latest on Covid-19. <a href="https://www.nytimes.com/live/2021/11/13/world/covid-vaccine-boosters-mandate">Click for full article...</a>')}
+DEBUG:root:Checking for expected deleted article 5
 INFO:root:Article 5 match found
 INFO:root:Deleting matched article {'title': 'Singapore to End Free Covid Care for Those ‘Unvaccinated by Choice’', 'url': 'https://www.nytimes.com/live/2021/11/09/world/us-travel-restrictions-ban-covid-19', 'content': Markup('Charging Covid patients who had the option to be inoculated will “send this important signal,” the country’s health minister said. Officials at a Vermont college blame Halloween parties for a coronavirus outbreak. <a href="https://www.nytimes.com/live/2021/11/09/world/us-travel-restrictions-ban-covid-19">Click for full article...</a>')}
+DEBUG:root:Checking for expected deleted article 6
 INFO:root:Article 6 match found
 INFO:root:Deleting matched article {'title': 'Three Snow Leopards Died of Covid Complications at Nebraska Zoo', 'url': 'https://www.nytimes.com/2021/11/13/us/snow-leopards-covid-nebraska-zoo.html', 'content': Markup('The mountain cats had tested positive for the virus about a month ago. <a href="https://www.nytimes.com/2021/11/13/us/snow-leopards-covid-nebraska-zoo.html">Click for full article...</a>')}
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:Updates file empty; setting empty list
+DEBUG:root:Data from site:
+DEBUG:root:Time for update: 16:55
+DEBUG:root:Name of update: test repeat
+DEBUG:root:News toggle checked? None
+DEBUG:root:Repeat toggle checked? repeat
+DEBUG:root:Data update toggle checked? covid-data
+DEBUG:root:Update removed? Name: None
+DEBUG:root:Article to remove: None
+INFO:root:Update request found: test repeat , 16:55
+INFO:root:New update appended to updates.json
+INFO:root:update_interval defined as 53 seconds
+INFO:root:function schedule_covid_updates called...
+INFO:root:Updates loaded for scheduler
+DEBUG:root:Checking update {'title': 'test repeat', 'content': '16:55', 'repeat': 'repeat', 'update_covid?': 'covid-data', 'update_news?': None}
+DEBUG:root:Update match found, scheduling: {'title': 'test repeat', 'content': '16:55', 'repeat': 'repeat', 'update_covid?': 'covid-data', 'update_news?': None}
+DEBUG:root:Repeat marker identified
+INFO:root:Repeated update scheduled
+DEBUG:root:Repeat COVID update found to schedule
+INFO:root:Repeat COVID update scheduled: test repeat
+INFO:root:Update scheduling complete
+INFO:root:Updates run
+INFO:root:Update queue: [Event(time=1639068900.9721289, priority=0, action=<function schedule_covid_updates at 0x000001E3C16A5DC0>, argument=(86400, 'test repeat'), kwargs={}), Event(time=1639068900.9721289, priority=1, action=<function get_covid_data at 0x000001E3C16A5D30>, argument=(), kwargs={})]
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2021 16:54:07] "[32mGET /index?update=16%3A55&two=test+repeat&repeat=repeat&covid-data=covid-data HTTP/1.1[0m" 302 -
+INFO:root:Updates loaded
+DEBUG:root:Data from site:
+DEBUG:root:Time for update: None
+DEBUG:root:Name of update: None
+DEBUG:root:News toggle checked? None
+DEBUG:root:Repeat toggle checked? None
+DEBUG:root:Data update toggle checked? None
+DEBUG:root:Update removed? Name: None
+DEBUG:root:Article to remove: None
 INFO:root:Trimming display news down to 5 articles...
 INFO:root:Trimming complete, returning data
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:root:Updates loaded
+DEBUG:root:Current line in covid data: {'date': '2021-12-09', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6130, 'national_newCasesBySpecimenDate': None, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 39, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-08', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6053, 'national_newCasesBySpecimenDate': 10154, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 95, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-07', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6027, 'national_newCasesBySpecimenDate': 35127, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 111, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-06', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5992, 'national_newCasesBySpecimenDate': 45753, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 110, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-05', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5903, 'national_newCasesBySpecimenDate': 33513, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 125, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-04', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5784, 'national_newCasesBySpecimenDate': 32018, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 112, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-03', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5851, 'national_newCasesBySpecimenDate': 37937, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 139, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-02', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5915, 'national_newCasesBySpecimenDate': 41793, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 126, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-01', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5829, 'national_newCasesBySpecimenDate': 45884, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 129, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-30', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6123, 'national_newCasesBySpecimenDate': 46380, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 160, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-29', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6094, 'national_newCasesBySpecimenDate': 46556, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 123, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-28', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5890, 'national_newCasesBySpecimenDate': 33018, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 88, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-27', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5852, 'national_newCasesBySpecimenDate': 27764, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 83, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-26', 'cumDailyNsoDeathsByDeathDate': 146563, 'hospitalCases': 5992, 'national_newCasesBySpecimenDate': 32856, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 109, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
 INFO:root:All tasks in process_covid_data complete
+DEBUG:root:Local last 7 days cases: 818
+DEBUG:root:National last 7 days cases: 272025
+DEBUG:root:Current hospital cases: 6130
+DEBUG:root:Total deaths: 146563
 INFO:root:Data returned
-ERROR:webcode:Exception on /index [GET]
-Traceback (most recent call last):
-  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2073, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1518, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1516, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\Kai\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1502, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
-  File "c:\Users\Kai\OneDrive - University of Exeter\programming\covid-dashboard\webcode.py", line 106, in website_update
-    news_articles = trimmed_news,
-UnboundLocalError: local variable 'trimmed_news' referenced before assignment
-INFO:werkzeug:127.0.0.1 - - [08/Dec/2021 11:26:00] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2021 16:54:08] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2021 16:54:08] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:root:function schedule_covid_updates called...
+INFO:root:Updates loaded for scheduler
+DEBUG:root:Checking update {'title': 'test repeat', 'content': '16:55', 'repeat': 'repeat', 'update_covid?': 'covid-data', 'update_news?': None}
+DEBUG:root:Update match found, scheduling: {'title': 'test repeat', 'content': '16:55', 'repeat': 'repeat', 'update_covid?': 'covid-data', 'update_news?': None}
+DEBUG:root:Repeat marker identified
+INFO:root:Repeated update scheduled
+DEBUG:root:Repeat COVID update found to schedule
+INFO:root:Repeat COVID update scheduled: test repeat
+INFO:root:Update scheduling complete
+INFO:root:Updates run
+INFO:root:Update queue: [Event(time=1639068900.9721289, priority=1, action=<function get_covid_data at 0x000001E3C16A5D30>, argument=(), kwargs={}), Event(time=1639155308.578489, priority=0, action=<function schedule_covid_updates at 0x000001E3C16A5DC0>, argument=(86400, 'test repeat'), kwargs={}), Event(time=1639155308.578489, priority=1, action=<function get_covid_data at 0x000001E3C16A5D30>, argument=(), kwargs={})]
+INFO:root:get_covid_data request acknowledged...
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22areaType%22%3A%22areaType%22%2C%22areaName%22%3A%22areaName%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22areaType%22%3A%22areaType%22%2C%22areaName%22%3A%22areaName%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaType%22%3A%22areaType%22%2C%22areaName%22%3A%22areaName%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaType%22%3A%22areaType%22%2C%22areaName%22%3A%22areaName%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+DEBUG:root:Current line in covid data: {'date': '2021-12-09', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6130, 'national_newCasesBySpecimenDate': None, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 39, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-08', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6053, 'national_newCasesBySpecimenDate': 10154, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 95, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-07', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6027, 'national_newCasesBySpecimenDate': 35127, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 111, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-06', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5992, 'national_newCasesBySpecimenDate': 45753, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 110, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-05', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5903, 'national_newCasesBySpecimenDate': 33513, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 125, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-04', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5784, 'national_newCasesBySpecimenDate': 32018, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 112, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-03', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5851, 'national_newCasesBySpecimenDate': 37937, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 139, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-02', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5915, 'national_newCasesBySpecimenDate': 41793, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 126, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-01', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5829, 'national_newCasesBySpecimenDate': 45884, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 129, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-30', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6123, 'national_newCasesBySpecimenDate': 46380, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 160, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-29', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6094, 'national_newCasesBySpecimenDate': 46556, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 123, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-28', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5890, 'national_newCasesBySpecimenDate': 33018, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 88, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-27', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5852, 'national_newCasesBySpecimenDate': 27764, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 83, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-26', 'cumDailyNsoDeathsByDeathDate': 146563, 'hospitalCases': 5992, 'national_newCasesBySpecimenDate': 32856, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 109, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+INFO:root:All tasks in process_covid_data complete
+DEBUG:root:Local last 7 days cases: 818
+DEBUG:root:National last 7 days cases: 272025
+DEBUG:root:Current hospital cases: 6130
+DEBUG:root:Total deaths: 146563
+INFO:root:Data returned
+INFO:root:Updates loaded
+DEBUG:root:Data from site:
+DEBUG:root:Time for update: None
+DEBUG:root:Name of update: None
+DEBUG:root:News toggle checked? None
+DEBUG:root:Repeat toggle checked? None
+DEBUG:root:Data update toggle checked? None
+DEBUG:root:Update removed? Name: None
+DEBUG:root:Article to remove: None
+INFO:root:Trimming display news down to 5 articles...
+INFO:root:Trimming complete, returning data
+DEBUG:root:Current line in covid data: {'date': '2021-12-09', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6130, 'national_newCasesBySpecimenDate': None, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 39, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-08', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6053, 'national_newCasesBySpecimenDate': 10154, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 95, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-07', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6027, 'national_newCasesBySpecimenDate': 35127, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 111, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-06', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5992, 'national_newCasesBySpecimenDate': 45753, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 110, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-05', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5903, 'national_newCasesBySpecimenDate': 33513, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 125, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-04', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5784, 'national_newCasesBySpecimenDate': 32018, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 112, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-03', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5851, 'national_newCasesBySpecimenDate': 37937, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 139, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-02', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5915, 'national_newCasesBySpecimenDate': 41793, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 126, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-01', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5829, 'national_newCasesBySpecimenDate': 45884, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 129, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-30', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6123, 'national_newCasesBySpecimenDate': 46380, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 160, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-29', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6094, 'national_newCasesBySpecimenDate': 46556, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 123, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-28', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5890, 'national_newCasesBySpecimenDate': 33018, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 88, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-27', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5852, 'national_newCasesBySpecimenDate': 27764, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 83, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-26', 'cumDailyNsoDeathsByDeathDate': 146563, 'hospitalCases': 5992, 'national_newCasesBySpecimenDate': 32856, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 109, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+INFO:root:All tasks in process_covid_data complete
+DEBUG:root:Local last 7 days cases: 818
+DEBUG:root:National last 7 days cases: 272025
+DEBUG:root:Current hospital cases: 6130
+DEBUG:root:Total deaths: 146563
+INFO:root:Data returned
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2021 16:55:09] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2021 16:55:09] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:root:Updates loaded
+DEBUG:root:Data from site:
+DEBUG:root:Time for update: None
+DEBUG:root:Name of update: None
+DEBUG:root:News toggle checked? None
+DEBUG:root:Repeat toggle checked? None
+DEBUG:root:Data update toggle checked? None
+DEBUG:root:Update removed? Name: None
+DEBUG:root:Article to remove: None
+INFO:root:Trimming display news down to 5 articles...
+INFO:root:Trimming complete, returning data
+DEBUG:root:Current line in covid data: {'date': '2021-12-09', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6130, 'national_newCasesBySpecimenDate': None, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 39, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-08', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6053, 'national_newCasesBySpecimenDate': 10154, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 95, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-07', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6027, 'national_newCasesBySpecimenDate': 35127, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 111, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-06', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5992, 'national_newCasesBySpecimenDate': 45753, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 110, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-05', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5903, 'national_newCasesBySpecimenDate': 33513, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 125, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-04', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5784, 'national_newCasesBySpecimenDate': 32018, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 112, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-03', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5851, 'national_newCasesBySpecimenDate': 37937, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 139, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-02', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5915, 'national_newCasesBySpecimenDate': 41793, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 126, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-01', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5829, 'national_newCasesBySpecimenDate': 45884, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 129, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-30', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6123, 'national_newCasesBySpecimenDate': 46380, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 160, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-29', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6094, 'national_newCasesBySpecimenDate': 46556, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 123, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-28', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5890, 'national_newCasesBySpecimenDate': 33018, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 88, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-27', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5852, 'national_newCasesBySpecimenDate': 27764, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 83, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-26', 'cumDailyNsoDeathsByDeathDate': 146563, 'hospitalCases': 5992, 'national_newCasesBySpecimenDate': 32856, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 109, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+INFO:root:All tasks in process_covid_data complete
+DEBUG:root:Local last 7 days cases: 818
+DEBUG:root:National last 7 days cases: 272025
+DEBUG:root:Current hospital cases: 6130
+DEBUG:root:Total deaths: 146563
+INFO:root:Data returned
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2021 16:56:09] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2021 16:56:09] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:root:Updates loaded
+DEBUG:root:Data from site:
+DEBUG:root:Time for update: None
+DEBUG:root:Name of update: None
+DEBUG:root:News toggle checked? None
+DEBUG:root:Repeat toggle checked? None
+DEBUG:root:Data update toggle checked? None
+DEBUG:root:Update removed? Name: None
+DEBUG:root:Article to remove: None
+INFO:root:Trimming display news down to 5 articles...
+INFO:root:Trimming complete, returning data
+DEBUG:root:Current line in covid data: {'date': '2021-12-09', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6130, 'national_newCasesBySpecimenDate': None, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 39, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-08', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6053, 'national_newCasesBySpecimenDate': 10154, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 95, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-07', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6027, 'national_newCasesBySpecimenDate': 35127, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 111, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-06', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5992, 'national_newCasesBySpecimenDate': 45753, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 110, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-05', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5903, 'national_newCasesBySpecimenDate': 33513, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 125, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-04', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5784, 'national_newCasesBySpecimenDate': 32018, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 112, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-03', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5851, 'national_newCasesBySpecimenDate': 37937, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 139, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-02', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5915, 'national_newCasesBySpecimenDate': 41793, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 126, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-01', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5829, 'national_newCasesBySpecimenDate': 45884, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 129, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-30', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6123, 'national_newCasesBySpecimenDate': 46380, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 160, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-29', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6094, 'national_newCasesBySpecimenDate': 46556, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 123, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-28', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5890, 'national_newCasesBySpecimenDate': 33018, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 88, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-27', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5852, 'national_newCasesBySpecimenDate': 27764, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 83, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-26', 'cumDailyNsoDeathsByDeathDate': 146563, 'hospitalCases': 5992, 'national_newCasesBySpecimenDate': 32856, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 109, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+INFO:root:All tasks in process_covid_data complete
+DEBUG:root:Local last 7 days cases: 818
+DEBUG:root:National last 7 days cases: 272025
+DEBUG:root:Current hospital cases: 6130
+DEBUG:root:Total deaths: 146563
+INFO:root:Data returned
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2021 17:13:50] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2021 17:13:50] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:root:Updates loaded
+DEBUG:root:Data from site:
+DEBUG:root:Time for update: None
+DEBUG:root:Name of update: None
+DEBUG:root:News toggle checked? None
+DEBUG:root:Repeat toggle checked? None
+DEBUG:root:Data update toggle checked? None
+DEBUG:root:Update removed? Name: None
+DEBUG:root:Article to remove: None
+INFO:root:Trimming display news down to 5 articles...
+INFO:root:Trimming complete, returning data
+DEBUG:root:Current line in covid data: {'date': '2021-12-09', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6130, 'national_newCasesBySpecimenDate': None, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 39, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-08', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6053, 'national_newCasesBySpecimenDate': 10154, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 95, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-07', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6027, 'national_newCasesBySpecimenDate': 35127, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 111, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-06', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5992, 'national_newCasesBySpecimenDate': 45753, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 110, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-05', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5903, 'national_newCasesBySpecimenDate': 33513, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 125, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-04', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5784, 'national_newCasesBySpecimenDate': 32018, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 112, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-03', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5851, 'national_newCasesBySpecimenDate': 37937, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 139, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-02', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5915, 'national_newCasesBySpecimenDate': 41793, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 126, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-01', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5829, 'national_newCasesBySpecimenDate': 45884, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 129, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-30', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6123, 'national_newCasesBySpecimenDate': 46380, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 160, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-29', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6094, 'national_newCasesBySpecimenDate': 46556, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 123, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-28', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5890, 'national_newCasesBySpecimenDate': 33018, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 88, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-27', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5852, 'national_newCasesBySpecimenDate': 27764, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 83, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-26', 'cumDailyNsoDeathsByDeathDate': 146563, 'hospitalCases': 5992, 'national_newCasesBySpecimenDate': 32856, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 109, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+INFO:root:All tasks in process_covid_data complete
+DEBUG:root:Local last 7 days cases: 818
+DEBUG:root:National last 7 days cases: 272025
+DEBUG:root:Current hospital cases: 6130
+DEBUG:root:Total deaths: 146563
+INFO:root:Data returned
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2021 17:14:13] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2021 17:14:13] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:root:Updates loaded
+DEBUG:root:Data from site:
+DEBUG:root:Time for update: None
+DEBUG:root:Name of update: None
+DEBUG:root:News toggle checked? None
+DEBUG:root:Repeat toggle checked? None
+DEBUG:root:Data update toggle checked? None
+DEBUG:root:Update removed? Name: None
+DEBUG:root:Article to remove: None
+INFO:root:Trimming display news down to 5 articles...
+INFO:root:Trimming complete, returning data
+DEBUG:root:Current line in covid data: {'date': '2021-12-09', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6130, 'national_newCasesBySpecimenDate': None, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 39, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-08', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6053, 'national_newCasesBySpecimenDate': 10154, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 95, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-07', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6027, 'national_newCasesBySpecimenDate': 35127, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 111, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-06', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5992, 'national_newCasesBySpecimenDate': 45753, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 110, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-05', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5903, 'national_newCasesBySpecimenDate': 33513, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 125, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-04', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5784, 'national_newCasesBySpecimenDate': 32018, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 112, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-03', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5851, 'national_newCasesBySpecimenDate': 37937, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 139, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-02', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5915, 'national_newCasesBySpecimenDate': 41793, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 126, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-12-01', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5829, 'national_newCasesBySpecimenDate': 45884, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 129, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-30', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6123, 'national_newCasesBySpecimenDate': 46380, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 160, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-29', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 6094, 'national_newCasesBySpecimenDate': 46556, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 123, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-28', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5890, 'national_newCasesBySpecimenDate': 33018, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 88, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-27', 'cumDailyNsoDeathsByDeathDate': None, 'hospitalCases': 5852, 'national_newCasesBySpecimenDate': 27764, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 83, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+DEBUG:root:Current line in covid data: {'date': '2021-11-26', 'cumDailyNsoDeathsByDeathDate': 146563, 'hospitalCases': 5992, 'national_newCasesBySpecimenDate': 32856, 'national_areaType': 'nation', 'national_areaName': 'England', 'local_newCasesBySpecimenDate': 109, 'local_areaType': 'ltla', 'local_areaName': 'Exeter'}
+INFO:root:All tasks in process_covid_data complete
+DEBUG:root:Local last 7 days cases: 818
+DEBUG:root:National last 7 days cases: 272025
+DEBUG:root:Current hospital cases: 6130
+DEBUG:root:Total deaths: 146563
+INFO:root:Data returned
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2021 17:14:14] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2021 17:14:14] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
